@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLIB_WriteQueForThreadsAt_CLIENTINPUTSEND", "CLIB_WriteQueForThreadsAt_CLIENTINPUTSEND\CLIB_WriteQueForThreadsAt_CLIENTINPUTSEND.vcxproj", "{707AD36B-369C-410C-AEC5-4F48D0A8E76D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE", "CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE\CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE.vcxproj", "{7CC9D500-803C-4CB5-AD09-7EE0045695ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLIB_WriteQueForThreadsAt_SERVEROUTPUTSEND", "CLIB_WriteQueForThreadsAt_SERVEROUTPUTSEND\CLIB_WriteQueForThreadsAt_SERVEROUTPUTSEND.vcxproj", "{2F8BDA49-94BA-4D72-AF0C-352E64D8C2F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLIB_WriteQueForThreadsAt_CLIENTOUTPUTRECIEVE", "CLIB_WriteQueForThreadsAt_CLIENTOUTPUTRECIEVE\CLIB_WriteQueForThreadsAt_CLIENTOUTPUTRECIEVE.vcxproj", "{4CBB9E8F-3474-4C29-BE24-A0EAB5FE7B5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{707AD36B-369C-410C-AEC5-4F48D0A8E76D}.Debug|x64.ActiveCfg = Debug|x64
+		{707AD36B-369C-410C-AEC5-4F48D0A8E76D}.Debug|x64.Build.0 = Debug|x64
+		{707AD36B-369C-410C-AEC5-4F48D0A8E76D}.Debug|x86.ActiveCfg = Debug|Win32
+		{707AD36B-369C-410C-AEC5-4F48D0A8E76D}.Debug|x86.Build.0 = Debug|Win32
+		{707AD36B-369C-410C-AEC5-4F48D0A8E76D}.Release|x64.ActiveCfg = Release|x64
+		{707AD36B-369C-410C-AEC5-4F48D0A8E76D}.Release|x64.Build.0 = Release|x64
+		{707AD36B-369C-410C-AEC5-4F48D0A8E76D}.Release|x86.ActiveCfg = Release|Win32
+		{707AD36B-369C-410C-AEC5-4F48D0A8E76D}.Release|x86.Build.0 = Release|Win32
+		{7CC9D500-803C-4CB5-AD09-7EE0045695ED}.Debug|x64.ActiveCfg = Debug|x64
+		{7CC9D500-803C-4CB5-AD09-7EE0045695ED}.Debug|x64.Build.0 = Debug|x64
+		{7CC9D500-803C-4CB5-AD09-7EE0045695ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{7CC9D500-803C-4CB5-AD09-7EE0045695ED}.Debug|x86.Build.0 = Debug|Win32
+		{7CC9D500-803C-4CB5-AD09-7EE0045695ED}.Release|x64.ActiveCfg = Release|x64
+		{7CC9D500-803C-4CB5-AD09-7EE0045695ED}.Release|x64.Build.0 = Release|x64
+		{7CC9D500-803C-4CB5-AD09-7EE0045695ED}.Release|x86.ActiveCfg = Release|Win32
+		{7CC9D500-803C-4CB5-AD09-7EE0045695ED}.Release|x86.Build.0 = Release|Win32
+		{2F8BDA49-94BA-4D72-AF0C-352E64D8C2F6}.Debug|x64.ActiveCfg = Debug|x64
+		{2F8BDA49-94BA-4D72-AF0C-352E64D8C2F6}.Debug|x64.Build.0 = Debug|x64
+		{2F8BDA49-94BA-4D72-AF0C-352E64D8C2F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F8BDA49-94BA-4D72-AF0C-352E64D8C2F6}.Debug|x86.Build.0 = Debug|Win32
+		{2F8BDA49-94BA-4D72-AF0C-352E64D8C2F6}.Release|x64.ActiveCfg = Release|x64
+		{2F8BDA49-94BA-4D72-AF0C-352E64D8C2F6}.Release|x64.Build.0 = Release|x64
+		{2F8BDA49-94BA-4D72-AF0C-352E64D8C2F6}.Release|x86.ActiveCfg = Release|Win32
+		{2F8BDA49-94BA-4D72-AF0C-352E64D8C2F6}.Release|x86.Build.0 = Release|Win32
+		{4CBB9E8F-3474-4C29-BE24-A0EAB5FE7B5F}.Debug|x64.ActiveCfg = Debug|x64
+		{4CBB9E8F-3474-4C29-BE24-A0EAB5FE7B5F}.Debug|x64.Build.0 = Debug|x64
+		{4CBB9E8F-3474-4C29-BE24-A0EAB5FE7B5F}.Debug|x86.ActiveCfg = Debug|Win32
+		{4CBB9E8F-3474-4C29-BE24-A0EAB5FE7B5F}.Debug|x86.Build.0 = Debug|Win32
+		{4CBB9E8F-3474-4C29-BE24-A0EAB5FE7B5F}.Release|x64.ActiveCfg = Release|x64
+		{4CBB9E8F-3474-4C29-BE24-A0EAB5FE7B5F}.Release|x64.Build.0 = Release|x64
+		{4CBB9E8F-3474-4C29-BE24-A0EAB5FE7B5F}.Release|x86.ActiveCfg = Release|Win32
+		{4CBB9E8F-3474-4C29-BE24-A0EAB5FE7B5F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6A04203-E59C-4718-A947-B10D171C7DE3}
+	EndGlobalSection
+EndGlobal
