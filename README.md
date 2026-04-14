@@ -30,7 +30,7 @@ g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.s
 ````
 ### CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so ./CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE/CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so ./CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.cpp
 ````
 ### CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so
 ````
