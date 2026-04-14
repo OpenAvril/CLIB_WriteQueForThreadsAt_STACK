@@ -84,5 +84,17 @@
 ````
 
 ---
+### C# Imports.
+#### CsharpLIBWriteQue_ClientInputRecieve.cs.
+````
+
+````
+
+#### CsharpLIBWriteQue_ClientOutputSend.cs.
+````
+
+````
+
+---
 ---
 ---
