@@ -22,7 +22,7 @@ Version 17.13.4
 ## Building - Compiler Terminal Commands.
 ### CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so ./WriteEnableForThreadsAt_STACK.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so ./CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.cpp
 ````
 ### CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so
 ````
