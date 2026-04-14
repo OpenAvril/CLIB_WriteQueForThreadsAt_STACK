@@ -8,16 +8,16 @@
 #define PCH_H
 
 // add headers that you want to pre-compile here
-#include "framework.h"
 #include <array>
 #include <cstdint>
 #include <cstddef>
 #include <iostream>
 #include <vector>
 #include <list>
-#include "WriteEnableForThreadsAt_STACK_Framework.h"
-#include "WriteEnableForThreadsAt_STACK_Global.h"
-#include "WriteEnableForThreadsAt_STACK.h"
-#include "WriteEnableForThreadsAt_STACK_Control.h"
+#include "CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.h"
+#include "WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework.h"
+#include "WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global.h"
+#include "WriteEnableForThreadsAt_SERVEROUTPUTSEND.h"
+#include "WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control.h"
 
 #endif //PCH_H
