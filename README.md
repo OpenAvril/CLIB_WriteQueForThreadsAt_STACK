@@ -26,15 +26,15 @@ g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so ./
 ````
 ### CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so ./WriteEnableForThreadsAt_STACK.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so ./CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE/CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.cpp
 ````
 ### CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so ./WriteEnableForThreadsAt_STACK.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so ./CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.cpp
 ````
 ### CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./WriteEnableForThreadsAt_STACK.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.cpp
 ````
 
 ---
