@@ -36,12 +36,12 @@
 
 ---
 ### C# Imports.
-#### ImportCLIBWriteEnableForThreadsAtCLIENTINPUTSEND.cs.
+#### CsharpLIBWriteQue_ClientInputSend.cs.
 ````
 
 ````
 
-#### ImportCLIBWriteEnableForThreadsAtCLIENTOUTRECIEVE.cs.
+#### CsharpLIBWriteQue_ClientOutputRecieve.cs.
 ````
 
 ````
