@@ -1,8 +1,7 @@
 # OpenAvrilCLIB: Request, Wait, Write for Threads at STACK.
 
 ---
-## Implementations Of Library Template.
-(For Concurrent Full Stack Development.)
+## Implementations Of Library Template (For Concurrent Full Stack Development.).
 ### CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.
 ### CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.
 ### CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.
@@ -20,8 +19,7 @@ Version: 24H2
 Version 17.13.4
 
 ---
-## Building.
-## Compiler Terminal Commands.
+## Building - Compiler Terminal Commands.
 ### CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so
 ````
 g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so ./WriteEnableForThreadsAt_STACK.cpp
