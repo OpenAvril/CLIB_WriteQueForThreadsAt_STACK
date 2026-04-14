@@ -34,7 +34,7 @@ g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so
 ````
 ### CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./CLIB_WriteQueForThreadsAt_SERVEROUTPUTSEND/CLIB_WriteQueForThreadsAt_SERVEROUTPUTSEND.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./CLIB_WriteQueForThreadsAt_SERVEROUTPUTSEND/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.cpp
 ````
 
 ---
