@@ -1,8 +1,13 @@
-# OpenAvrilLIB.
-## .DLL Library Template - Request, Wait, Write for Threads at STACK.
-
-### Using C++.
-
+# OpenAvrilCLIB: Request, Wait, Write for Threads at STACK.
+---
+## Implementations Of Library Template.
+(For Concurrent Full Stack Development.)
+### CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.
+### CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.
+### CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.
+### CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.
+---
+## Using C++.
 ### Using Windows 11 Home.
 Edition: Windows 11 Home OEM System Builder
 
@@ -11,32 +16,32 @@ Version: 24H2
 ### Using Microsoft Visual Studio Professional 2022 (64-bit).
 
 Version 17.13.4
-
+---
 ## Building.
 ## Compiler Terminal Commands.
-### LIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so
+### CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so
 ````
-g++ -fPIC -shared -o ./output/LIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so ./WriteEnableForThreadsAt_STACK.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so ./WriteEnableForThreadsAt_STACK.cpp
 ````
-### LIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so
+### CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so
 ````
-g++ -fPIC -shared -o ./output/LIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so ./WriteEnableForThreadsAt_STACK.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so ./WriteEnableForThreadsAt_STACK.cpp
 ````
-### LIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so
+### CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so
 ````
-g++ -fPIC -shared -o ./output/LIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so ./WriteEnableForThreadsAt_STACK.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so ./WriteEnableForThreadsAt_STACK.cpp
 ````
-### LIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so
+### CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so
 ````
-g++ -fPIC -shared -o ./output/LIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./WriteEnableForThreadsAt_STACK.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./WriteEnableForThreadsAt_STACK.cpp
 ````
-
+---
 ## Implementation.
 ### How To Guide - Stack Flow From Client Input Scanner To Server And Back To Client.
  - [GitHub ReadMe - How To Guide.](https://github.com/OpenAvril/OpenAvrilCFSD-TEMPLATE-for-Concurrenct-Full-Stack-Development/blob/master/blob/How%20To%20Guide%20-%20Stack%20Flow%20From%20Client%20Input%20Scanner%20To%20Server%20And%20Back%20To%20Client.md)
 
 ### Wrapper Imports and Native IO.
  - [Wrapper Imports and Native IO.](https://github.com/OpenAvril/OpenCFSD_Java_Assembly/blob/main/readme/Wrapper_Imports.md)
-   
+---  
 ## TestBench.
 - https://github.com/OpenAvril/TestBench_OpenAvril
