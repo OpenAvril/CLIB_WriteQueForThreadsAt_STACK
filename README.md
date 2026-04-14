@@ -36,7 +36,7 @@ g++ -fPIC -shared -o ./output/LIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./
  - [GitHub ReadMe - How To Guide.](https://github.com/OpenAvril/OpenAvrilCFSD-TEMPLATE-for-Concurrenct-Full-Stack-Development/blob/master/blob/How%20To%20Guide%20-%20Stack%20Flow%20From%20Client%20Input%20Scanner%20To%20Server%20And%20Back%20To%20Client.md)
 
 ### Wrapper Imports and Native IO.
- - (https://github.com/OpenAvril/OpenAvrilCFSD_APP_Templates/edit/master/blob/Wrapper_Imports.md)
+ - [Wrapper Imports and Native IO.](https://github.com/OpenAvril/OpenCFSD_Java_Assembly/blob/main/readme/Wrapper_Imports.md)
    
 ## TestBench.
 - https://github.com/OpenAvril/TestBench_OpenAvril
