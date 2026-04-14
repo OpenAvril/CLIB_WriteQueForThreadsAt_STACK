@@ -22,19 +22,19 @@ Version 17.13.4
 ## Building - Compiler Terminal Commands.
 ### CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so ./CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so ./CLIB_WriteQueForThreadsAt_CLIENTINPUTSEND/CLIB_WriteQueForThreadsAt_CLIENTINPUTSEND.cpp
 ````
 ### CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so ./CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE/CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so ./CLIB_WriteQueForThreadsAt_CLIENTOUTPUTRECIEVE/CLIB_WriteQueForThreadsAt_CLIENTOUTPUTRECIEVE.cpp
 ````
 ### CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so ./CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so ./CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE/CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE.cpp
 ````
 ### CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./CLIB_WriteQueForThreadsAt_SERVEROUTPUTSEND/CLIB_WriteQueForThreadsAt_SERVEROUTPUTSEND.cpp
 ````
 
 ---
