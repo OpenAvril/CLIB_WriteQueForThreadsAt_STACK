@@ -18,9 +18,10 @@ namespace OpenAvrilCLIBWriteEnableForThreadsAtSERVEROUTPUTSEND
         std::array<bool, 2> dyn_REG_get_3STATE_flag_WAIT();
         std::array<bool, 2> dyn_REG_get_3STATE_flag_WRITE();
         uint8_t dyn_REG_get_number_Of_Implemented_Threads();
-        static uint8_t stat_CONVERT_ByteArray_to_uint8_t(unsigned char* bytes);
-        static class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* stat_CONVERT_ObjPtr_to_Class(void* obj);
-        static unsigned char* stat_CONVERT_uint8_t_to_ByteArray(uint8_t uint8_t_Value);
+        static unsigned char* stat_CONVERT_bool_to_ByteArray(bool bool_Value);
+        static unsigned char* stat_CONVERT_uint8_t_To_ByteArray(uint8_t uint8_t_Value);
+        static bool stat_CONVERT_ByteArray_To_bool(unsigned char* bytes);
+        static uint8_t stat_CONVERT_ByteArray_To_uint8_t(unsigned char* bytes);
     private:
         static std::array<bool, 2>* _REG_ptr_3STATE_flag_IDLE;
         static std::array<bool, 2>* _REG_ptr_3STATE_flag_WAIT;

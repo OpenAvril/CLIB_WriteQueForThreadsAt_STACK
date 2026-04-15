@@ -8,10 +8,10 @@ extern "C"
 		{
 		public:
 			static void* app_FUNCT_generate_Program();
-			static bool app_FUNCT_get_flag_isPGM_INSTNATIATED();
+			static unsigned char* app_FUNCT_get_flag_isPGM_INSTNATIATED();
 			static void app_FUNCT_terminate_Program();
-			static void app_FUNCT_write_End(void*, unsigned char* bytes);
-			static void app_FUNCT_write_Start(void*, unsigned char* bytes);
+			static void app_FUNCT_write_End(unsigned char* bytes);
+			static void app_FUNCT_write_Start(unsigned char* bytes);
 		private:
 			static void stat_app_FUNCT_Calc_IsAllINSTANTIATED();
 			static void stat_boot1_CLASS_DEFINE_Framework();

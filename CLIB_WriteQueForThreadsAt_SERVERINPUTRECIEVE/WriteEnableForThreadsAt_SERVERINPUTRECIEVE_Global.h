@@ -6,21 +6,22 @@ namespace OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE
     public:
         WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global();
         ~WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global();
-        static void boot0_CLASS_DECLAIRE_WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global();
-        static void boot1_CLASS_DEFINE_WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global();
-        static void boot3_CLASS_INITIALISE_WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global();
-        static void boot0_REG_DECLAIRE_WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global();
-        void boot1_REG_DEFINE_WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global(class WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Framework* obj);
-        void boot2_REG_SUBSTANTIATE_WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global(class WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Framework* obj);
-        void boot3_REG_INITIALISE_WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global(class WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Framework* obj);
-        void boot4_PGM_INSTANTIATION_WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global(class WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Framework* obj);
+        static void boot0_CLASS_DECLAIRE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global();
+        static void boot1_CLASS_DEFINE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global();
+        static void boot3_CLASS_INITIALISE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global();
+        static void boot0_REG_DECLAIRE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global();
+        void boot1_REG_DEFINE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
+        void boot2_REG_SUBSTANTIATE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
+        void boot3_REG_INITIALISE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
+        void boot4_PGM_INSTANTIATION_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
         std::array<bool, 2> dyn_REG_get_3STATE_flag_IDLE();
         std::array<bool, 2> dyn_REG_get_3STATE_flag_WAIT();
         std::array<bool, 2> dyn_REG_get_3STATE_flag_WRITE();
         uint8_t dyn_REG_get_number_Of_Implemented_Threads();
-        static uint8_t stat_CONVERT_ByteArray_to_uint8_t(unsigned char* bytes);
-        static class WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Framework* stat_CONVERT_ObjPtr_to_Class(void* obj);
-        static unsigned char* stat_CONVERT_uint8_t_to_ByteArray(uint8_t uint8_t_Value);
+        static unsigned char* stat_CONVERT_bool_to_ByteArray(bool bool_Value);
+        static unsigned char* stat_CONVERT_uint8_t_To_ByteArray(uint8_t uint8_t_Value);
+        static bool stat_CONVERT_ByteArray_To_bool(unsigned char* bytes);
+        static uint8_t stat_CONVERT_ByteArray_To_uint8_t(unsigned char* bytes);
     private:
         static std::array<bool, 2>* _REG_ptr_3STATE_flag_IDLE;
         static std::array<bool, 2>* _REG_ptr_3STATE_flag_WAIT;

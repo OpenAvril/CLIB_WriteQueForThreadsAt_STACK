@@ -3,6 +3,7 @@
     std::array<bool, 2>* OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global::_REG_ptr_3STATE_flag_WAIT = NULL;
     std::array<bool, 2>* OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global::_REG_ptr_3STATE_flag_WRITE = NULL;
     uint8_t* OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global::_REG_ptr_number_Of_Implemented_Threads = NULL;
+// public.
     OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global::WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global()
     {
         boot0_CLASS_DECLAIRE_WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global();
@@ -87,22 +88,27 @@
     {
         return *stat_REG_get_ptr_number_Of_Implemented_Threads();
     }
-    uint8_t OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global::stat_CONVERT_ByteArray_to_uint8_t(unsigned char* bytes)
+    unsigned char* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER::LaunchEnableForConcurrentThreadsAt_SERVER_Global::stat_CONVERT_bool_to_ByteArray(bool bool_Value)
+    {
+        return reinterpret_cast<unsigned char*>(bool_Value);
+    }
+    unsigned char* OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER::LaunchEnableForConcurrentThreadsAt_SERVER_Global::stat_CONVERT_uint8_t_To_ByteArray(uint8_t uint8_t_Value)
+    {
+        unsigned char* bytes_array;
+        std::memcpy(&bytes_array, &uint8_t_Value, sizeof(uint8_t_Value));
+        return bytes_array;     
+    }
+    bool OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER::LaunchEnableForConcurrentThreadsAt_SERVER_Global::stat_CONVERT_ByteArray_To_bool(unsigned char* bytes)
+    {
+        return bytes[1] != 0; 
+    }
+    uint8_t OpenAvrilCLIBLaunchEnableForConcurrentThreadsAtSERVER::LaunchEnableForConcurrentThreadsAt_SERVER_Global::stat_CONVERT_ByteArray_To_uint8_t(unsigned char* bytes)
     {
         uint8_t cpp_uint8_t_value;
         std::memcpy(&cpp_uint8_t_value, bytes, sizeof(cpp_uint8_t_value));
         return cpp_uint8_t_value;
     }
-    OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Framework* OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global::stat_CONVERT_ObjPtr_to_Class(void* obj)
-    {
-        return reinterpret_cast<OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Framework*>(obj);
-    }
-    unsigned char* OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global::stat_CONVERT_uint8_t_to_ByteArray(uint8_t uint8_t_Value)
-    {
-        unsigned char* bytes_array;
-        std::memcpy(&bytes_array, &uint8_t_Value, sizeof(uint8_t_Value));
-        return bytes_array;
-    }
+// private.
     void OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global::stat_REG_boot1_DEFINE_ptr_3STATE_flag_IDLE()
     {
         _REG_ptr_3STATE_flag_IDLE = NULL;
