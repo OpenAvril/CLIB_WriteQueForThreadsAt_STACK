@@ -9,14 +9,11 @@
 
 ---
 ## Using C++.
-### Using Windows 11 Home.
-Edition: Windows 11 Home OEM System Builder
+### Ubuntu LINUX.
+Edition: Ubuntu 24.04.4 LTS.
 
-Version: 24H2
-
-### Using Microsoft Visual Studio Professional 2022 (64-bit).
-
-Version 17.13.4
+### Visual Studio Code.
+Version 1.115.0.
 
 ---
 ## Building - Compiler Terminal Commands.
