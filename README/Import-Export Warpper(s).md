@@ -2,16 +2,16 @@
 ## Client.
 ---
 ### Native C++ Libraries.
-#### LIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.dll.
+#### LIB_WriteEnableForThreadsAt_STACK.dll.
 ##### Header.
 ````
-#ifndef LIBWRITEENABLEFORTHREADSATCLIENTINPUTSEND_EXPORTS
+#ifndef LIBWRITEENABLEFORTHREADSATSTACK_EXPORTS
 #define LIBWRITEENABLEFORTHREADSATSERVERINPUTSEND_API
 extern "C"
 {
-	namespace OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND
+	namespace OpenAvrilCLIBWriteEnableForThreadsAtSTACK
 	{
-		class LIBWRITEENABLEFORTHREADSATSERVERINPUTSEND_API CLIBWriteEnableForThreadsAtCLIENTINPUTSEND
+		class LIBWRITEENABLEFORTHREADSATSERVERINPUTSEND_API CLIBWriteEnableForThreadsAtSTACK
 		{
 		public:
 			static void* app_FUNCT_generate_Program();
@@ -23,7 +23,7 @@ extern "C"
 			static void stat_app_FUNCT_Calc_IsAllINSTANTIATED();
 			static void stat_boot1_CLASS_DEFINE_Framework();
 			static void stat_boot3_CLASS_INITIALISE_Framework();
-			static class WriteEnableForThreadsAt_CLIENTINPUTSEND_Framework* stat_CLASS_get_ptr_Framework();
+			static class WriteEnableForThreadsAt_STACK_Framework* stat_CLASS_get_ptr_Framework();
 			static void stat_REG_boot1_DEFINE_flag_isMemberFunctionINSTANTIATED();
 			static void stat_REG_boot2_SUBSTANTIATE_flag_isMemberFunctionINSTANTIATED();
 			static void stat_REG_boot3_INITIALISE_flag_isMemberFunctionINSTANTIATED();
@@ -36,9 +36,9 @@ extern "C"
 ##### Source.
 ````
 #include "pch.h"
-class OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::WriteEnableForThreadsAt_CLIENTINPUTSEND_Framework* _ptr_Framework_WriteEnableForThreadsAt_CLIENTINPUTSEND;
+class OpenAvrilCLIBWriteEnableForThreadsAtSTACK::WriteEnableForThreadsAt_STACK_Framework* _ptr_Framework_WriteEnableForThreadsAt_STACK;
 bool* _stat_REG_flag_isMemberFunctionINSTANTIATED;
-void* OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::app_FUNCT_generate_Program()
+void* OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::app_FUNCT_generate_Program()
 {
 	std::cout << "started Classes - DECLAIRE, DEFINE INITIALISE, Registers - DECLAIRE." << std::endl;
 	stat_boot1_CLASS_DEFINE_Framework();
@@ -46,22 +46,22 @@ void* OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThr
 	std::cout << "done Classes - DECLAIRE, DEFINE INITIALISE, Registers - DECLAIRE." << std::endl;
 
 	std::cout << "started Registers - DEFINE" << std::endl;
-	stat_CLASS_get_ptr_Framework()->boot1_REG_DEFINE_WriteEnableForThreadsAt_CLIENTINPUTSEND_Framework(stat_CLASS_get_ptr_Framework());
+	stat_CLASS_get_ptr_Framework()->boot1_REG_DEFINE_WriteEnableForThreadsAt_STACK_Framework(stat_CLASS_get_ptr_Framework());
 	std::cout << "done Registers - DEFINE." << std::endl;
 
 	std::cout << "started Registers - SUBSTANTIATE." << std::endl;
-	stat_CLASS_get_ptr_Framework()->boot2_REG_SUBSTANTIATE_WriteEnableForThreadsAt_CLIENTINPUTSEND_Framework(stat_CLASS_get_ptr_Framework());
+	stat_CLASS_get_ptr_Framework()->boot2_REG_SUBSTANTIATE_WriteEnableForThreadsAt_STACK_Framework(stat_CLASS_get_ptr_Framework());
 	std::cout << "done Registers - SUBSTANTIATE." << std::endl;
 
 	std::cout << "started Registers - INITIALISE." << std::endl;
-	stat_CLASS_get_ptr_Framework()->boot3_REG_INITIALISE_WriteEnableForThreadsAt_CLIENTINPUTSEND_Framework(stat_CLASS_get_ptr_Framework());
+	stat_CLASS_get_ptr_Framework()->boot3_REG_INITIALISE_WriteEnableForThreadsAt_STACK_Framework(stat_CLASS_get_ptr_Framework());
 	std::cout << "done Registers - INITIALISE." << std::endl;
 
 	std::cout << "started Program - INSTANTIATION." << std::endl;
 	stat_REG_boot1_DEFINE_flag_isMemberFunctionINSTANTIATED();
 	stat_REG_boot2_SUBSTANTIATE_flag_isMemberFunctionINSTANTIATED();
 	stat_REG_boot3_INITIALISE_flag_isMemberFunctionINSTANTIATED();
-	stat_CLASS_get_ptr_Framework()->boot4_PGM_INSTANTIATION_WriteEnableForThreadsAt_CLIENTINPUTSEND_Framework(stat_CLASS_get_ptr_Framework());
+	stat_CLASS_get_ptr_Framework()->boot4_PGM_INSTANTIATION_WriteEnableForThreadsAt_STACK_Framework(stat_CLASS_get_ptr_Framework());
 	std::cout << "done Program - INSTANTIATION." << std::endl;
 	
 	std::cout << "" << std::endl;
@@ -81,7 +81,7 @@ void* OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThr
 	std::cout << "" << std::endl;
 	return (void*)stat_CLASS_get_ptr_Framework();
 }
-bool OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::app_FUNCT_get_flag_isPGM_INSTNATIATED()
+bool OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::app_FUNCT_get_flag_isPGM_INSTNATIATED()
 {
 	if (stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[1] == false) {
 		return stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[0];
@@ -91,10 +91,10 @@ bool OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThre
 	}
 	return true;
 }
-void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::app_FUNCT_terminate_Program()
+void OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::app_FUNCT_terminate_Program()
 {
 	if (stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[2] == false) {
-		delete _ptr_Framework_WriteEnableForThreadsAt_CLIENTINPUTSEND;
+		delete _ptr_Framework_WriteEnableForThreadsAt_STACK;
 		while (stat_CLASS_get_ptr_Framework() != NULL) {}
 	}
 	else {
@@ -102,26 +102,26 @@ void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThre
 	}
 	
 }
-void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::app_FUNCT_write_End(void* obj, unsigned char* bytes)
+void OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::app_FUNCT_write_End(void* obj, unsigned char* bytes)
 {
 	if (stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[3] == false) {
-		OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::WriteEnableForThreadsAt_CLIENTINPUTSEND_Global::stat_CONVERT_ObjPtr_to_Class(obj)->dyn_CLASS_get_ptr_WriteEnable()->dyn_app_FUNCT_write_End(OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::WriteEnableForThreadsAt_CLIENTINPUTSEND_Global::stat_CONVERT_ObjPtr_to_Class(obj), OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::WriteEnableForThreadsAt_CLIENTINPUTSEND_Global::stat_CONVERT_ByteArray_to_uint8_t(bytes));
+		OpenAvrilCLIBWriteEnableForThreadsAtSTACK::WriteEnableForThreadsAt_STACK_Global::stat_CONVERT_ObjPtr_to_Class(obj)->dyn_CLASS_get_ptr_WriteEnable()->dyn_app_FUNCT_write_End(OpenAvrilCLIBWriteEnableForThreadsAtSTACK::WriteEnableForThreadsAt_STACK_Global::stat_CONVERT_ObjPtr_to_Class(obj), OpenAvrilCLIBWriteEnableForThreadsAtSTACK::WriteEnableForThreadsAt_STACK_Global::stat_CONVERT_ByteArray_to_uint8_t(bytes));
 	}
 	else {
 		stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[3] = false;
 	}
 }
-void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::app_FUNCT_write_Start(void* obj, unsigned char* bytes)
+void OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::app_FUNCT_write_Start(void* obj, unsigned char* bytes)
 {
 	if (stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[4] == false) {
-		OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::WriteEnableForThreadsAt_CLIENTINPUTSEND_Global::stat_CONVERT_ObjPtr_to_Class(obj)->dyn_CLASS_get_ptr_WriteEnable()->dyn_app_FUNCT_write_Start(OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::WriteEnableForThreadsAt_CLIENTINPUTSEND_Global::stat_CONVERT_ObjPtr_to_Class(obj), OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::WriteEnableForThreadsAt_CLIENTINPUTSEND_Global::stat_CONVERT_ByteArray_to_uint8_t(bytes));
+		OpenAvrilCLIBWriteEnableForThreadsAtSTACK::WriteEnableForThreadsAt_STACK_Global::stat_CONVERT_ObjPtr_to_Class(obj)->dyn_CLASS_get_ptr_WriteEnable()->dyn_app_FUNCT_write_Start(OpenAvrilCLIBWriteEnableForThreadsAtSTACK::WriteEnableForThreadsAt_STACK_Global::stat_CONVERT_ObjPtr_to_Class(obj), OpenAvrilCLIBWriteEnableForThreadsAtSTACK::WriteEnableForThreadsAt_STACK_Global::stat_CONVERT_ByteArray_to_uint8_t(bytes));
 	}
 	else {
 		stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[4] = false;
 		stat_app_FUNCT_Calc_IsAllINSTANTIATED();//INSTANTIATE this member function last.
 	}
 }
-void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::stat_app_FUNCT_Calc_IsAllINSTANTIATED()
+void OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::stat_app_FUNCT_Calc_IsAllINSTANTIATED()
 {
 	stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[0] = false;
 	for (uint8_t memberFunctionId = 1; memberFunctionId < sizeof(*stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()); memberFunctionId++)
@@ -132,24 +132,24 @@ void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThre
 		}
 	}
 }
-void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::stat_boot1_CLASS_DEFINE_Framework()
+void OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::stat_boot1_CLASS_DEFINE_Framework()
 {
-	_ptr_Framework_WriteEnableForThreadsAt_CLIENTINPUTSEND = NULL;
+	_ptr_Framework_WriteEnableForThreadsAt_STACK = NULL;
 }
-void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::stat_boot3_CLASS_INITIALISE_Framework()
+void OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::stat_boot3_CLASS_INITIALISE_Framework()
 {
-	_ptr_Framework_WriteEnableForThreadsAt_CLIENTINPUTSEND = new class OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::WriteEnableForThreadsAt_CLIENTINPUTSEND_Framework();
+	_ptr_Framework_WriteEnableForThreadsAt_STACK = new class OpenAvrilCLIBWriteEnableForThreadsAtSTACK::WriteEnableForThreadsAt_STACK_Framework();
 	while (stat_CLASS_get_ptr_Framework() == NULL) {}
 }
-OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::WriteEnableForThreadsAt_CLIENTINPUTSEND_Framework* OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::stat_CLASS_get_ptr_Framework()
+OpenAvrilCLIBWriteEnableForThreadsAtSTACK::WriteEnableForThreadsAt_STACK_Framework* OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::stat_CLASS_get_ptr_Framework()
 {
-	return _ptr_Framework_WriteEnableForThreadsAt_CLIENTINPUTSEND;
+	return _ptr_Framework_WriteEnableForThreadsAt_STACK;
 }
-void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::stat_REG_boot1_DEFINE_flag_isMemberFunctionINSTANTIATED()
+void OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::stat_REG_boot1_DEFINE_flag_isMemberFunctionINSTANTIATED()
 {
 	_stat_REG_flag_isMemberFunctionINSTANTIATED = NULL;
 }
-void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::stat_REG_boot2_SUBSTANTIATE_flag_isMemberFunctionINSTANTIATED()
+void OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::stat_REG_boot2_SUBSTANTIATE_flag_isMemberFunctionINSTANTIATED()
 {
 	_stat_REG_flag_isMemberFunctionINSTANTIATED = new bool[5]();
 	while (stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED() == NULL) {}
@@ -158,14 +158,14 @@ void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThre
 		_stat_REG_flag_isMemberFunctionINSTANTIATED[index] = true;
 	}
 }
-void OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::stat_REG_boot3_INITIALISE_flag_isMemberFunctionINSTANTIATED()
+void OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::stat_REG_boot3_INITIALISE_flag_isMemberFunctionINSTANTIATED()
 {
 	for (uint8_t index = 0; index < sizeof(*stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()); index++)
 	{
 		_stat_REG_flag_isMemberFunctionINSTANTIATED[index] = true;
 	}
 }
-bool* OpenAvrilCLIBWriteEnableForThreadsAtCLIENTINPUTSEND::CLIBWriteEnableForThreadsAtCLIENTINPUTSEND::stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()
+bool* OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()
 {
 	return _stat_REG_flag_isMemberFunctionINSTANTIATED;
 }
@@ -342,7 +342,7 @@ bool* OpenAvrilCLIBWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::CLIBWriteEnableFo
 
 ---
 ### Java Imports.
-#### JavaLIBWriteQue_ClientInputSend.java.
+#### JavaLIBWriteQue_STACK.java.
 ````
 
 ````
@@ -354,7 +354,7 @@ bool* OpenAvrilCLIBWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::CLIBWriteEnableFo
 
 ---
 ### C# Imports.
-#### CsharpLIBWriteQue_ClientInputSend.cs.
+#### CsharpLIBWriteQue_STACK.cs.
 ````
 
 ````

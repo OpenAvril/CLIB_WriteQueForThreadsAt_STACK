@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37111.16 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLIB_WriteQueForThreadsAt_CLIENTINPUTSEND", "CLIB_WriteQueForThreadsAt_CLIENTINPUTSEND\CLIB_WriteQueForThreadsAt_CLIENTINPUTSEND.vcxproj", "{707AD36B-369C-410C-AEC5-4F48D0A8E76D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLIB_WriteQueForThreadsAt_STACK", "CLIB_WriteQueForThreadsAt_STACK\CLIB_WriteQueForThreadsAt_STACK.vcxproj", "{707AD36B-369C-410C-AEC5-4F48D0A8E76D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE", "CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE\CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE.vcxproj", "{7CC9D500-803C-4CB5-AD09-7EE0045695ED}"
 EndProject

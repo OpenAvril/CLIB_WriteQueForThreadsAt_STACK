@@ -2,7 +2,7 @@
 
 ---
 ## Implementations Of Library Template (For Concurrent Full Stack Development.).
-### CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.
+### CLIB_WriteEnableForThreadsAt_STACK.
 ### CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.
 ### CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.
 ### CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.
@@ -17,9 +17,9 @@ Version 1.115.0.
 
 ---
 ## Building - Compiler Terminal Commands.
-### CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so
+### CLIB_WriteEnableForThreadsAt_STACK.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.so ./CLIB_WriteQueForThreadsAt_CLIENTINPUTSEND/CLIB_WriteQueForThreadsAt_CLIENTINPUTSEND.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_STACK.so ./CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK.cpp
 ````
 ### CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so
 ````
@@ -31,7 +31,7 @@ g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so
 ````
 ### CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./CLIB_WriteQueForThreadsAt_SERVEROUTPUTSEND/CLIB_WriteEnableForThreadsAt_CLIENTINPUTSEND.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./CLIB_WriteQueForThreadsAt_SERVEROUTPUTSEND/CLIB_WriteEnableForThreadsAt_STACK.cpp
 ````
 
 ---

@@ -1,10 +1,10 @@
-#ifndef LIBWRITEENABLEFORTHREADSATSERVEROUTPUTSEND_EXPORTS
-#define LIBWRITEENABLEFORTHREADSATSERVERINPUTSEND_API 
+#ifndef LIBWRITEENABLEFORTHREADSATSTACK_EXPORTS
+#define LIBWRITEENABLEFORTHREADSATSERVERINPUTSEND_API
 extern "C"
 {
-	namespace OpenAvrilCLIBWriteEnableForThreadsAtSERVEROUTPUTSEND
+	namespace OpenAvrilCLIBWriteEnableForThreadsAtSTACK
 	{
-		class LIBWRITEENABLEFORTHREADSATSERVERINPUTSEND_API CLIBWriteEnableForThreadsAtSERVEROUTPUTSEND
+		class LIBWRITEENABLEFORTHREADSATSERVERINPUTSEND_API CLIBWriteEnableForThreadsAtSTACK
 		{
 		public:
 			static void* app_FUNCT_generate_Program();
@@ -16,7 +16,7 @@ extern "C"
 			static void stat_app_FUNCT_Calc_IsAllINSTANTIATED();
 			static void stat_boot1_CLASS_DEFINE_Framework();
 			static void stat_boot3_CLASS_INITIALISE_Framework();
-			static class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* stat_CLASS_get_ptr_Framework();
+			static class WriteEnableForThreadsAt_STACK_Framework* stat_CLASS_get_ptr_Framework();
 			static void stat_REG_boot1_DEFINE_flag_isMemberFunctionINSTANTIATED();
 			static void stat_REG_boot2_SUBSTANTIATE_flag_isMemberFunctionINSTANTIATED();
 			static void stat_REG_boot3_INITIALISE_flag_isMemberFunctionINSTANTIATED();

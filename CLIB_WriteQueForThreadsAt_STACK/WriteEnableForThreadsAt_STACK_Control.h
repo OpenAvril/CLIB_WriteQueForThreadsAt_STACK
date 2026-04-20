@@ -1,23 +1,23 @@
 #pragma once
-namespace OpenAvrilCLIBWriteEnableForThreadsAtSERVEROUTPUTSEND
+namespace OpenAvrilCLIBWriteEnableForThreadsAtSTACK
 {
-    class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control
+    class WriteEnableForThreadsAt_STACK_Control
     {
     public:
-        WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control();
-        ~WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control();
-        static void boot0_CLASS_DECLAIRE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control();
-        static void boot1_CLASS_DEFINE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control();
-        static void boot3_CLASS_INITIALISE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control();
-        static void boot0_REG_DECLAIRE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control();
-        void boot1_REG_DEFINE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
-        void boot2_REG_SUBSTANTIATE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
-        void boot3_REG_INITIALISE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
-        void boot4_PGM_INSTANTIATION_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
-        void app_FUNCT_writeEnable_Activate(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj, uint8_t coreId);
-        void app_FUNCT_writeEnable_SortQue(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
-        void app_FUNCT_writeEnable_Request(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj, uint8_t coreId);
-        void app_FUNCT_writeQue_Update(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
+        WriteEnableForThreadsAt_STACK_Control();
+        ~WriteEnableForThreadsAt_STACK_Control();
+        static void boot0_CLASS_DECLAIRE_WriteEnableForThreadsAt_STACK_Control();
+        static void boot1_CLASS_DEFINE_WriteEnableForThreadsAt_STACK_Control();
+        static void boot3_CLASS_INITIALISE_WriteEnableForThreadsAt_STACK_Control();
+        static void boot0_REG_DECLAIRE_WriteEnableForThreadsAt_STACK_Control();
+        void boot1_REG_DEFINE_WriteEnableForThreadsAt_STACK_Control(class WriteEnableForThreadsAt_STACK_Framework* obj);
+        void boot2_REG_SUBSTANTIATE_WriteEnableForThreadsAt_STACK_Control(class WriteEnableForThreadsAt_STACK_Framework* obj);
+        void boot3_REG_INITIALISE_WriteEnableForThreadsAt_STACK_Control(class WriteEnableForThreadsAt_STACK_Framework* obj);
+        void boot4_PGM_INSTANTIATION_WriteEnableForThreadsAt_STACK_Control(class WriteEnableForThreadsAt_STACK_Framework* obj);
+        void app_FUNCT_writeEnable_Activate(class WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t coreId);
+        void app_FUNCT_writeEnable_SortQue(class WriteEnableForThreadsAt_STACK_Framework* obj);
+        void app_FUNCT_writeEnable_Request(class WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t coreId);
+        void app_FUNCT_writeQue_Update(class WriteEnableForThreadsAt_STACK_Framework* obj);
         bool dyn_REG_get_ptr_flag_praisingWrite();
         std::array<bool, 2> dyn_REG_get_ptr_list_Of_2ibt_flag_WriteState(uint8_t concurrentThreadID);
         uint32_t dyn_REG_get_Item_On_list_Of_WriteActive_Count_For_ThreadId(uint8_t concurrentThreadID);
@@ -34,8 +34,8 @@ namespace OpenAvrilCLIBWriteEnableForThreadsAtSERVEROUTPUTSEND
         void dyn_REG_set_new_writeCycle_Try_ThreadId_Index(uint8_t newID);
         void dyn_REG_set_Item_On_QUE_List_Of_ThreadToWrite(uint8_t slotID, uint8_t newID);
         void dyn_REG_set_writeCycle_Try_ThreadId_Index(uint8_t newID);
-        void dynamicStagger(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj, uint8_t coreId);
-        void writeEnable_ShiftQueValues(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj, uint8_t coreId_A, uint8_t coreId_B);
+        void dynamicStagger(class WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t coreId);
+        void writeEnable_ShiftQueValues(class WriteEnableForThreadsAt_STACK_Framework* obj, uint8_t coreId_A, uint8_t coreId_B);
         static bool* _stat_REG_ptr_flag_praisingWrite;
         static std::array<std::array<bool, 2>, 3>* _stat_REG_LIST_Of_3STATE_flag_WriteState;
         static std::list<uint32_t>* _stat_REG_LIST_Of_WriteACTIVE_Count_For_ThreadId;
@@ -54,9 +54,9 @@ namespace OpenAvrilCLIBWriteEnableForThreadsAtSERVEROUTPUTSEND
         static void stat_REG_boot1_DEFINE_ptr_writeCycle_Try_ThreadId_Index();
         static void stat_REG_boot2_SUBSTANTIATE_ptr_flag_praisingWrite();
         static void stat_REG_boot2_SUBSTANTIATE_ptrv_3STATE_flag_WriteState();
-        static void stat_REG_boot2_SUBSTANTIATE_WriteACTIVE_Count_For_ThreadId(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
-        static void stat_REG_boot2_SUBSTANTIATE_WriteIDLE_Count_For_ThreadId(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
-        static void stat_REG_boot2_SUBSTANTIATE_WriteWAIT_Count_For_ThreadId(class WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework* obj);
+        static void stat_REG_boot2_SUBSTANTIATE_WriteACTIVE_Count_For_ThreadId(class WriteEnableForThreadsAt_STACK_Framework* obj);
+        static void stat_REG_boot2_SUBSTANTIATE_WriteIDLE_Count_For_ThreadId(class WriteEnableForThreadsAt_STACK_Framework* obj);
+        static void stat_REG_boot2_SUBSTANTIATE_WriteWAIT_Count_For_ThreadId(class WriteEnableForThreadsAt_STACK_Framework* obj);
         static void stat_REG_boot2_SUBSTANTIATE_new_writeCycle_Try_ThreadId_Index();
         static void stat_REG_boot2_SUBSTANTIATE_ptr_QUE_Of_ThreadID_To_WRITE();
         static void stat_REG_boot2_SUBSTANTIATE_writeCycle_Try_ThreadId_Index();

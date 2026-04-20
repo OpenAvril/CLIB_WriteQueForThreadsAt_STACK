@@ -1,11 +1,11 @@
 #pragma once
-namespace OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE
+namespace OpenAvrilCLIBWriteEnableForThreadsAtSTACK
 {
-    class WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global
+    class WriteEnableForThreadsAt_STACK_Global
     {
     public:
-        WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global();
-        ~WriteEnableForThreadsAt_SERVERINPUTRECIEVE_Global();
+        WriteEnableForThreadsAt_STACK_Global();
+        ~WriteEnableForThreadsAt_STACK_Global();
         static void boot0_CLASS_DECLAIRE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global();
         static void boot1_CLASS_DEFINE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global();
         static void boot3_CLASS_INITIALISE_WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global();

@@ -14,10 +14,10 @@
 #include <iostream>
 #include <vector>
 #include <list>
-#include "CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.h"
-#include "WriteEnableForThreadsAt_SERVEROUTPUTSEND_Framework.h"
-#include "WriteEnableForThreadsAt_SERVEROUTPUTSEND_Global.h"
-#include "WriteEnableForThreadsAt_SERVEROUTPUTSEND.h"
-#include "WriteEnableForThreadsAt_SERVEROUTPUTSEND_Control.h"
+#include "CLIB_WriteEnableForThreadsAt_STACK.h"
+#include "WriteEnableForThreadsAt_STACK_Framework.h"
+#include "WriteEnableForThreadsAt_STACK_Global.h"
+#include "WriteEnableForThreadsAt_STACK.h"
+#include "WriteEnableForThreadsAt_STACK_Control.h"
 
 #endif //PCH_H
