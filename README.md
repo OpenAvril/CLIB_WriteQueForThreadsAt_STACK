@@ -14,14 +14,21 @@ version: Ubuntu 24.04.4 LTS
 ### Visual Studio Code.
 Version: 1.116.0.
 
-### Dependencies.
-#### GCC toolchain.
-#### VS Code.
+### Visual Studio Code.
+Version: 1.116.0.
 
-Terminal install of the above.
+### Dependencies.
+ - #### GCC toolchain.
 ````
 sudo apt install build-essential gdb
+````
+ - #### VS Code.
+````
 sudo snap install --classic code
+````
+ - #### C/C++ Extension Pack.
+````
+code --install-extension ms-vscode.cpptools-extension-pack
 ````
 
 ---
@@ -29,18 +36,6 @@ sudo snap install --classic code
 ### CLIB_WriteEnableForThreadsAt_STACK.so
 ````
 g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_STACK.so ./CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK.cpp
-````
-### CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so
-````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_CLIENTOUTPUTRECIEVE.so ./CLIB_WriteQueForThreadsAt_CLIENTOUTPUTRECIEVE/CLIB_WriteQueForThreadsAt_CLIENTOUTPUTRECIEVE.cpp
-````
-### CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so
-````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.so ./CLIB_WriteQueForThreadsAt_SERVERINPUTRECIEVE/CLIB_WriteEnableForThreadsAt_SERVERINPUTRECIEVE.cpp
-````
-### CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so
-````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_SERVEROUTPUTSEND.so ./CLIB_WriteQueForThreadsAt_SERVEROUTPUTSEND/CLIB_WriteEnableForThreadsAt_STACK.cpp
 ````
 
 ---
