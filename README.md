@@ -8,37 +8,34 @@
 
 ---
 ## Using.
-### LINUX Ubuntu.
-**version:** Ubuntu 24.04.4 LTS.
+### Ubuntu LINUX.
+version: Ubuntu 24.04.4 LTS
 
-### IntelliJ IDEA.
-**Version:** 2026.1.1
+### Visual Studio Code.
+Version: 1.116.0.
 
-**Extensions:**
- - CMake.
- - CLion C and C++.
+### Visual Studio Code.
+Version: 1.116.0.
 
----
 ### Dependencies.
- #### - IntelliJ IDEA.
+ - #### GCC toolchain.
 ````
-sudo snap install intellij-idea-ultimate --classic
+sudo apt install build-essential gdb
 ````
- #### - C/C++ toolchain (compiler, debugger, and build system).
+ - #### VS Code.
 ````
-sudo apt update
-sudo apt install build-essential cmake gcc g++ gdb
+sudo snap install --classic code
 ````
- #### - CLion.
+ - #### C/C++ Extension Pack.
 ````
- sudo snap install clion --classic
+code --install-extension ms-vscode.cpptools-extension-pack
 ````
 
 ---
 ## Building - Compiler Terminal Commands.
 ### CLIB_WriteEnableForThreadsAt_STACK.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteQueForThreadsAt_STACK.so ./CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_STACK.so ./CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK.cpp
 ````
 
 ---
