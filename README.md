@@ -7,28 +7,41 @@
  - CFSDImplemntation_CLIB_WriteQueForThreadsAt_Stack_LINUX.
 
 ---
+## Branches.
+ - CLIB_LaunchQueForThreadsAt_End.
+ - Implementations_of_CLIB.
+
+---
+### Similar Rewritten Repository.
+ - https://github.com/cameron314/concurrentqueue
+
+---
 ## Using.
-### Ubuntu LINUX.
-version: Ubuntu 24.04.4 LTS
+### LINUX Ubuntu.
+**version:** Ubuntu 24.04.4 LTS.
 
-### Visual Studio Code.
-Version: 1.116.0.
+### IntelliJ IDEA.
+**Version:** 2026.1.1
 
-### Visual Studio Code.
-Version: 1.116.0.
+**Extensions:**
+ - CMake.
+ - CLion C and C++.
 
+---
 ### Dependencies.
- - #### GCC toolchain.
+ #### - IntelliJ IDEA.
+ https://www.jetbrains.com/idea/
 ````
-sudo apt install build-essential gdb
+sudo snap install intellij-idea-ultimate --classic
 ````
- - #### VS Code.
+ #### - C/C++ toolchain (compiler, debugger, and build system).
 ````
-sudo snap install --classic code
+sudo apt update
+sudo apt install build-essential cmake gcc g++ gdb
 ````
- - #### C/C++ Extension Pack.
+ #### - CLion.
 ````
-code --install-extension ms-vscode.cpptools-extension-pack
+ sudo snap install clion --classic
 ````
 
 ---
