@@ -48,7 +48,7 @@ sudo apt install build-essential cmake gcc g++ gdb
 ## Building - Compiler Terminal Commands.
 ### CLIB_WriteEnableForThreadsAt_STACK.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_STACK.so ./CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK.cpp
+g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_STACK.so ./src/CLIB_WriteQueForThreadsAt_STACK.cpp
 ````
 
 ---
