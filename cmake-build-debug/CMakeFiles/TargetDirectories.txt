@@ -1,3 +1,0 @@
-/home/brentonjames/IdeaProjects/CLIBWriteEnableForThreadsAtSTACK/cmake-build-debug/CMakeFiles/CLIB_WriteEnableForThreadsAt_STACK.dir
-/home/brentonjames/IdeaProjects/CLIBWriteEnableForThreadsAtSTACK/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/brentonjames/IdeaProjects/CLIBWriteEnableForThreadsAtSTACK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
