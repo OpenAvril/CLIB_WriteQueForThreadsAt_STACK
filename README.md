@@ -3,9 +3,7 @@
 ---
 ## Branches.
  - CLIB_WriteQueForThreadsAt_STACK.
- - CFSDImplemntation_CLIB_WriteQueForThreadsAt_Stack_WINDOWS.
- - CFSDImplemntation_CLIB_WriteQueForThreadsAt_Stack_LINUX.
-
+ - CFSDImplemntation_CLIB.
 ---
 ## Branches.
  - CLIB_LaunchQueForThreadsAt_End.
