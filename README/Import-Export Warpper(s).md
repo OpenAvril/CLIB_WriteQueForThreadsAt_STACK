@@ -15,7 +15,7 @@ extern "C"
 		{
 		public:
 			static void* app_FUNCT_generate_Program();
-			static bool app_FUNCT_get_flag_isPGM_INSTNATIATED();
+			static bool app_FUNCT_get_flag_isPGM_INSTANTIATED();
 			static void app_FUNCT_terminate_Program();
 			static void app_FUNCT_write_End(void*, unsigned char* bytes);
 			static void app_FUNCT_write_Start(void*, unsigned char* bytes);
@@ -81,7 +81,7 @@ void* OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTAC
 	std::cout << "" << std::endl;
 	return (void*)stat_CLASS_get_ptr_Framework();
 }
-bool OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::app_FUNCT_get_flag_isPGM_INSTNATIATED()
+bool OpenAvrilCLIBWriteEnableForThreadsAtSTACK::CLIBWriteEnableForThreadsAtSTACK::app_FUNCT_get_flag_isPGM_INSTANTIATED()
 {
 	if (stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[1] == false) {
 		return stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[0];
@@ -184,7 +184,7 @@ extern "C"
 		{
 		public:
 			static void* app_FUNCT_generate_Program();
-			static bool app_FUNCT_get_flag_isPGM_INSTNATIATED();
+			static bool app_FUNCT_get_flag_isPGM_INSTANTIATED();
 			static void app_FUNCT_terminate_Program();
 			static void app_FUNCT_write_End(void*, unsigned char* bytes);
 			static void app_FUNCT_write_Start(void*, unsigned char* bytes);
@@ -250,7 +250,7 @@ void* OpenAvrilCLIBWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::CLIBWriteEnableFo
 	std::cout << "" << std::endl;
 	return (void*)stat_CLASS_get_ptr_Framework();
 }
-bool OpenAvrilCLIBWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::CLIBWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::app_FUNCT_get_flag_isPGM_INSTNATIATED()
+bool OpenAvrilCLIBWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::CLIBWriteEnableForThreadsAtCLIENTOUTPUTRECIEVE::app_FUNCT_get_flag_isPGM_INSTANTIATED()
 {
 	if (stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[1] == false) {
 		return stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[0];
@@ -383,7 +383,7 @@ extern "C"
 		{
 		public:
 			static void* app_FUNCT_generate_Program();
-			static bool app_FUNCT_get_flag_isPGM_INSTNATIATED();
+			static bool app_FUNCT_get_flag_isPGM_INSTANTIATED();
 			static void app_FUNCT_terminate_Program();
 			static void app_FUNCT_write_End(void*, unsigned char* bytes);
 			static void app_FUNCT_write_Start(void*, unsigned char* bytes);
@@ -449,7 +449,7 @@ void* OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::CLIBWriteEnableFor
 	std::cout << "" << std::endl;
 	return (void*)stat_CLASS_get_ptr_Framework();
 }
-bool OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::CLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::app_FUNCT_get_flag_isPGM_INSTNATIATED()
+bool OpenAvrilCLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::CLIBWriteEnableForThreadsAtSERVERINPUTRECIEVE::app_FUNCT_get_flag_isPGM_INSTANTIATED()
 {
 	if (stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[1] == false) {
 		return stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[0];
@@ -551,7 +551,7 @@ extern "C"
 		{
 		public:
 			static void* app_FUNCT_generate_Program();
-			static bool app_FUNCT_get_flag_isPGM_INSTNATIATED();
+			static bool app_FUNCT_get_flag_isPGM_INSTANTIATED();
 			static void app_FUNCT_terminate_Program();
 			static void app_FUNCT_write_End(void*, unsigned char* bytes);
 			static void app_FUNCT_write_Start(void*, unsigned char* bytes);
@@ -617,7 +617,7 @@ void* OpenAvrilCLIBWriteEnableForThreadsAtSERVEROUTPUTSEND::CLIBWriteEnableForTh
 	std::cout << "" << std::endl;
 	return (void*)stat_CLASS_get_ptr_Framework();
 }
-bool OpenAvrilCLIBWriteEnableForThreadsAtSERVEROUTPUTSEND::CLIBWriteEnableForThreadsAtSERVEROUTPUTSEND::app_FUNCT_get_flag_isPGM_INSTNATIATED()
+bool OpenAvrilCLIBWriteEnableForThreadsAtSERVEROUTPUTSEND::CLIBWriteEnableForThreadsAtSERVEROUTPUTSEND::app_FUNCT_get_flag_isPGM_INSTANTIATED()
 {
 	if (stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[1] == false) {
 		return stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[0];

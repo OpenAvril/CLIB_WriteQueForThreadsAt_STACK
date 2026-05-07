@@ -8,7 +8,7 @@ extern "C"
         {
         public:
             static void* app_FUNCT_generate_Program();
-            static unsigned char* app_FUNCT_get_flag_isPGM_INSTNATIATED();
+            static unsigned char* app_FUNCT_get_flag_isPGM_INSTANTIATED();
             static void app_FUNCT_terminate_Program();
             static void app_FUNCT_write_End(unsigned char* bytes);
             static void app_FUNCT_write_Start(unsigned char* bytes);

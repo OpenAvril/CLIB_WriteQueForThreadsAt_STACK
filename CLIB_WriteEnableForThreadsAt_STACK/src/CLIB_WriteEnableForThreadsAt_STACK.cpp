@@ -49,7 +49,7 @@ void* CLIBWriteQueAtSTACK::CLIB_WriteEnableForThreadsAt_STACK::app_FUNCT_generat
 	std::cout << "" << std::endl;
 	return (void*)stat_CLASS_get_ptr_Framework();
 }
-unsigned char* CLIBWriteQueAtSTACK::CLIB_WriteEnableForThreadsAt_STACK::app_FUNCT_get_flag_isPGM_INSTNATIATED()
+unsigned char* CLIBWriteQueAtSTACK::CLIB_WriteEnableForThreadsAt_STACK::app_FUNCT_get_flag_isPGM_INSTANTIATED()
 {
 	if (stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[1] == false) {
 		return CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Global::stat_CONVERT_bool_to_ByteArray(stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED()[0]);
