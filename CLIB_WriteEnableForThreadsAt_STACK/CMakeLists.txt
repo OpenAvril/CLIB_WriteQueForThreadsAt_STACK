@@ -6,13 +6,13 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Define the library (STATIC or SHARED)
-add_library(CLIB_WriteEnableForThreadsAt_STACK STATIC
+add_library(CLIB_WriteEnableForThreadsAt_STACK SHARED
         include/CLIB_WriteEnableForThreadsAt_STACK.h
+        src/CLIB_WriteEnableForThreadsAt_STACK.cpp
         include/WriteEnableForThreadsAt_STACK_Framework.h
         src/WriteEnableForThreadsAt_STACK_Framework.cpp
         include/WriteEnableForThreadsAt_STACK_Global.h
         src/WriteEnableForThreadsAt_STACK_Global.cpp
-        src/CLIB_WriteEnableForThreadsAt_STACK.cpp
         include/WriteEnableForThreadsAt_STACK.h
         src/WriteEnableForThreadsAt_STACK.cpp
         include/WriteEnableForThreadsAt_STACK_Control.h
