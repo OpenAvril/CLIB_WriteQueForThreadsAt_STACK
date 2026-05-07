@@ -53,7 +53,7 @@
 ## Building - Compiler Terminal Commands.
 ### CLIB_WriteEnableForThreadsAt_STACK.so
 ````
-g++ -fPIC -shared -o ./output/CLIB_WriteEnableForThreadsAt_STACK.so ./src/CLIB_WriteQueForThreadsAt_STACK.cpp
+g++ -fPIC -shared -o ./CLIB_WriteEnableForThreadsAt_STACK/output/CLIB_WriteEnableForThreadsAt_STACK.so ./CLIB_WriteEnableForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp
 ````
 
 ---
