@@ -17,11 +17,6 @@
 ### IntelliJ IDEA.
 **Version:** 2026.1.1
 
-**Extensions:**
- - CMake.
- - CLion C and C++.
- - Compilation Database.
-
 ---
 ### Dependencies.
 #### - GCC toolchain.
