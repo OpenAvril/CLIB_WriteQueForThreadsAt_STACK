@@ -4,10 +4,6 @@
 ## Branches.
  - CLIB_WriteQueForThreadsAt_STACK.
  - CFSDImplemntation_CLIB.
----
-## Branches.
- - CLIB_LaunchQueForThreadsAt_End.
- - Implementations_of_CLIB.
 
 ---
 ### Similar Rewritten Repository.
@@ -28,26 +24,27 @@
 
 ---
 ### Dependencies.
-#### - IntelliJ IDEA. (https://www.jetbrains.com/idea/download/?section=linux)
+#### - GCC toolchain.
+````
+sudo apt install build-essential gdb -y
+````
+#### - CMake.
+````
+sudo apt install cmake
+````
+#### - snap.
+````
+sudo apt install snapd
 ````
 
+#### - IntelliJ IDEA.
 ````
-#### - C/C++ toolchain (compiler, debugger, and build system).
+sudo snap install intellij-idea-ultimate --classic
 ````
-
-````
-#### - Native Build Tools. (https://plugins.jetbrains.com/plugin/28796-native-build-tools)
-````
-
-````
-#### - CMake. (https://plugins.jetbrains.com/plugin/28794-cmake)
-````
-
-````
-#### - CLion. (https://plugins.jetbrains.com/plugin/28804-clion-c-and-c-)
-````
-
-````
+**Plugins - Marketplace.**
+ - Native Build Tools.
+ - CMake.
+ - CLoin C and C++.
 
 ---
 ## Building - Compiler Terminal Commands.
