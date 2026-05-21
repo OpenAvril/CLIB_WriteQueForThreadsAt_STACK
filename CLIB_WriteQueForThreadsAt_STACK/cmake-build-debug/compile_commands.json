@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/cmake-build-debug",
+  "command": "/usr/bin/c++ -DCLIB_WriteQueForThreadsAt_STACK_EXPORTS -g -std=gnu++20 -fPIC -fdiagnostics-color=always -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp",
+  "file": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp",
+  "output": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o"
+},
+{
+  "directory": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/cmake-build-debug",
+  "command": "/usr/bin/c++ -DCLIB_WriteQueForThreadsAt_STACK_EXPORTS -g -std=gnu++20 -fPIC -fdiagnostics-color=always -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Framework.cpp",
+  "file": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Framework.cpp",
+  "output": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o"
+},
+{
+  "directory": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/cmake-build-debug",
+  "command": "/usr/bin/c++ -DCLIB_WriteQueForThreadsAt_STACK_EXPORTS -g -std=gnu++20 -fPIC -fdiagnostics-color=always -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp",
+  "file": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp",
+  "output": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o"
+},
+{
+  "directory": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/cmake-build-debug",
+  "command": "/usr/bin/c++ -DCLIB_WriteQueForThreadsAt_STACK_EXPORTS -g -std=gnu++20 -fPIC -fdiagnostics-color=always -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp",
+  "file": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp",
+  "output": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o"
+},
+{
+  "directory": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/cmake-build-debug",
+  "command": "/usr/bin/c++ -DCLIB_WriteQueForThreadsAt_STACK_EXPORTS -g -std=gnu++20 -fPIC -fdiagnostics-color=always -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Control.cpp",
+  "file": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Control.cpp",
+  "output": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o"
+}
+]
