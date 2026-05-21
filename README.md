@@ -6,10 +6,6 @@
  - CFSDImplemntation_CLIB.
 
 ---
-### Similar Rewritten Repository.
- - https://github.com/cameron314/concurrentqueue
-
----
 ## Using.
 ### LINUX Ubuntu.
 **version:** Ubuntu 24.04.4 LTS.
