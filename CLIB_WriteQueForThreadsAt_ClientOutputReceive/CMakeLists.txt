@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 4.2)
+project(CLIB_WriteQueForThreadsAt_ClientOutputReceive)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_library(CLIB_WriteQueForThreadsAt_ClientOutputReceive STATIC
+        include/CLIB_WriteEnableForThreadsAt_ClientOutputReceive.h
+        src/CLIB_WriteEnableForThreadsAt_ClientOutputReceive.cpp
+        include/WriteEnableForThreadsAt_ClientOutputReceive_Framework.h
+        src/WriteEnableForThreadsAt_ClientOutputReceive_Framework.cpp
+        include/WriteEnableForThreadsAt_ClientOutputReceive_Global.h
+        src/WriteEnableForThreadsAt_ClientOutputReceive_Global.cpp
+        include/WriteEnableForThreadsAt_ClientOutputReceive.h
+        src/WriteEnableForThreadsAt_ClientOutputReceive.cpp
+        include/WriteEnableForThreadsAt_ClientOutputReceive_Control.h
+        src/WriteEnableForThreadsAt_ClientOutputReceive_Control.cpp
+)
