@@ -1,4 +1,4 @@
-# OpenAvrilCLIB: Request, Wait, Write for Threads at STACK.
+# CLIB: Request, Wait, Write for Threads at STACK.
 
 ---
 ## Branches.
