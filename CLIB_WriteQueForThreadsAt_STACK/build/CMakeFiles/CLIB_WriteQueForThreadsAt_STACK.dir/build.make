@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1531/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1544/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1531/bin/cmake -E rm -f
+RM = /snap/cmake/1544/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK
+CMAKE_SOURCE_DIR = /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/build
+CMAKE_BINARY_DIR = /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/depend.make
@@ -73,74 +73,74 @@ CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/codegen:
 .PHONY : CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/codegen
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/flags.make
-CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o: /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp
+CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o: /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o -MF CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o.d -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o -MF CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o.d -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp > CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp > CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.i
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.s
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/flags.make
-CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o: /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Framework.cpp
+CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o: /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Framework.cpp
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o -MF CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o.d -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Framework.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o -MF CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o.d -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Framework.cpp
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Framework.cpp > CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Framework.cpp > CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.i
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Framework.cpp -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Framework.cpp -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.s
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/flags.make
-CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o: /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp
+CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o: /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o -MF CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o.d -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o -MF CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o.d -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp > CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp > CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.i
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.s
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/flags.make
-CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o: /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp
+CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o: /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o -MF CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o.d -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o -MF CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o.d -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp > CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp > CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.i
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.s
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/flags.make
-CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o: /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Control.cpp
+CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o: /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Control.cpp
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o -MF CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o.d -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o -MF CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o.d -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o -c /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Control.cpp
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Control.cpp > CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Control.cpp > CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.i
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Control.cpp -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Control.cpp -o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.s
 
 # Object files for target CLIB_WriteQueForThreadsAt_STACK
 CLIB_WriteQueForThreadsAt_STACK_OBJECTS = \
@@ -161,7 +161,7 @@ libCLIB_WriteQueForThreadsAt_STACK.so: CMakeFiles/CLIB_WriteQueForThreadsAt_STAC
 libCLIB_WriteQueForThreadsAt_STACK.so: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/build.make
 libCLIB_WriteQueForThreadsAt_STACK.so: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/compiler_depend.ts
 libCLIB_WriteQueForThreadsAt_STACK.so: CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libCLIB_WriteQueForThreadsAt_STACK.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libCLIB_WriteQueForThreadsAt_STACK.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -173,6 +173,6 @@ CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/clean:
 .PHONY : CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/clean
 
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/depend:
-	cd /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/build /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/build /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/DependInfo.cmake "--color=$(COLOR)" CLIB_WriteQueForThreadsAt_STACK
+	cd /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/build /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/build /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/DependInfo.cmake "--color=$(COLOR)" CLIB_WriteQueForThreadsAt_STACK
 .PHONY : CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/depend
 

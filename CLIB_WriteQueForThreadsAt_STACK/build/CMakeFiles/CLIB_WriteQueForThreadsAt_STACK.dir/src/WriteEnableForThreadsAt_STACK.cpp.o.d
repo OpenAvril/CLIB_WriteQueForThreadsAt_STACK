@@ -1,7 +1,7 @@
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o: \
- /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp \
+ /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK.cpp \
  /usr/include/stdc-predef.h \
- /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK.h \
+ /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK.h \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -161,10 +161,10 @@ CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK_Control.h \
+ /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK_Control.h \
  /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
  /usr/include/c++/13/bits/allocated_ptr.h \
  /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/bits/list.tcc \
- /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK_Framework.h \
- /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK_Global.h
+ /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK_Framework.h \
+ /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK_Global.h

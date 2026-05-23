@@ -1,7 +1,7 @@
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o: \
- /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp \
+ /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK_Global.cpp \
  /usr/include/stdc-predef.h \
- /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK_Global.h \
+ /home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK_Global.h \
  /usr/include/c++/13/array /usr/include/c++/13/compare \
  /usr/include/c++/13/concepts /usr/include/c++/13/type_traits \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

@@ -3,7 +3,7 @@
 #include "../include/WriteEnableForThreadsAt_STACK.h"
 #include "../include/WriteEnableForThreadsAt_STACK_Control.h"
 #include "../include/WriteEnableForThreadsAt_STACK_Global.h"
-	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Framework::_stat_CLASS_get_ptr_WriteEnable;
+CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Framework::_stat_CLASS_get_ptr_WriteEnable;
 	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Framework::WriteEnableForThreadsAt_STACK_Framework()
 	{
 		boot0_CLASS_DECLARE_WriteEnableForThreadsAt_STACK_Framework();

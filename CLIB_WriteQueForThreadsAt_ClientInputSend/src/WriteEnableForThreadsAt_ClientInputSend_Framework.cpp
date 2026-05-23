@@ -3,7 +3,7 @@
 #include "../include/WriteEnableForThreadsAt_ClientInputSend.h"
 #include "../include/WriteEnableForThreadsAt_ClientInputSend_Control.h"
 #include "../include/WriteEnableForThreadsAt_ClientInputSend_Global.h"
-	CLIBWriteQueAtClientInputSend::WriteEnableForThreadsAt_ClientInputSend* CLIBWriteQueAtClientInputSend::WriteEnableForThreadsAt_ClientInputSend_Framework::_stat_CLASS_get_ptr_WriteEnable;
+CLIBWriteQueAtClientInputSend::WriteEnableForThreadsAt_ClientInputSend* CLIBWriteQueAtClientInputSend::WriteEnableForThreadsAt_ClientInputSend_Framework::_stat_CLASS_get_ptr_WriteEnable;
 	CLIBWriteQueAtClientInputSend::WriteEnableForThreadsAt_ClientInputSend_Framework::WriteEnableForThreadsAt_ClientInputSend_Framework()
 	{
 		boot0_CLASS_DECLARE_WriteEnableForThreadsAt_ClientInputSend_Framework();

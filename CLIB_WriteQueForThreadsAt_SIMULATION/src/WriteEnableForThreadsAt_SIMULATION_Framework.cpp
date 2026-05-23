@@ -3,7 +3,7 @@
 #include "../include/WriteEnableForThreadsAt_SIMULATION.h"
 #include "../include/WriteEnableForThreadsAt_SIMULATION_Control.h"
 #include "../include/WriteEnableForThreadsAt_SIMULATION_Global.h"
-	CLIBWriteQueAtSIMULATION::WriteEnableForThreadsAt_SIMULATION* CLIBWriteQueAtSIMULATION::WriteEnableForThreadsAt_SIMULATION_Framework::_stat_CLASS_get_ptr_WriteEnable;
+CLIBWriteQueAtSIMULATION::WriteEnableForThreadsAt_SIMULATION* CLIBWriteQueAtSIMULATION::WriteEnableForThreadsAt_SIMULATION_Framework::_stat_CLASS_get_ptr_WriteEnable;
 	CLIBWriteQueAtSIMULATION::WriteEnableForThreadsAt_SIMULATION_Framework::WriteEnableForThreadsAt_SIMULATION_Framework()
 	{
 		boot0_CLASS_DECLARE_WriteEnableForThreadsAt_SIMULATION_Framework();

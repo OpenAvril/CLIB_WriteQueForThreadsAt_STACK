@@ -17,10 +17,10 @@ extern "C"
             static void stat_boot1_CLASS_DEFINE_Framework();
             static void stat_boot3_CLASS_INITIALISE_Framework();
             static class WriteEnableForThreadsAt_SIMULATION_Framework* stat_CLASS_get_ptr_Framework();
-            static void stat_REG_boot1_DEFINE_flag_isMemberFunctionINSTANTIATED();
-            static void stat_REG_boot2_SUBSTANTIATE_flag_isMemberFunctionINSTANTIATED();
-            static void stat_REG_boot3_INITIALISE_flag_isMemberFunctionINSTANTIATED();
-            static bool* stat_REG_get_ptr_flag_isMemberFunctionINSTANTIATED();
+            static void stat_REG_boot1_DEFINE_CLIBLaunchQueAtSIMULATION_isFlagINSTANTIATED();
+            static void stat_REG_boot2_SUBSTANTIATE_CLIBLaunchQueAtSIMULATION_isFlagINSTANTIATED();
+            static void stat_REG_boot3_INITIALISE_CLIBLaunchQueAtSIMULATION_isFlagINSTANTIATED();
+            static bool* stat_REG_get_CLIBLaunchQueAtSIMULATION_isFlagINSTANTIATED();
         };
     }
 }

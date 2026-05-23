@@ -3,7 +3,7 @@
 #include "../include/WriteEnableForThreadsAt_ServerOutputSend.h"
 #include "../include/WriteEnableForThreadsAt_ServerOutputSend_Control.h"
 #include "../include/WriteEnableForThreadsAt_ServerOutputSend_Global.h"
-	CLIBWriteQueAtServerOutputSend::WriteEnableForThreadsAt_ServerOutputSend* CLIBWriteQueAtServerOutputSend::WriteEnableForThreadsAt_ServerOutputSend_Framework::_stat_CLASS_get_ptr_WriteEnable;
+CLIBWriteQueAtServerOutputSend::WriteEnableForThreadsAt_ServerOutputSend* CLIBWriteQueAtServerOutputSend::WriteEnableForThreadsAt_ServerOutputSend_Framework::_stat_CLASS_get_ptr_WriteEnable;
 	CLIBWriteQueAtServerOutputSend::WriteEnableForThreadsAt_ServerOutputSend_Framework::WriteEnableForThreadsAt_ServerOutputSend_Framework()
 	{
 		boot0_CLASS_DECLARE_WriteEnableForThreadsAt_ServerOutputSend_Framework();
