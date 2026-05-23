@@ -3,7 +3,7 @@ project(CLIB_WriteQueForThreadsAt_STACK)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_library(CLIB_WriteQueForThreadsAt_STACK SHARED
+add_library(CLIB_WriteQueForThreadsAt_STACK STATIC
         include/CLIB_WriteEnableForThreadsAt_STACK.h
         src/CLIB_WriteEnableForThreadsAt_STACK.cpp
         include/WriteEnableForThreadsAt_STACK_Framework.h

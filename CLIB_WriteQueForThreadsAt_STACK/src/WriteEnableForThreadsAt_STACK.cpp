@@ -6,8 +6,8 @@
 #include "../include/WriteEnableForThreadsAt_STACK_Control.h"
 #include "../include/WriteEnableForThreadsAt_STACK_Framework.h"
 #include "../include/WriteEnableForThreadsAt_STACK_Global.h"
-class CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Global* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK::_stat_CLASS_ptr_Global = NULL;
-    class CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Control* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK::_stat_CLASS_ptr_WriteEnable_Control = NULL;
+class CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Global* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK::_stat_CLASS_ptr_Global = nullptr;
+    class CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Control* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK::_stat_CLASS_ptr_WriteEnable_Control = nullptr;
     CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK::WriteEnableForThreadsAt_STACK()
     {
         boot0_CLASS_DECLARE_WriteEnableForThreadsAt_STACK();
@@ -96,21 +96,21 @@ class CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Global* CLIBWriteQueAtS
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK::stat_CLASS_boot1_DEFINE_Global()
     {
-        _stat_CLASS_ptr_Global = NULL;
+        _stat_CLASS_ptr_Global = nullptr;
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK::stat_CLASS_boot1_DEFINE_WriteEnable_Control()
     {
-        _stat_CLASS_ptr_WriteEnable_Control = NULL;
+        _stat_CLASS_ptr_WriteEnable_Control = nullptr;
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK::stat_CLASS_boot3_INITIALISE_Global()
     {
         _stat_CLASS_ptr_Global = new class CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Global();
-        while (stat_CLASS_get_ptr_Global() == NULL) {}
+        while (stat_CLASS_get_ptr_Global() == nullptr) {}
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK::stat_CLASS_boot3_INITIALISE_WriteEnable_Control()
     {
         _stat_CLASS_ptr_WriteEnable_Control = new class CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Control();
-        while (stat_CLASS_get_ptr_WriteEnable_Control() == NULL) {}
+        while (stat_CLASS_get_ptr_WriteEnable_Control() == nullptr) {}
     }
     CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Global* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK::stat_CLASS_get_ptr_Global()
     {

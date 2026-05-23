@@ -403,7 +403,7 @@ uint8_t* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Control::_stat_REG_p
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Control::stat_REG_boot2_SUBSTANTIATE_ptr_QUE_Of_ThreadID_To_WRITE()
     {
         _stat_REG_QUE_Of_ThreadID_To_WRITE = new std::list<uint8_t>();
-        while (stat_REG_get_ptr_QUE_List_Of_ThreadToWrite() == NULL) {}
+        while (stat_REG_get_ptr_QUE_List_Of_ThreadToWrite() == nullptr) {}
         *_stat_REG_QUE_Of_ThreadID_To_WRITE = { static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX) , static_cast<uint8_t>(UINT8_MAX) };
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Control::stat_REG_boot2_SUBSTANTIATE_writeCycle_Try_ThreadId_Index()
@@ -419,7 +419,7 @@ uint8_t* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Control::_stat_REG_p
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK_Control::stat_REG_boot3_INITIALISE_ptr_3STATE_flag_WriteState()
     {
         _stat_REG_CONST_2bitFLAG_STATE = new std::array <std::array<bool, 2>, 3>();
-        while (stat_REG_get_ptr_Array_Of_3STATE_flag_WriteState() == NULL) {}
+        while (stat_REG_get_ptr_Array_Of_3STATE_flag_WriteState() == nullptr) {}
         _stat_REG_CONST_2bitFLAG_STATE->at(0) = { false, false };
         _stat_REG_CONST_2bitFLAG_STATE->at(1) = { false, true };
         _stat_REG_CONST_2bitFLAG_STATE->at(2) = { true, false };
