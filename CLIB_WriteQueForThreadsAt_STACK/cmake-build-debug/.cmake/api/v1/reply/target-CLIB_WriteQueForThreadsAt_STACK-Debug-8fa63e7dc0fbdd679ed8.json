@@ -10,7 +10,8 @@
 	{
 		"commands" : 
 		[
-			"add_library"
+			"add_library",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -25,6 +26,12 @@
 				"command" : 0,
 				"file" : 0,
 				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -47,6 +54,13 @@
 			[
 				{
 					"define" : "CLIB_WriteQueForThreadsAt_STACK_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/brenton-james/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/include"
 				}
 			],
 			"language" : "CXX",

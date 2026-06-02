@@ -6,6 +6,7 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -28,87 +29,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="715cb990-2c85-4c32-aad3-8ecc59616bce" name="Changes" comment="DEVELOPMENT_2026_05_23_2103, &lt;COMPILE_SUCCESS&gt;.">
-      <change beforePath="$PROJECT_DIR$/../.idea/CLIB_WriteQueForThreadsAt_STACK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/CLIB_WriteQueForThreadsAt_STACK.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/include/CLIB_WriteEnableForThreadsAt_ClientInputSend.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/include/WriteEnableForThreadsAt_ClientInputSend.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/include/WriteEnableForThreadsAt_ClientInputSend_Control.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/include/WriteEnableForThreadsAt_ClientInputSend_Framework.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/include/WriteEnableForThreadsAt_ClientInputSend_Global.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/src/CLIB_WriteEnableForThreadsAt_ClientInputSend.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/src/WriteEnableForThreadsAt_ClientInputSend.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/src/WriteEnableForThreadsAt_ClientInputSend_Control.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/src/WriteEnableForThreadsAt_ClientInputSend_Framework.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/src/WriteEnableForThreadsAt_ClientInputSend_Global.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/include/CLIB_WriteEnableForThreadsAt_ClientOutputReceive.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/include/WriteEnableForThreadsAt_ClientOutputReceive.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/include/WriteEnableForThreadsAt_ClientOutputReceive_Control.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/include/WriteEnableForThreadsAt_ClientOutputReceive_Framework.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/include/WriteEnableForThreadsAt_ClientOutputReceive_Global.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/src/CLIB_WriteEnableForThreadsAt_ClientOutputReceive.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/src/WriteEnableForThreadsAt_ClientOutputReceive.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/src/WriteEnableForThreadsAt_ClientOutputReceive_Control.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/src/WriteEnableForThreadsAt_ClientOutputReceive_Framework.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/src/WriteEnableForThreadsAt_ClientOutputReceive_Global.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/include/CLIB_WriteEnableForThreadsAt_SIMULATION.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/include/WriteEnableForThreadsAt_SIMULATION.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/include/WriteEnableForThreadsAt_SIMULATION_Control.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/include/WriteEnableForThreadsAt_SIMULATION_Framework.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/include/WriteEnableForThreadsAt_SIMULATION_Global.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/src/CLIB_WriteEnableForThreadsAt_SIMULATION.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/src/WriteEnableForThreadsAt_SIMULATION.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/src/WriteEnableForThreadsAt_SIMULATION_Control.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/src/WriteEnableForThreadsAt_SIMULATION_Framework.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/src/WriteEnableForThreadsAt_SIMULATION_Global.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/library.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/library.cpp.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/link.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/InstallScripts.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libCLIB_WriteQueForThreadsAt_STACK.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/build/CMakeFiles/4.3.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/build/CMakeFiles/4.3.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientInputSend/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/build/CMakeFiles/4.3.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/build/CMakeFiles/4.3.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ClientOutputReceive/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/build/CMakeFiles/4.3.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/build/CMakeFiles/4.3.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_SIMULATION/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_23_26,_9_06 PM_[Changes]/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_23_26,_9_06 PM_[Changes]/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_23_26,_9_06 PM_[Changes]/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_23_26,_9_06 PM_[Changes]/a1.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_23_26,_9_06 PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/4.3.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libCLIB_WriteQueForThreadsAt_STACK.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/libCLIB_WriteQueForThreadsAt_STACK.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-dcc25dcd9d42ab1e8cac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-9f24a1438bbb94c4eb31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-72710035d111845c9a98.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2026-05-23T23-21-33-0856.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-CLIB_WriteQueForThreadsAt_STACK-Debug-30f66cd33e4db393681e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ee793ea44d57a62b2395.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Control.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Framework.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK_Global.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InstallScripts.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InstallScripts.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -118,29 +83,21 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/CLIB_WriteEnableForThreadsAt_STACK.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/CLIB_WriteEnableForThreadsAt_STACK.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CLIB_WriteEnableForThreadsAt_STACK.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/CLIB_WriteEnableForThreadsAt_STACK.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriteEnableForThreadsAt_STACK_Framework.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteEnableForThreadsAt_STACK_Framework.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/include/CLIB_WriteEnableForThreadsAt_ServerInputReceive.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/include/WriteEnableForThreadsAt_ServerInputReceive.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/include/WriteEnableForThreadsAt_ServerInputReceive_Control.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/include/WriteEnableForThreadsAt_ServerInputReceive_Framework.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/include/WriteEnableForThreadsAt_ServerInputReceive_Global.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/src/CLIB_WriteEnableForThreadsAt_ServerInputReceive.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/src/WriteEnableForThreadsAt_ServerInputReceive.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/src/WriteEnableForThreadsAt_ServerInputReceive_Control.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/src/WriteEnableForThreadsAt_ServerInputReceive_Framework.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/src/WriteEnableForThreadsAt_ServerInputReceive_Global.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/include/CLIB_WriteEnableForThreadsAt_ServerOutputSend.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/include/WriteEnableForThreadsAt_ServerOutputSend.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/include/WriteEnableForThreadsAt_ServerOutputSend_Control.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/include/WriteEnableForThreadsAt_ServerOutputSend_Framework.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/include/WriteEnableForThreadsAt_ServerOutputSend_Global.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/src/CLIB_WriteEnableForThreadsAt_ServerOutputSend.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/src/WriteEnableForThreadsAt_ServerOutputSend.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/src/WriteEnableForThreadsAt_ServerOutputSend_Control.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/src/WriteEnableForThreadsAt_ServerOutputSend_Framework.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/src/WriteEnableForThreadsAt_ServerOutputSend_Global.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libCLIB_WriteQueForThreadsAt_STACK.so" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libCLIB_WriteQueForThreadsAt_STACK.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/build/CMakeFiles/4.3.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/build/CMakeFiles/4.3.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerInputReceive/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.2/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.2/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.2/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIB_WriteQueForThreadsAt_ServerOutputSend/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,12 +127,12 @@
     &quot;assignee&quot;: &quot;OpenAvril&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/OpenAvril/CLIB_WriteQueForThreadsAt_STACK.git&quot;,
-    &quot;accountId&quot;: &quot;2119cd2b-90de-4ca8-b164-72472ece98f5&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/OpenAvril/CLIB_WriteQueForThreadsAt_STACK.git",
+    "accountId": "8da75a5e-d135-4513-96fb-9820588411ef"
   }
-}</component>
+}]]></component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="KjsNZDJF" />
   </component>
@@ -210,7 +167,7 @@
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "Implementations__CLIB",
-    "last_opened_file_path": "/home/brentonjames/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK",
+    "last_opened_file_path": "/home/brenton-james/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -231,24 +188,32 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2" />
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2" />
+    <configuration default="true" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2" />
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CLIB_WriteQueForThreadsAt_STACK" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLIB_WriteQueForThreadsAt_STACK" TARGET_NAME="CLIB_WriteQueForThreadsAt_STACK" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -263,6 +228,7 @@
       <updated>1779533964135</updated>
       <workItem from="1779533965209" duration="742000" />
       <workItem from="1779578437386" duration="97000" />
+      <workItem from="1780364744043" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="DEVELOPMENT_2026_05_23_2103, &lt;COMPILE_SUCCESS&gt;.">
       <option name="closed" value="true" />

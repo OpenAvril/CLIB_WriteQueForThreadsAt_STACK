@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 4.2)
-project(CLIB_WriteQueForThreadsAt_ServerInputReceive)
+cmake_minimum_required(VERSION 3.28.3)
+project(CLIB_WriteQueForThreadsAt_ServerInputReceive VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -14,4 +14,10 @@ add_library(CLIB_WriteQueForThreadsAt_ServerInputReceive STATIC
         src/WriteEnableForThreadsAt_ServerInputReceive.cpp
         include/WriteEnableForThreadsAt_ServerInputReceive_Control.h
         src/WriteEnableForThreadsAt_ServerInputReceive_Control.cpp
+)
+
+target_include_directories(${PROJECT_NAME}
+        PUBLIC
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+        $<INSTALL_INTERFACE:include>
 )
