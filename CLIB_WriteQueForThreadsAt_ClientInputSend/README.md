@@ -41,7 +41,7 @@ sudo snap install clion --classic
 
 ---
 ## Building - Compiler Terminal Commands.
-### CLIB_WriteEnableForThreadsAt_ClientInputSend.so
+### CLIB_WriteQueForThreadAt_InputPerihperalSamples.so
 ````
 cmake -B build
 ````
