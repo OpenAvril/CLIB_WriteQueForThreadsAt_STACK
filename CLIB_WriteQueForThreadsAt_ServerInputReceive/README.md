@@ -2,12 +2,8 @@
 
 ---
 ## Branches.
- - **CLIB_WriteQueForThreadsAt_STACK**.
- - CFSDImplemntation_CLIB.
-
----
-### Similar Rewritten Repository.
- - https://github.com/cameron314/concurrentqueue
+ - CLIB_WriteQueForThreadsAt_STACK.
+ - **Implemntations_CLIB**.
 
 ---
 ## Using.
