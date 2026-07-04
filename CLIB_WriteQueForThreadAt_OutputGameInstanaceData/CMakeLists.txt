@@ -4,16 +4,16 @@ project(CLIB_WriteQueForThreadsAt_ClientInputSend VERSION 1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 
 add_library(CLIB_WriteQueForThreadsAt_ClientInputSend STATIC
-        include/CLIB_WriteQueForThreadAt_InputPerihperalSamples.h
-        src/CLIB_WriteQueForThreadAt_InputPerihperalSamples.cpp
-        include/WriteQueForThreadAt_InputPerihperalSamples_Framework.h
-        src/WriteQueForThreadAt_InputPerihperalSamples_Framework.cpp
-        include/WriteQueForThreadAt_InputPerihperalSamples_Global.h
-        src/WriteQueForThreadAt_InputPerihperalSamples_Global.cpp
-        include/WriteQueForThreadAt_InputPerihperalSamples.h
-        src/WriteQueForThreadAt_InputPerihperalSamples.cpp
-        include/WriteQueForThreadAt_InputPerihperalSamples_Control.h
-        src/WriteQueForThreadAt_InputPerihperalSamples_Control.cpp
+        include/CLIB_WriteQueForThreadAt_OutputGameInstanaceData.h
+        src/CLIB_WriteQueForThreadAt_OutputGameInstanaceData.cpp
+        include/WriteQueForThreadAt_OutputGameInstanaceData_Framework.h
+        src/WriteQueForThreadsAt_OutputGameInstanaceData_Framework.cpp
+        include/WriteQueForThreadAt_OutputGameInstanaceData_Global.h
+        src/WriteQueForThreadsAt_OutputGameInstanaceData_Global.cpp
+        include/WriteQueForThreadAt_OutputGameInstanaceData.h
+        src/WriteQueForThreadsAt_OutputGameInstanaceData.cpp
+        include/WriteQueForThreadAt_OutputGameInstanaceData_Control.h
+        src/WriteQueForThreadsAt_OutputGameInstanaceData_Control.cpp
 )
 
 target_include_directories(${PROJECT_NAME}

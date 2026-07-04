@@ -54,7 +54,7 @@ cmake --build build
 ### How To Guide - Stack Flow From Client Input Scanner To Server And Back To Client.
  - GitHub ReadMe - How To Guide.
 
-### Wrapper Imports and Native IO.
- - [Wrapper Imports and Native IO.](https://github.com/OpenAvril/CLIB_WriteQueForThreadsAt_STACK/blob/CLIB_WriteQueForThreadsAt_Stack/README/Import-Export%20Warpper(s).md)
+### WrAPPer Imports and Native IO.
+ - [WrAPPer Imports and Native IO.](https://github.com/OpenAvril/CLIB_WriteQueForThreadsAt_STACK/blob/CLIB_WriteQueForThreadsAt_Stack/README/Import-Export%20Warpper(s).md)
 ---
 ---
