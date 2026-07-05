@@ -8,10 +8,10 @@
 ---
 ## Using.
 ### LINUX Ubuntu.
-**version:** Ubuntu 24.04.4 LTS.
+**version:** Ubuntu 26.04 LTS.
 
 ### CLion. 
-**Version:** 2026.1.2.
+**Version:** 2026.1.4.
 
 ---
 ### Dependencies.

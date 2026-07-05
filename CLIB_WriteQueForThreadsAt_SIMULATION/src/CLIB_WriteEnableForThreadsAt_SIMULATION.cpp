@@ -86,10 +86,10 @@ void CLIBWriteQueAtSIMULATION::CLIB_WriteEnableForThreadsAt_SIMULATION::CLIB_Wri
 	}
 	else {
 		CLIB_WriteEnableForThreadsAt_SIMULATION__stat_REG_get_CLIBLaunchQueAtSIMULATION_isFlagINSTANTIATED()[4] = false;
-		CLIB_WriteEnableForThreadsAt_ServerOutputSend__dyn_APP_FUNCT_Calc_IsAllINSTANTIATED();//INSTANTIATE this member function last.
+		CLIB_WriteEnableForThreadsAt_SIMULATION__dyn_APP_FUNCT_Calc_IsAllINSTANTIATED();//INSTANTIATE this member function last.
 	}
 }
-void CLIBWriteQueAtSIMULATION::CLIB_WriteEnableForThreadsAt_SIMULATION::CLIB_WriteEnableForThreadsAt_ServerOutputSend__dyn_APP_FUNCT_Calc_IsAllINSTANTIATED()
+void CLIBWriteQueAtSIMULATION::CLIB_WriteEnableForThreadsAt_SIMULATION::CLIB_WriteEnableForThreadsAt_SIMULATION__dyn_APP_FUNCT_Calc_IsAllINSTANTIATED()
 {
 	CLIB_WriteEnableForThreadsAt_SIMULATION__stat_REG_get_CLIBLaunchQueAtSIMULATION_isFlagINSTANTIATED()[0] = false;
 	for (uint8_t memberFunctionId = 1; memberFunctionId < sizeof(_stat_REG_ptr_Framework_WriteEnableForThreadsAt_SIMULATION); memberFunctionId++)
