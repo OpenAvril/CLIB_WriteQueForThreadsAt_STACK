@@ -1,19 +1,20 @@
-cmake_minimum_required(VERSION 3.28.3)
-project(CLIB_WriteQueForThreadsAt_ClientInputSend VERSION 1.0 LANGUAGES CXX)
+cmake_minimum_required(VERSION 4.2.3)
+project(CLIB_WriteQueForThreadsAt_CLIB_WriteQueForThreadAt_OutputGameInstanaceData VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_library(CLIB_WriteQueForThreadsAt_ClientInputSend STATIC
-        include/CLIB_WriteQueForThreadAt_OutputGameInstanaceData.h
-        src/CLIB_WriteQueForThreadAt_OutputGameInstanaceData.cpp
-        include/WriteQueForThreadAt_OutputGameInstanaceData_Framework.h
-        src/WriteQueForThreadsAt_OutputGameInstanaceData_Framework.cpp
-        include/WriteQueForThreadAt_OutputGameInstanaceData_Global.h
-        src/WriteQueForThreadsAt_OutputGameInstanaceData_Global.cpp
-        include/WriteQueForThreadAt_OutputGameInstanaceData.h
-        src/WriteQueForThreadsAt_OutputGameInstanaceData.cpp
-        include/WriteQueForThreadAt_OutputGameInstanaceData_Control.h
-        src/WriteQueForThreadsAt_OutputGameInstanaceData_Control.cpp
+add_library(CLIB_WriteQueForThreadsAt_CLIB_WriteQueForThreadAt_OutputGameInstanaceData STATIC
+        include/CLIB_WriteEnableForThreadsAt_OutputGameInstanaceData.h
+        src/CLIB_WriteEnableForThreadsAt_OutputGameInstanaceData.cpp
+        include/WriteEnableForThreadsAt_OutputGameInstanaceData__Framework.h
+        src/WriteEnableForThreadsAt_OutputGameInstanaceData__Framework.cpp
+        include/WriteEnableForThreadsAt_OutputGameInstanaceData__Global.h
+        src/WriteEnableForThreadsAt_OutputGameInstanaceData__Global.cpp
+        include/WriteEnableForThreadsAt_OutputGameInstanaceData__App.h
+        src/WriteEnableForThreadsAt_OutputGameInstanaceData__App.cpp
+        include/WriteEnableForThreadsAt_OutputGameInstanaceData__Control.h
+        src/WriteEnableForThreadsAt_OutputGameInstanaceData__Control.cpp
 )
 
 target_include_directories(${PROJECT_NAME}

@@ -1,13 +1,9 @@
-# CLIB: Request, Wait, Write for Threads at STACK.
+# CLIB: Request, Wait, Write for Threads at SIMULATION.
 
 ---
 ## Branches.
- - **CLIB_WriteQueForThreadsAt_STACK**.
- - CFSDImplemntation_CLIB.
-
----
-### Similar Rewritten Repository.
- - https://github.com/cameron314/concurrentqueue
+ - CLIB_WriteQueForThreadsAt_SIMULATION.
+ - **Implemntations_CLIB**.
 
 ---
 ## Using.
@@ -41,7 +37,7 @@ sudo snap install clion --classic
 
 ---
 ## Building - Compiler Terminal Commands.
-### CLIB_WriteEnableForThreadsAt_STACK.so
+### CLIB_WriteEnableForThreadsAt_SIMULATION.so
 ````
 cmake -B build
 ````
@@ -51,10 +47,10 @@ cmake --build build
 
 ---
 ## Implementation.
-### How To Guide - Stack Flow From Client Input Scanner To Server And Back To Client.
+### How To Guide - SIMULATION Flow From Client Input Scanner To Server And Back To Client.
  - GitHub ReadMe - How To Guide.
 
-### Wrapper Imports and Native IO.
- - [Wrapper Imports and Native IO.](https://github.com/OpenAvril/CLIB_WriteQueForThreadsAt_STACK/blob/CLIB_WriteQueForThreadsAt_Stack/README/Import-Export%20Warpper(s).md)
+### WrAPPer Imports and Native IO.
+ - [WrAPPer Imports and Native IO.](https://github.com/OpenAvril/CLIB_WriteQueForThreadsAt_SIMULATION/blob/CLIB_WriteQueForThreadsAt_SIMULATION/README/Import-Export%20Warpper(s).md)
 ---
 ---

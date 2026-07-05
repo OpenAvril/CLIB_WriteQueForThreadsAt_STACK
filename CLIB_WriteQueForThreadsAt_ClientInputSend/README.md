@@ -2,12 +2,8 @@
 
 ---
 ## Branches.
- - **CLIB_WriteQueForThreadsAt_ClientInputSend**.
- - CFSDImplemntation_CLIB.
-
----
-### Similar Rewritten Repository.
- - https://github.com/cameron314/concurrentqueue
+ - CLIB_WriteQueForThreadsAt_ClientInputSend.
+ - **Implemntations_CLIB**.
 
 ---
 ## Using.
@@ -41,7 +37,7 @@ sudo snap install clion --classic
 
 ---
 ## Building - Compiler Terminal Commands.
-### CLIB_WriteQueForThreadAt_InputPerihperalSamples.so
+### CLIB_WriteEnableForThreadsAt_ClientInputSend.so
 ````
 cmake -B build
 ````
@@ -54,7 +50,7 @@ cmake --build build
 ### How To Guide - ClientInputSend Flow From Client Input Scanner To Server And Back To Client.
  - GitHub ReadMe - How To Guide.
 
-### Wrapper Imports and Native IO.
- - [Wrapper Imports and Native IO.](https://github.com/OpenAvril/CLIB_WriteQueForThreadsAt_ClientInputSend/blob/CLIB_WriteQueForThreadsAt_ClientInputSend/README/Import-Export%20Warpper(s).md)
+### WrAPPer Imports and Native IO.
+ - [WrAPPer Imports and Native IO.](https://github.com/OpenAvril/CLIB_WriteQueForThreadsAt_ClientInputSend/blob/CLIB_WriteQueForThreadsAt_ClientInputSend/README/Import-Export%20Warpper(s).md)
 ---
 ---

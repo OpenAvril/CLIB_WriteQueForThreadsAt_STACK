@@ -1,19 +1,20 @@
-cmake_minimum_required(VERSION 3.28.3)
+cmake_minimum_required(VERSION 4.2.3)
 project(CLIB_WriteQueForThreadsAt_InputPerihperalSamples VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(CLIB_WriteQueForThreadsAt_InputPerihperalSamples STATIC
-        include/CLIB_WriteQueForThreadAt_InputPerihperalSamples.h
-        src/CLIB_WriteQueForThreadAt_InputPerihperalSamples.cpp
-        include/WriteQueForThreadAt_InputPerihperalSamples_Framework.h
-        src/WriteQueForThreadAt_InputPerihperalSamples_Framework.cpp
-        include/WriteQueForThreadAt_InputPerihperalSamples_Global.h
-        src/WriteQueForThreadAt_InputPerihperalSamples_Global.cpp
-        include/WriteQueForThreadAt_InputPerihperalSamples.h
-        src/WriteQueForThreadAt_InputPerihperalSamples.cpp
-        include/WriteQueForThreadAt_InputPerihperalSamples_Control.h
-        src/WriteQueForThreadAt_InputPerihperalSamples_Control.cpp
+        include/CLIB_WriteEnableForThreadsAt_InputPerihperalSamples.h
+        src/CLIB_WriteEnableForThreadsAt_InputPerihperalSamples.cpp
+        include/WriteEnableForThreadsAt_InputPerihperalSamples__Framework.h
+        src/WriteEnableForThreadsAt_InputPerihperalSamples__Framework.cpp
+        include/WriteEnableForThreadsAt_InputPerihperalSamples__Global.h
+        src/WriteEnableForThreadsAt_InputPerihperalSamples__Global.cpp
+        include/WriteEnableForThreadsAt_InputPerihperalSamples__App.h
+        src/WriteEnableForThreadsAt_InputPerihperalSamples__App.cpp
+        include/WriteEnableForThreadsAt_InputPerihperalSamples__Control.h
+        src/WriteEnableForThreadsAt_InputPerihperalSamples__Control.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
