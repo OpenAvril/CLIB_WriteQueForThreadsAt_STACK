@@ -31,7 +31,7 @@ sudo apt upgrade cmake
 
 ---
 ## Building - Compiler Terminal Commands.
-### CLIB_WriteEnableForThreadsAt_STACK.so
+Open individual each project in its own window and...
 ````
 cmake -B build
 ````
