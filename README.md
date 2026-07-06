@@ -1,39 +1,27 @@
-# OpenAvrilCLIB: Request, Wait, Write for Threads at STACK.
+# OpenAvrilCLIB: 
+## Request, Wait, Write for Threads at STACK.
 
 ---
 ## Branches.
- - CLIB_WriteQueForThreadsAt_STACK.
- - **CFSDImplemntation_CLIB.**
+ - **CLIB_WriteQueForThreadsAt_STACK**.
+ - CFSDImplemntation_CLIB.
 
 ---
 ## Using.
 ### LINUX Ubuntu.
-**version:** Ubuntu 26.04 LTS.
+**version:** Ubuntu 24.04.4 LTS.
 
 ### CLion. 
-**Version:** 2026.1.4.
+**Version:** 2026.1.2.
 
 ---
 ### Dependencies.
 #### Ubuntu Terminal.
 ````
-sudo apt install git
-````
-
-````
 sudo apt install build-essential
-````
-
-````
-sudo apt install cmake
-````
-
-````
-sudo apt install snapd
-````
-
-````
-sudo snap install clion --classic
+sudo apt install cmake gcc g++ clang
+sudo snap install cmake --classic
+sudo apt upgrade cmake
 ````
 
 #### CLion plugins.
