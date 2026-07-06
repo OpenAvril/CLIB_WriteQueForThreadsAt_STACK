@@ -3,8 +3,8 @@
 
 ---
 ## Branches.
- - **CLIB_WriteQueForThreadsAt_STACK**.
- - CFSDImplemntation_CLIB.
+ - CLIB_WriteQueForThreadsAt_STACK.
+ - **CFSDImplemntation_CLIB.**
 
 ---
 ## Using.
