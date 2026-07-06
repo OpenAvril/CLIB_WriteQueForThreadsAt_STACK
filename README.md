@@ -3,8 +3,8 @@
 
 ---
 ## Branches.
- - **CLIB_WriteQueForThreadsAt_STACK**.
- - CFSDImplemntation_CLIB.
+ - CLIB_WriteQueForThreadsAt_STACK.
+ - **CFSDImplemntation_CLIB.**
 
 ---
 ## Using.
@@ -18,10 +18,10 @@
 ### Dependencies.
 #### Ubuntu Terminal.
 ````
+sudo apt update
 sudo apt install build-essential
 sudo apt install cmake gcc g++ clang
-sudo snap install cmake --classic
-sudo apt upgrade cmake
+sudo apt install cmake=4.2.3* cmake-data=4.2.3*
 ````
 
 #### CLion plugins.
@@ -48,3 +48,4 @@ cmake --build build
  - [Wrapper Imports and Native IO.](https://github.com/OpenAvril/CLIB_WriteQueForThreadsAt_STACK/blob/CLIB_WriteQueForThreadsAt_Stack/README/Import-Export%20Warpper(s).md)
 ---
 ---
+
