@@ -18,10 +18,10 @@
 ### Dependencies.
 #### Ubuntu Terminal.
 ````
+sudo apt update
 sudo apt install build-essential
 sudo apt install cmake gcc g++ clang
-sudo snap install cmake --classic
-sudo apt upgrade cmake
+sudo apt install cmake=4.2.3* cmake-data=4.2.3*
 ````
 
 #### CLion plugins.
