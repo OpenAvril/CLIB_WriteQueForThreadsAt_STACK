@@ -18,25 +18,10 @@
 ### Dependencies.
 #### Ubuntu Terminal.
 ````
-sudo apt install git
-````
-
-````
 sudo apt install build-essential
-````
-
-````
-sudo apt install cmake
-sudo apt update
+sudo apt install cmake gcc g++ clang
+sudo snap install cmake --classic
 sudo apt upgrade cmake
-````
-
-````
-sudo apt install snapd
-````
-
-````
-sudo snap install clion --classic
 ````
 
 #### CLion plugins.
