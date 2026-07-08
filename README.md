@@ -25,6 +25,7 @@ sudo apt install cmake=4.2.3* cmake-data=4.2.3*
 ````
 
 #### CLion plugins.
+JetBrains remembers your selected plugings, do initial set of...
 - Native Build Tools.
 - Cmake.
 - CLion C and C++.
@@ -46,6 +47,8 @@ cmake --build build
 
 ### Wrapper Imports and Native IO.
  - [Wrapper Imports and Native IO.](https://github.com/OpenAvril/CLIB_WriteQueForThreadsAt_STACK/blob/CLIB_WriteQueForThreadsAt_Stack/README/Import-Export%20Warpper(s).md)
+---
+---
 ---
 ---
 
