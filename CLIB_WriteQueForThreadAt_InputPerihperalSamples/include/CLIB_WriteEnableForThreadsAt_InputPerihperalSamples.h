@@ -1,6 +1,6 @@
-#ifndef CLIB_WRITEENABLEFORTHREADSAT_INPUTPERHIPHERALSAMPLES_H
-#define CLIB_WRITEENABLEFORTHREADSAT_INPUTPERHIPHERALSAMPLES_H
-#include "WriteEnableForThreadsAt_InputPerihperalSamples__Framework.h"
+#ifndef CLIB_WRITEENABLEFORTHREADSAT_InputPerihperalSamples_H
+#define CLIB_WRITEENABLEFORTHREADSAT_InputPerihperalSamples_H
+#include "../include/WriteEnableForThreadsAt_InputPerihperalSamples__Framework.h"
 extern "C"
 {
     namespace CLIBWriteQueAtInputPerihperalSamples
@@ -14,6 +14,7 @@ extern "C"
             static void CLIB_WriteEnableForThreadsAt_InputPerihperalSamples__App_FUNCT_write_End(unsigned char* bytes);
             static void CLIB_WriteEnableForThreadsAt_InputPerihperalSamples__App_FUNCT_write_Start(unsigned char* bytes);
         private:
+		    static void CLIB_WriteEnableForThreadsAt_ServerOutputSend__dyn_APP_FUNCT_Calc_IsAllINSTANTIATED();
             static void CLIB_WriteEnableForThreadsAt_InputPerihperalSamples__dyn_APP_FUNCT_Calc_IsAllINSTANTIATED();
             static void CLIB_WriteEnableForThreadsAt_InputPerihperalSamples__stat_CLASS_boot1_DEFINE_Framework();
             static void CLIB_WriteEnableForThreadsAt_InputPerihperalSamples__stat_CLASS_boot3_INITIALISE_Framework();

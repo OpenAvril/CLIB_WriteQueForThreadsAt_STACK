@@ -1,8 +1,8 @@
 #ifndef CLIB_WRITEENABLEFORTHREADSAT_ClientInputSend_WRITEENABLEFORTHREADSAT_ClientInputSend__FRAMEWORK_H
 #define CLIB_WRITEENABLEFORTHREADSAT_ClientInputSend_WRITEENABLEFORTHREADSAT_ClientInputSend__FRAMEWORK_H
-#include "WriteEnableForThreadsAt_ClientInputSend__App.h"
-#include "WriteEnableForThreadsAt_ClientInputSend__Global.h"
-#include "WriteEnableForThreadsAt_ClientInputSend__Framework.h"
+#include "../include/WriteEnableForThreadsAt_ClientInputSend__App.h"
+#include "../include/WriteEnableForThreadsAt_ClientInputSend__Global.h"
+#include "../include/WriteEnableForThreadsAt_ClientInputSend__Framework.h"
 namespace CLIBWriteQueAtClientInputSend
 {
     class WriteEnableForThreadsAt_ClientInputSend__Framework

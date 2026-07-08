@@ -4,10 +4,10 @@
 #include <cstdint>
 #include <cstring>
 #include <iostream>
-std::array<bool,2>* _stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE;
-std::array<bool,2>* _stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WAIT;
-std::array<bool,2>* _stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WRITE;
-uint8_t* _stat_REG_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads;
+std::array<bool,2>* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::_stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE;
+std::array<bool,2>* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::_stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WAIT;
+std::array<bool,2>* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::_stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WRITE;
+uint8_t* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::_stat_REG_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads;
 CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::WriteEnableForThreadsAt_STACK__Global()
 {
 
@@ -70,6 +70,15 @@ uint8_t CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::dyn_REG_get_
 int CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_APP_CONVERT_WriteEnableForThreadsAt_STACK__Bool_To_Int(bool value)
 {
     return pr_stat_APP_CONVERT_WriteEnableForThreadsAt_STACK__Bool_To_Int(value);
+}
+unsigned char* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_APP_CONVERT_WriteEnableForThreadsAt_STACK__MsbFloat_To_MsbByteArray(float value) {
+    return pr_stat_APP_CONVERT_WriteEnableForThreadsAt_STACK__MsbFloat_To_MsbByteArray(value);
+}
+unsigned char* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_APP_CONVERT_WriteEnableForThreadsAt_STACK__MsbDouble_To_MsbByteArray(double value) {
+    return pr_stat_APP_CONVERT_WriteEnableForThreadsAt_STACK__MsbDouble_To_MsbByteArray(value);
+}
+unsigned char* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_APP_CONVERT_WriteEnableForThreadsAt_STACK__Msb_uint8_t_to_MsbByteArray(uint8_t value) {
+    return pr_stat_APP_CONVERT_WriteEnableForThreadsAt_STACK__Msb_uint8_t_to_MsbByteArray(value);
 }
 unsigned char* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_APP_CONVERT_WriteEnableForThreadsAt_STACK__MsbBoolean_To_MsbByteArray(bool value)
 {
@@ -191,7 +200,7 @@ void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_REG_boot3_
 }
 void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads()
 {
-    *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads = static_cast<uint8_t>(4);
+    *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads = static_cast<uint8_t>(5);
 }
 std::array<bool,2>* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_REG_get_ptr_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE()
 {

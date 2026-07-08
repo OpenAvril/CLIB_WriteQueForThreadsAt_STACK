@@ -1,6 +1,6 @@
-#ifndef CLIB_WRITEENABLEFORTHREADSAT_CLIENTOUTPUTRECEIVE_H
-#define CLIB_WRITEENABLEFORTHREADSAT_CLIENTOUTPUTRECEIVE_H
-#include "WriteEnableForThreadsAt_ClientOutputReceive__Framework.h"
+#ifndef CLIB_WRITEENABLEFORTHREADSAT_ClientOutputReceive_H
+#define CLIB_WRITEENABLEFORTHREADSAT_ClientOutputReceive_H
+#include "../include/WriteEnableForThreadsAt_ClientOutputReceive__Framework.h"
 extern "C"
 {
     namespace CLIBWriteQueAtClientOutputReceive
@@ -15,6 +15,7 @@ extern "C"
             static void CLIB_WriteEnableForThreadsAt_ClientOutputReceive__App_FUNCT_write_Start(unsigned char* bytes);
         private:
 		    static void CLIB_WriteEnableForThreadsAt_ServerOutputSend__dyn_APP_FUNCT_Calc_IsAllINSTANTIATED();
+            static void CLIB_WriteEnableForThreadsAt_ClientOutputReceive__dyn_APP_FUNCT_Calc_IsAllINSTANTIATED();
             static void CLIB_WriteEnableForThreadsAt_ClientOutputReceive__stat_CLASS_boot1_DEFINE_Framework();
             static void CLIB_WriteEnableForThreadsAt_ClientOutputReceive__stat_CLASS_boot3_INITIALISE_Framework();
             static class WriteEnableForThreadsAt_ClientOutputReceive__Framework* CLIB_WriteEnableForThreadsAt_ClientOutputReceive__stat_CLASS_get_ptr_Framework();

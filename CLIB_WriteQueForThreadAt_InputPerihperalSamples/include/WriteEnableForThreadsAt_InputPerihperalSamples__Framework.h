@@ -1,8 +1,8 @@
 #ifndef CLIB_WRITEENABLEFORTHREADSAT_InputPerihperalSamples_WRITEENABLEFORTHREADSAT_InputPerihperalSamples__FRAMEWORK_H
 #define CLIB_WRITEENABLEFORTHREADSAT_InputPerihperalSamples_WRITEENABLEFORTHREADSAT_InputPerihperalSamples__FRAMEWORK_H
-#include "WriteEnableForThreadsAt_InputPerihperalSamples__App.h"
-#include "WriteEnableForThreadsAt_InputPerihperalSamples__Global.h"
-#include "WriteEnableForThreadsAt_InputPerihperalSamples__Framework.h"
+#include "../include/WriteEnableForThreadsAt_InputPerihperalSamples__App.h"
+#include "../include/WriteEnableForThreadsAt_InputPerihperalSamples__Global.h"
+#include "../include/WriteEnableForThreadsAt_InputPerihperalSamples__Framework.h"
 namespace CLIBWriteQueAtInputPerihperalSamples
 {
     class WriteEnableForThreadsAt_InputPerihperalSamples__Framework

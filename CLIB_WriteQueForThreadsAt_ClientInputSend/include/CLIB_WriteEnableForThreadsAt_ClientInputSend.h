@@ -1,6 +1,6 @@
-#ifndef CLIB_WRITEENABLEFORTHREADSAT_CLIENTINPUTSEND_H
-#define CLIB_WRITEENABLEFORTHREADSAT_CLIENTINPUTSEND_H
-#include "WriteEnableForThreadsAt_ClientInputSend__Framework.h"
+#ifndef CLIB_WRITEENABLEFORTHREADSAT_ClientInputSend_H
+#define CLIB_WRITEENABLEFORTHREADSAT_ClientInputSend_H
+#include "../include/WriteEnableForThreadsAt_ClientInputSend__Framework.h"
 extern "C"
 {
     namespace CLIBWriteQueAtClientInputSend

@@ -1,11 +1,11 @@
 #ifndef CLIB_WRITEENABLEFORTHREADSAT_STACK_H
 #define CLIB_WRITEENABLEFORTHREADSAT_STACK_H
-#include "WriteEnableForThreadsAt_STACK__Framework.h"
+#include "../include/WriteEnableForThreadsAt_STACK__Framework.h"
 extern "C"
 {
     namespace CLIBWriteQueAtSTACK
     {
-        class CLIB_WriteEnableForThreadsAt_ServerOutputSend
+        class CLIB_WriteEnableForThreadsAt_STACK
         {
         public:
             static void* CLIB_WriteEnableForThreadsAt_STACK__App_FUNCT_generate_Program();

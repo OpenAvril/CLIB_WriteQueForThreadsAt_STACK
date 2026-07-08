@@ -2,7 +2,7 @@
 #define CLIB_WriteEnableForThreadsAt_OutputGameInstanaceData_WriteEnableForThreadsAt_OutputGameInstanaceData__Global_H
 #include <array>
 #include <cstdint>
-namespace CLIBWriteQueAtCLIB_WriteQueForThreadAt_OutputGameInstanaceData
+namespace CLIBWriteQueAtOutputGameInstanaceData
 {
     class WriteEnableForThreadsAt_OutputGameInstanaceData__Global
     {

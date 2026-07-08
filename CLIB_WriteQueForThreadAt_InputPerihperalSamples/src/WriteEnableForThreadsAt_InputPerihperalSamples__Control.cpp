@@ -388,7 +388,7 @@ void CLIBWriteQueAtInputPerihperalSamples::WriteEnableForThreadsAt_InputPerihper
 {
     _stat_REG_QUE_Of_WriteEnableForThreadsAt_InputPerihperalSamples__Control__ThreadID_To_WRITE = new std::list<uint8_t>();
     while (stat_REG_get_ptr_QUE_WriteEnableForThreadsAt_InputPerihperalSamples__Control__List_Of_ThreadToWrite() == NULL) {}
-    *_stat_REG_QUE_Of_WriteEnableForThreadsAt_InputPerihperalSamples__Control__ThreadID_To_WRITE = { static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX) };
+    *_stat_REG_QUE_Of_WriteEnableForThreadsAt_InputPerihperalSamples__Control__ThreadID_To_WRITE = { static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX) , static_cast<uint8_t>(UINT8_MAX) };
 }
 void CLIBWriteQueAtInputPerihperalSamples::WriteEnableForThreadsAt_InputPerihperalSamples__Control::stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_InputPerihperalSamples__Control__writeCycle_Try_ThreadId_Index()
 {
@@ -410,15 +410,15 @@ void CLIBWriteQueAtInputPerihperalSamples::WriteEnableForThreadsAt_InputPerihper
 }
 void CLIBWriteQueAtInputPerihperalSamples::WriteEnableForThreadsAt_InputPerihperalSamples__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_InputPerihperalSamples__Control__WriteACTIVE_Count_For_ThreadId()
 {
-    *_stat_REG_LIST_Of_WriteEnableForThreadsAt_InputPerihperalSamples__Control__WriteACTIVE_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
+    *_stat_REG_LIST_Of_WriteEnableForThreadsAt_InputPerihperalSamples__Control__WriteACTIVE_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
 }
 void CLIBWriteQueAtInputPerihperalSamples::WriteEnableForThreadsAt_InputPerihperalSamples__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_InputPerihperalSamples__Control__WriteIDLE_Count_For_ThreadId()
 {
-    *_stat_REG_LIST_Of_WriteEnableForThreadsAt_InputPerihperalSamples__Control__WriteIDLE_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
+    *_stat_REG_LIST_Of_WriteEnableForThreadsAt_InputPerihperalSamples__Control__WriteIDLE_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
 }
 void CLIBWriteQueAtInputPerihperalSamples::WriteEnableForThreadsAt_InputPerihperalSamples__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_InputPerihperalSamples__Control__WriteWAIT_Count_For_ThreadIdd()
 {
-    *_stat_REG_LIST_Of_WriteEnableForThreadsAt_InputPerihperalSamples__Control__WriteWAIT_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
+    *_stat_REG_LIST_Of_WriteEnableForThreadsAt_InputPerihperalSamples__Control__WriteWAIT_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
 }
 void CLIBWriteQueAtInputPerihperalSamples::WriteEnableForThreadsAt_InputPerihperalSamples__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_InputPerihperalSamples__Control__new_writeCycle_Try_ThreadId_Index()
 {
@@ -426,7 +426,7 @@ void CLIBWriteQueAtInputPerihperalSamples::WriteEnableForThreadsAt_InputPerihper
 }
 void CLIBWriteQueAtInputPerihperalSamples::WriteEnableForThreadsAt_InputPerihperalSamples__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_InputPerihperalSamples__Control__ptr_QUE_Of_ThreadID_To_WRITE()
 {
-    *_stat_REG_QUE_Of_WriteEnableForThreadsAt_InputPerihperalSamples__Control__ThreadID_To_WRITE = { static_cast<uint8_t>(0), static_cast<uint8_t>(1) };
+    *_stat_REG_QUE_Of_WriteEnableForThreadsAt_InputPerihperalSamples__Control__ThreadID_To_WRITE = { static_cast<uint8_t>(0), static_cast<uint8_t>(1), static_cast<uint8_t>(2), static_cast<uint8_t>(3) };
 }
 void CLIBWriteQueAtInputPerihperalSamples::WriteEnableForThreadsAt_InputPerihperalSamples__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_InputPerihperalSamples__Control__writeCycle_Try_ThreadId_Index()
 {

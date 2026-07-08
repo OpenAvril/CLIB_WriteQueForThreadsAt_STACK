@@ -1,8 +1,8 @@
 #ifndef CLIB_WRITEENABLEFORTHREADSAT_ClientOutputReceive_WRITEENABLEFORTHREADSAT_ClientOutputReceive__FRAMEWORK_H
 #define CLIB_WRITEENABLEFORTHREADSAT_ClientOutputReceive_WRITEENABLEFORTHREADSAT_ClientOutputReceive__FRAMEWORK_H
-#include "WriteEnableForThreadsAt_ClientOutputReceive__App.h"
-#include "WriteEnableForThreadsAt_ClientOutputReceive__Global.h"
-#include "WriteEnableForThreadsAt_ClientOutputReceive__Framework.h"
+#include "../include/WriteEnableForThreadsAt_ClientOutputReceive__App.h"
+#include "../include/WriteEnableForThreadsAt_ClientOutputReceive__Global.h"
+#include "../include/WriteEnableForThreadsAt_ClientOutputReceive__Framework.h"
 namespace CLIBWriteQueAtClientOutputReceive
 {
     class WriteEnableForThreadsAt_ClientOutputReceive__Framework
