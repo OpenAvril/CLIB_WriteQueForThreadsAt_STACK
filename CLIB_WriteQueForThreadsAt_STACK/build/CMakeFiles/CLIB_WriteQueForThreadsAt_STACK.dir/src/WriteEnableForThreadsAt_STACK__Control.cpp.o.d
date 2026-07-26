@@ -1,10 +1,8 @@
-CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o: \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp \
+CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Control.cpp.o: \
+ /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Control.cpp \
  /usr/include/stdc-predef.h \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/CLIB_WriteEnableForThreadsAt_STACK.h \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/../include/WriteEnableForThreadsAt_STACK__Framework.h \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/../include/../include/WriteEnableForThreadsAt_STACK__App.h \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/../include/../include/../include/WriteEnableForThreadsAt_STACK__Control.h \
+ /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK__App.h \
+ /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/../include/WriteEnableForThreadsAt_STACK__Control.h \
  /usr/include/c++/15/cstdint \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -67,10 +65,12 @@ CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_
  /usr/include/c++/15/bits/invoke.h /usr/include/c++/15/bits/ranges_util.h \
  /usr/include/c++/15/bits/ranges_base.h \
  /usr/include/c++/15/bits/max_size_type.h /usr/include/c++/15/numbers \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/../include/../include/WriteEnableForThreadsAt_STACK__Global.h \
- /usr/include/c++/15/array \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/../include/../include/WriteEnableForThreadsAt_STACK__Framework.h \
+ /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK__Control.h \
  /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK__Framework.h \
+ /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/../include/WriteEnableForThreadsAt_STACK__App.h \
+ /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/../include/WriteEnableForThreadsAt_STACK__Global.h \
+ /usr/include/c++/15/array \
+ /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/../include/WriteEnableForThreadsAt_STACK__Framework.h \
  /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK__Global.h \
  /usr/include/c++/15/iostream /usr/include/c++/15/ostream \
  /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/ios \
@@ -181,4 +181,5 @@ CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_
  /usr/include/c++/15/bits/locale_facets.tcc \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
- /usr/include/c++/15/bits/istream.tcc
+ /usr/include/c++/15/bits/istream.tcc /usr/include/c++/15/iterator \
+ /usr/include/c++/15/bits/stream_iterator.h
