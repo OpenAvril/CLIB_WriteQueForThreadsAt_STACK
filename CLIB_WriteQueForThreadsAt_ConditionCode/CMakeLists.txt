@@ -5,15 +5,10 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(CLIB_WriteQueForThreadsAt_ConditionCode STATIC
-        include/CLIB_WriteEnableForThreadsAt_ConditionCode.h
         src/CLIB_WriteEnableForThreadsAt_ConditionCode.cpp
-        include/WriteEnableForThreadsAt_ConditionCode__Framework.h
         src/WriteEnableForThreadsAt_ConditionCode__Framework.cpp
-        include/WriteEnableForThreadsAt_ConditionCode__Global.h
         src/WriteEnableForThreadsAt_ConditionCode__Global.cpp
-        include/WriteEnableForThreadsAt_ConditionCode__App.h
         src/WriteEnableForThreadsAt_ConditionCode__App.cpp
-        include/WriteEnableForThreadsAt_ConditionCode__Control.h
         src/WriteEnableForThreadsAt_ConditionCode__Control.cpp
 )
 

@@ -2,7 +2,7 @@
 #define CLIB_WriteEnableForThreadsAt_SIMULATION_OutputSamples__App_WriteEnableForThreadsAt_SIMULATION_OutputSamples__App__APP_H
 #include "../include/WriteEnableForThreadsAt_SIMULATION_OutputSamples__Control.h"
 #include <cstdint>
-namespace CLIBWriteQueAtSIMULATION
+namespace CLIBWriteQueAtSIMULATION_OutputSamples
 {
     class WriteEnableForThreadsAt_SIMULATION_OutputSamples__App
     {
