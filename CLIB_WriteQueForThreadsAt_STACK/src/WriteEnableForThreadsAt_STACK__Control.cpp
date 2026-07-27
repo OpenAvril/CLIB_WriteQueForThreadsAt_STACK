@@ -80,6 +80,7 @@ void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_PGM_boot4_
     }
 void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__dynamicStagger(WriteEnableForThreadsAt_STACK__Framework* obj, uint8_t coreId)
     {
+        stat_REG_set_flag_WriteEnableForThreadsAt_STACK__flag_Control__isCurrentThreadRELEASED(false);
         if (*stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index() == coreId) {
 
         }

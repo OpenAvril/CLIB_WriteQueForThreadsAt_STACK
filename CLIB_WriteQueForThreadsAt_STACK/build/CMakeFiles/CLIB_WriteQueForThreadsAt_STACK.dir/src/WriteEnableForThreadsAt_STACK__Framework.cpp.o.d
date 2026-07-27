@@ -1,9 +1,5 @@
 CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Framework.cpp.o: \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Framework.cpp \
  /usr/include/stdc-predef.h \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/include/WriteEnableForThreadsAt_STACK__Framework.h \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/include/../include/WriteEnableForThreadsAt_STACK__App.h \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/include/../include/../include/WriteEnableForThreadsAt_STACK__Control.h \
  /usr/include/c++/15/cstdint \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -66,10 +62,7 @@ CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK
  /usr/include/c++/15/bits/invoke.h /usr/include/c++/15/bits/ranges_util.h \
  /usr/include/c++/15/bits/ranges_base.h \
  /usr/include/c++/15/bits/max_size_type.h /usr/include/c++/15/numbers \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/include/../include/WriteEnableForThreadsAt_STACK__Global.h \
  /usr/include/c++/15/array \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/include/../include/WriteEnableForThreadsAt_STACK__Framework.h \
- /home/brenton-james/MCompSc_SoftwareEngineering/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK/src/../include/WriteEnableForThreadsAt_STACK__Control.h \
  /usr/include/c++/15/iostream /usr/include/c++/15/ostream \
  /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/ios \
  /usr/include/c++/15/iosfwd /usr/include/c++/15/bits/stringfwd.h \
