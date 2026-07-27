@@ -86,10 +86,10 @@
 		}
 		else {
 			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[4] = false;
-			CLIB_WriteEnableForThreadsAt_ServerOutputSend__dyn_APP_FUNCT_Calc_IsAllINSTANTIATED();//INSTANTIATE this member function last.
+			CLIB_WriteEnableForThreadsAt_STACK__dyn_APP_FUNCT_set_IsThreadReleased();//INSTANTIATE this member function last.
 		}
 	}
-	void CLIBWriteQueAtClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend::CLIB_WriteEnableForThreadsAt_ServerOutputSend__dyn_APP_FUNCT_Calc_IsAllINSTANTIATED()
+	void CLIBWriteQueAtClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend::CLIB_WriteEnableForThreadsAt_STACK__dyn_APP_FUNCT_set_IsThreadReleased()
 	{
 		CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[0] = false;
 		for (uint8_t memberFunctionId = 1; memberFunctionId < sizeof(_stat_REG_ptr_Framework_WriteEnableForThreadsAt_ClientInputSend); memberFunctionId++)

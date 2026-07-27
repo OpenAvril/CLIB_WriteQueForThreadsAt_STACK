@@ -181,4 +181,4 @@ CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_
  /usr/include/c++/15/bits/locale_facets.tcc \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
- /usr/include/c++/15/bits/istream.tcc
+ /usr/include/c++/15/bits/istream.tcc /usr/include/c++/15/span
