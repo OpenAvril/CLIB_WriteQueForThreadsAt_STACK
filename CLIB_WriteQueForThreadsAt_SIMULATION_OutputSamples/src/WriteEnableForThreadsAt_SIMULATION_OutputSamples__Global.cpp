@@ -199,7 +199,7 @@ void CLIBWriteQueAtSIMULATION_OutputSamples::WriteEnableForThreadsAt_SIMULATION_
 }
 void CLIBWriteQueAtSIMULATION_OutputSamples::WriteEnableForThreadsAt_SIMULATION_OutputSamples__Global::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_SIMULATION_OutputSamples__number_Of_Implemented_Threads()
 {
-    *_stat_REG_ptr_WriteEnableForThreadsAt_SIMULATION_OutputSamples__number_Of_Implemented_Threads = static_cast<uint8_t>(5);
+    *_stat_REG_ptr_WriteEnableForThreadsAt_SIMULATION_OutputSamples__number_Of_Implemented_Threads = static_cast<uint8_t>(4);
 }
 std::array<bool,2>* CLIBWriteQueAtSIMULATION_OutputSamples::WriteEnableForThreadsAt_SIMULATION_OutputSamples__Global::stat_REG_get_ptr_CONST_WriteEnableForThreadsAt_SIMULATION_OutputSamples__2bitFLAG_IDLE()
 {

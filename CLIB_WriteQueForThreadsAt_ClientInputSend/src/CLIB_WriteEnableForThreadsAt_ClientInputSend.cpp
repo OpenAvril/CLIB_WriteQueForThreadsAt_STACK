@@ -3,6 +3,7 @@
 #include "../include/WriteEnableForThreadsAt_ClientInputSend__Global.h"
 #include <cstdint>
 #include <iostream>
+#include <span>
 	CLIBWriteQueAtClientInputSend::WriteEnableForThreadsAt_ClientInputSend__Framework* _stat_REG_ptr_Framework_WriteEnableForThreadsAt_ClientInputSend;
 	bool* _stat_REG_flag_CLIB_WriteEnableForThreadsAt_ClientInputSend__isMemberFunctionINSTANTIATED;
 // public.
@@ -56,49 +57,53 @@
 		}
 		else {
 			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[1] = false;
+			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED();
 			return WriteEnableForThreadsAt_ClientInputSend__Global::stat_APP_CONVERT_WriteEnableForThreadsAt_ClientInputSend__MsbBoolean_To_MsbByteArray(true);
 		}
 	}
 	void CLIBWriteQueAtClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend__App_FUNCT_terminate_Program()
 	{
-		if (CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[2] == false) {
+		if (CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[3] == false) {
 			delete _stat_REG_ptr_Framework_WriteEnableForThreadsAt_ClientInputSend;
 			while (CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_CLASS_get_ptr_Framework() != nullptr) {}
 		}
 		else {
-			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[2] = false;
+			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[3] = false;
+			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED();
 		}
-
 	}
+
 	void CLIBWriteQueAtClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend__App_FUNCT_write_End(unsigned char* bytes)
 	{
-		if (CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[3] == false) {
+		if (CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[4] == false) {
 			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_ClientInputSend__App()->dyn_APP_FUNCT_write_End(CLIBWriteQueAtClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_CLASS_get_ptr_Framework(), WriteEnableForThreadsAt_ClientInputSend__Global::stat_APP_CONVERT_WriteEnableForThreadsAt_ClientInputSend__MsbByteArray_To_Msbuint8_t(bytes));
 		}
 		else {
-			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[3] = false;
+			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[4] = false;
+			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED();
+			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_App_FUNCT_set_flag_isCurrentThreadRELEASED(true);
 		}
 	}
 	void CLIBWriteQueAtClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend__App_FUNCT_write_Start(unsigned char* bytes)
 	{
-		if (CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[4] == false) {
+		if (CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[5] == false) {
 			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_ClientInputSend__App()->dyn_APP_FUNCT_write_Start(CLIBWriteQueAtClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_CLASS_get_ptr_Framework(), WriteEnableForThreadsAt_ClientInputSend__Global::stat_APP_CONVERT_WriteEnableForThreadsAt_ClientInputSend__MsbByteArray_To_Msbuint8_t(bytes));
 		}
 		else {
-			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[4] = false;
-			CLIB_WriteEnableForThreadsAt_STACK__dyn_APP_FUNCT_set_IsThreadReleased();//INSTANTIATE this member function last.
+			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[5] = false;
+			CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED();//INSTANTIATE this member function last.
 		}
 	}
-	void CLIBWriteQueAtClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend::CLIB_WriteEnableForThreadsAt_STACK__dyn_APP_FUNCT_set_IsThreadReleased()
-	{
-		CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[0] = false;
-		for (uint8_t memberFunctionId = 1; memberFunctionId < sizeof(_stat_REG_ptr_Framework_WriteEnableForThreadsAt_ClientInputSend); memberFunctionId++)
-		{
-			if (CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[memberFunctionId] == true)
-			{
-				CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED()[0] = true;
+	bool CLIBWriteQueAtClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_APP_FUNCT_Calc_IsAllINSTANTIATED() {
+		for(int index = 0; index < 5; index++) {
+			if (_stat_REG_flag_CLIB_WriteEnableForThreadsAt_ClientInputSend__isMemberFunctionINSTANTIATED[index] == false) {
+				_stat_REG_flag_CLIB_WriteEnableForThreadsAt_ClientInputSend__isMemberFunctionINSTANTIATED[0] = false;
 			}
 		}
+		return *CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_REG_get_CLIBLaunchQueAtClientInputSend_isFlagINSTANTIATED();
+	}
+	void CLIBWriteQueAtClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_App_FUNCT_set_flag_isCurrentThreadRELEASED(bool bytes) {
+		return CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_ClientInputSend__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_ClientInputSend__App__Control()->dyn_App_FUNCT_set_flag_isCurrentThreadRELEASED(bytes);
 	}
 	void CLIBWriteQueAtClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend::CLIB_WriteEnableForThreadsAt_ClientInputSend__stat_CLASS_boot1_DEFINE_Framework()
 	{

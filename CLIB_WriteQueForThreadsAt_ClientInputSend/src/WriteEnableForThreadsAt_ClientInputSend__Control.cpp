@@ -80,6 +80,7 @@ void CLIBWriteQueAtClientInputSend::WriteEnableForThreadsAt_ClientInputSend__Con
     }
 void CLIBWriteQueAtClientInputSend::WriteEnableForThreadsAt_ClientInputSend__Control::dyn_APP_FUNCT_WriteEnableForThreadsAt_ClientInputSend__Control__dynamicStagger(WriteEnableForThreadsAt_ClientInputSend__Framework* obj, uint8_t coreId)
     {
+        stat_REG_set_flag_WriteEnableForThreadsAt_ClientInputSend__flag_Control__isCurrentThreadRELEASED(false);
         if (*stat_REG_get_ptr_WriteEnableForThreadsAt_ClientInputSend__Control__writeCycle_Try_ThreadId_Index() == coreId) {
 
         }

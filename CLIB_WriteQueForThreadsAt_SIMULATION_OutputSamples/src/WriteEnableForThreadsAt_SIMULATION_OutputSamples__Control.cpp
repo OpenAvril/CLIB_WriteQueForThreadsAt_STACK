@@ -80,6 +80,7 @@ void CLIBWriteQueAtSIMULATION_OutputSamples::WriteEnableForThreadsAt_SIMULATION_
     }
 void CLIBWriteQueAtSIMULATION_OutputSamples::WriteEnableForThreadsAt_SIMULATION_OutputSamples__Control::dyn_APP_FUNCT_WriteEnableForThreadsAt_SIMULATION_OutputSamples__Control__dynamicStagger(WriteEnableForThreadsAt_SIMULATION_OutputSamples__Framework* obj, uint8_t coreId)
     {
+        stat_REG_set_flag_WriteEnableForThreadsAt_SIMULATION_OutputSamples__flag_Control__isCurrentThreadRELEASED(false);
         if (*stat_REG_get_ptr_WriteEnableForThreadsAt_SIMULATION_OutputSamples__Control__writeCycle_Try_ThreadId_Index() == coreId) {
 
         }
