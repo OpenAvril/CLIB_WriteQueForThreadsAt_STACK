@@ -91,7 +91,7 @@
 		}
 		else {
 			CLIB_WriteEnableForThreadsAt_STACK__stat_REG_get_CLIBLaunchQueAtSTACK_isFlagINSTANTIATED()[5] = false;
-			CLIB_WriteEnableForThreadsAt_STACK__stat_REG_get_CLIBLaunchQueAtSTACK_isFlagINSTANTIATED();//INSTANTIATE this member function last.
+			CLIB_WriteEnableForThreadsAt_STACK__stat_REG_get_CLIBLaunchQueAtSTACK_isFlagINSTANTIATED();
 		}
 	}
 	bool CLIBWriteQueAtSTACK::CLIB_WriteEnableForThreadsAt_STACK::CLIB_WriteEnableForThreadsAt_STACK__stat_APP_FUNCT_Calc_IsAllINSTANTIATED() {
