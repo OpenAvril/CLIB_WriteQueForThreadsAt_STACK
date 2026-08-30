@@ -1,0 +1,19 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/CLIB_WriteQueForThreadsAt_OutputGameInstanaceData.dir/src/CLIB_WriteEnableForThreadsAt_OutputGameInstanaceData.cpp.o"
+  "CMakeFiles/CLIB_WriteQueForThreadsAt_OutputGameInstanaceData.dir/src/CLIB_WriteEnableForThreadsAt_OutputGameInstanaceData.cpp.o.d"
+  "CMakeFiles/CLIB_WriteQueForThreadsAt_OutputGameInstanaceData.dir/src/WriteEnableForThreadsAt_OutputGameInstanaceData__App.cpp.o"
+  "CMakeFiles/CLIB_WriteQueForThreadsAt_OutputGameInstanaceData.dir/src/WriteEnableForThreadsAt_OutputGameInstanaceData__App.cpp.o.d"
+  "CMakeFiles/CLIB_WriteQueForThreadsAt_OutputGameInstanaceData.dir/src/WriteEnableForThreadsAt_OutputGameInstanaceData__Control.cpp.o"
+  "CMakeFiles/CLIB_WriteQueForThreadsAt_OutputGameInstanaceData.dir/src/WriteEnableForThreadsAt_OutputGameInstanaceData__Control.cpp.o.d"
+  "CMakeFiles/CLIB_WriteQueForThreadsAt_OutputGameInstanaceData.dir/src/WriteEnableForThreadsAt_OutputGameInstanaceData__Framework.cpp.o"
+  "CMakeFiles/CLIB_WriteQueForThreadsAt_OutputGameInstanaceData.dir/src/WriteEnableForThreadsAt_OutputGameInstanaceData__Framework.cpp.o.d"
+  "CMakeFiles/CLIB_WriteQueForThreadsAt_OutputGameInstanaceData.dir/src/WriteEnableForThreadsAt_OutputGameInstanaceData__Global.cpp.o"
+  "CMakeFiles/CLIB_WriteQueForThreadsAt_OutputGameInstanaceData.dir/src/WriteEnableForThreadsAt_OutputGameInstanaceData__Global.cpp.o.d"
+  "libCLIB_WriteQueForThreadsAt_OutputGameInstanaceData.a"
+  "libCLIB_WriteQueForThreadsAt_OutputGameInstanaceData.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/CLIB_WriteQueForThreadsAt_OutputGameInstanaceData.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
