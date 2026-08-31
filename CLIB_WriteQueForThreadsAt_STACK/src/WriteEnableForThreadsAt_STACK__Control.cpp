@@ -33,12 +33,12 @@
             delete _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index;
         }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__dynamicStagger(WriteEnableForThreadsAt_STACK__Framework* obj, uint8_t coreId) {
-        stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isCurrentThreadRELEASED(false);
-        if (*stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index() == coreId) {
+        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED(false);
+        if (*obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index() == coreId) {
 
         }
         else {
-            while (!stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isCurrentThreadRELEASED()) {
+            while (!obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED()) {
 
             }
         }
@@ -197,7 +197,7 @@
         std::cout << "exiting REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Control()" << std::endl;
     }
     bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED() {
-        return stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isCurrentThreadRELEASED();
+        return stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED();
     }
     bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite() {
             return *stat_REG_get_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite();
@@ -234,7 +234,7 @@
         return *stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index();
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED(bool FLAGState) {
-        stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isCurrentThreadRELEASED(FLAGState);
+        stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED(FLAGState);
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite(bool newBoolValue)
     {
@@ -400,6 +400,9 @@
     {
         *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index = static_cast<uint8_t>(0);
     }
+    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED() {
+        return _stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isCurrentThreadRELEASED;
+    }
     bool* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite()
     {
         return _stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite;
@@ -431,6 +434,10 @@
     {
         return _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index;
     }
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED(bool newFlag) {
+        *_stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isCurrentThreadRELEASED = newFlag;
+    }
+
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite(bool newFLAG)
     {
         *_stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite = newFLAG;

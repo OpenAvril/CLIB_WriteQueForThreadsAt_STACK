@@ -1,4 +1,4 @@
-#include "libs/CLIB_WriteQueForThreadsAt_STACK/include/CLIB_WriteEnableForThreadsAt_STACK.h"
+#include "../CLIB_WriteQueForThreadsAt_STACK/include/CLIB_WriteEnableForThreadsAt_STACK.h"
 #include <iostream>
 int main() {
     void* obj = nullptr;

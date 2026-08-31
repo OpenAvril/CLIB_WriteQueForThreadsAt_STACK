@@ -70,7 +70,7 @@ namespace CLIBWriteQueAtSTACK
         static void stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index();
         static void stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__ptr_QUE_Of_ThreadID_To_WRITE();
         static void stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index();
-        static bool stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isCurrentThreadRELEASED();
+        static bool stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED();
         static std::array <std::array<bool, 2>, 3>* stat_REG_get_ptr_Array_Of_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState();
         static std::list<uint32_t>* stat_REG_get_ptr_list_Of_WriteEnableForThreadsAt_STACK__Control__WriteActive_Count_For_ThreadId();
         static std::list<uint32_t>* stat_REG_get_ptr_list_Of_WriteEnableForThreadsAt_STACK__Control__WriteIdle_Count_For_ThreadId();
@@ -79,7 +79,7 @@ namespace CLIBWriteQueAtSTACK
         static std::list<uint8_t>* stat_REG_get_ptr_QUE_WriteEnableForThreadsAt_STACK__Control__List_Of_ThreadToWrite();
         static uint8_t* stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index();
         static bool* stat_REG_get_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite();
-        static void stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isCurrentThreadRELEASED(bool FLAGState);
+        static void stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED(bool FLAGState);
         static void stat_REG_set_Item_On_Of_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState(uint8_t concurrentThreadID, std::array<bool, 2> new2bitState);
         static void stat_REG_set_Item_On_list_Of_WriteEnableForThreadsAt_STACK__Control__WriteACTIVE_Count_For_ThreadId(uint8_t concurrentThreadID, uint32_t newCount);
         static void stat_REG_set_Item_On_list_Of_WriteEnableForThreadsAt_STACK__Control__WriteIdle_Count_For_ThreadId(uint8_t concurrentThreadID, uint32_t newCount);

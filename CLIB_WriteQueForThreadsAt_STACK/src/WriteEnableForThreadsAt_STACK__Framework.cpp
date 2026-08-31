@@ -3,7 +3,7 @@
 	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::_stat_CLASS_ptr_WriteEnableForThreadsAt_STACK__Framework__Global;
 // public.
 	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::WriteEnableForThreadsAt_STACK__Framework() {
-		stat_CLASS_boot0_DECLARE_WriteEnableForThreadsAt_STACK__Framework();
+
 	}
 	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::~WriteEnableForThreadsAt_STACK__Framework() {
 		delete _stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Framework__App;
