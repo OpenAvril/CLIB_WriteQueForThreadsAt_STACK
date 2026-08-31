@@ -25,30 +25,30 @@ void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::dyn_REG_boot0_D
 }
 void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::dyn_REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global()
 {
-    std::cout << "entered REG_boot0_DECLARE_WriteEnableForThreadsAt_STACK__Global()." << std::endl;
+    std::cout << "entered dyn_REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global()." << std::endl;
     stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads();
     stat_REG_boot1_DEFINE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE();
     stat_REG_boot1_DEFINE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WAIT();
     stat_REG_boot1_DEFINE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WRITE();
-    std::cout << "exiting REG_boot0_DECLARE_WriteEnableForThreadsAt_STACK__Global()." << std::endl;
+    std::cout << "exiting dyn_REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global()." << std::endl;
 }
 void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::dyn_REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Global()
 {
-    std::cout << "entered REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global()." << std::endl;
+    std::cout << "entered dyn_REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Global()." << std::endl;
     stat_REG_boot2_SUBSTANTIATE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE();
     stat_REG_boot2_SUBSTANTIATE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WAIT();
     stat_REG_boot2_SUBSTANTIATE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WRITE();
     stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads();
-    std::cout << "exiting REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global()." << std::endl;
+    std::cout << "exiting dyn_REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Global()." << std::endl;
 }
 void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::dyn_REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Global()
 {
-    std::cout << "entered REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Global()" << std::endl;
+    std::cout << "entered dyn_REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Global()" << std::endl;
     stat_REG_boot3_INITIALISE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE();
     stat_REG_boot3_INITIALISE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WAIT();
     stat_REG_boot3_INITIALISE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WRITE();
     stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads();
-    std::cout << "exiting REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Global()" << std::endl;
+    std::cout << "exiting dyn_REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Global()" << std::endl;
 }
 std::array<bool,2> CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::dyn_REG_get_ptr_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE()
 {
