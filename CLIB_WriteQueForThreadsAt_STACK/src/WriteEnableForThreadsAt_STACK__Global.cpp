@@ -172,19 +172,23 @@ void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_REG_boot1_
 }
 void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_REG_boot2_SUBSTANTIATE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE()
 {
+    _stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE = new std::array<bool, 2>();
     *_stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE  = {true, true};
 }
 void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_REG_boot2_SUBSTANTIATE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WAIT()
 {
+    _stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WAIT = new std::array<bool, 2>();
     *_stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WAIT  = {true, true};
 }
 void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_REG_boot2_SUBSTANTIATE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WRITE()
 {
+    _stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WRITE = new std::array<bool, 2>();
     *_stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WRITE = {true, true};
 }
 void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads()
 {
-    _stat_REG_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads = new uint8_t(UINT8_MAX);
+    _stat_REG_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads = new uint8_t();
+    *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads = UINT8_MAX;
 }
 void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global::stat_REG_boot3_INITIALISE_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE() {
     *_stat_REG_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE = {false, false};
