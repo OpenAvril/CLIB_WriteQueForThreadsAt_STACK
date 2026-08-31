@@ -1,0 +1,63 @@
+#include "WriteEnableForThreadsAt_STACK__Framework.h"
+	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::_stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Framework__App;
+	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::_stat_CLASS_ptr_WriteEnableForThreadsAt_STACK__Framework__Global;
+// public.
+	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::WriteEnableForThreadsAt_STACK__Framework() {
+
+	}
+	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::~WriteEnableForThreadsAt_STACK__Framework() {
+		delete _stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Framework__App;
+		delete _stat_CLASS_ptr_WriteEnableForThreadsAt_STACK__Framework__Global;
+	}
+	void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::dyn_CLASS_create_Architecture() {
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Framework();
+		stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Framework();
+	}
+	void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::dyn_CLASS_create_CLIB_OpenEpiCentre_Global_and_Settings()
+	{
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global();
+		stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Global();
+	}
+	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App() {
+		return stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App();
+	}
+	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global() {
+		return stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global();
+	}
+	void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Framework() {
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_STACK__App();
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global();
+	}
+	void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Framework() {
+		stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__App();
+	}
+	void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Global() {
+		pr_stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Global();
+	}
+// private.
+	void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_STACK__App()
+	{
+		_stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Framework__App = nullptr;
+	}
+	void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global()
+	{
+		_stat_CLASS_ptr_WriteEnableForThreadsAt_STACK__Framework__Global = nullptr;
+	}
+	void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__App()
+	{
+		_stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Framework__App = new class CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App();
+		while (stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App() == nullptr) {}
+	}
+	void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::pr_stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Global()
+	{
+		_stat_CLASS_ptr_WriteEnableForThreadsAt_STACK__Framework__Global = new class CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global();
+		while (stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global() == nullptr) {}
+	}
+	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()
+	{
+		return _stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Framework__App;
+	}
+	CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Global* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Framework::stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()
+		{
+			return _stat_CLASS_ptr_WriteEnableForThreadsAt_STACK__Framework__Global;
+		}

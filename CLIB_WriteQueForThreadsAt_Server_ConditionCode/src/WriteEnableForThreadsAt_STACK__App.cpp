@@ -64,35 +64,22 @@
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App::dyn_APP_FUNCT_write_End(WriteEnableForThreadsAt_STACK__Framework* obj, uint8_t coreId)
     {
-        while (obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE()) {
-            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__dynamicIn(obj, coreId);
-            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE(false);
-        }
-        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE(true);
-        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index(obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index()+1);
-        if (obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index() == obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()->dyn_REG_get_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads()) {
-            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index(0);
-        }
         obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_Item_On_list_Of_WriteEnableForThreadsAt_STACK__Control__2ibt_FLAG_WriteState(coreId, obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()->dyn_REG_get_ptr_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE());
+        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index(obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_Item_On_WriteEnableForThreadsAt_STACK__Control__list_Of_WriteActive_Count_For_ThreadId(coreId) + 1);
+        if (obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_Item_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index() == 3)
+        {
+            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index(0);
+        }
         obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__writeQue_Update(obj);
         obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__writeEnable_SortQue(obj);
-        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING(true);
+        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite(false);
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App::dyn_APP_FUNCT_write_Start(WriteEnableForThreadsAt_STACK__Framework* obj, uint8_t coreId)
     {
-        while (obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE()) {
-            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__dynamicIn(obj, coreId);
-            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE(false);
-        }
-        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE(true);
-        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index(obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index()+1);
-        if (obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index() == obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()->dyn_REG_get_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads()) {
-            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index(0);
-        }
+        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__writeEnable_Request(obj, coreId);
         obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__writeQue_Update(obj);
         obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__writeEnable_SortQue(obj);
         obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__writeEnable_Activate(obj, coreId);
-        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING(true);
     }
     CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App::dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()
     {

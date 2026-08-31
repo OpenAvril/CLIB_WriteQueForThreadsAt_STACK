@@ -85,7 +85,7 @@
 	void CLIBWriteQueAtSTACK::CLIB_WriteEnableForThreadsAt_STACK::CLIB_WriteEnableForThreadsAt_STACK__App_FUNCT_write_End(unsigned char* bytes)	{
 		if (CLIB_WriteEnableForThreadsAt_STACK__stat_REG_get_CLIBLaunchQueAtSTACK_isFLAGINSTANTIATED()[3] == false) {
 			CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_APP_FUNCT_write_End(CLIBWriteQueAtSTACK::CLIB_WriteEnableForThreadsAt_STACK::CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework(), WriteEnableForThreadsAt_STACK__Global::stat_APP_CONVERT_WriteEnableForThreadsAt_STACK__MsbByteArray_To_Msbuint8_t(bytes));
-			CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING(true);
+			CLIB_WriteEnableForThreadsAt_STACK__stat_App_FUNCT_set_FLAG_isCurrentThreadRELEASED(true);
 		}
 		else {
 			CLIB_WriteEnableForThreadsAt_STACK__stat_REG_get_CLIBLaunchQueAtSTACK_isFLAGINSTANTIATED()[3] = false;
@@ -95,7 +95,6 @@
 	void CLIBWriteQueAtSTACK::CLIB_WriteEnableForThreadsAt_STACK::CLIB_WriteEnableForThreadsAt_STACK__App_FUNCT_write_Start(unsigned char* bytes) {
 		if (CLIB_WriteEnableForThreadsAt_STACK__stat_REG_get_CLIBLaunchQueAtSTACK_isFLAGINSTANTIATED()[4] == false) {
 			CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_APP_FUNCT_write_Start(CLIBWriteQueAtSTACK::CLIB_WriteEnableForThreadsAt_STACK::CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework(), WriteEnableForThreadsAt_STACK__Global::stat_APP_CONVERT_WriteEnableForThreadsAt_STACK__MsbByteArray_To_Msbuint8_t(bytes));
-			CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING(true);
 		}
 		else {
 			CLIB_WriteEnableForThreadsAt_STACK__stat_REG_get_CLIBLaunchQueAtSTACK_isFLAGINSTANTIATED()[4] = false;
@@ -110,6 +109,9 @@
 			}
 		}
 		return *CLIB_WriteEnableForThreadsAt_STACK__stat_REG_get_CLIBLaunchQueAtSTACK_isFLAGINSTANTIATED();
+	}
+	void CLIBWriteQueAtSTACK::CLIB_WriteEnableForThreadsAt_STACK::CLIB_WriteEnableForThreadsAt_STACK__stat_App_FUNCT_set_FLAG_isCurrentThreadRELEASED(bool newValue) {
+		return CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED(newValue);
 	}
 	void CLIBWriteQueAtSTACK::CLIB_WriteEnableForThreadsAt_STACK::CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_boot1_DEFINE_Framework() {
 		_stat_REG_ptr_Framework_WriteEnableForThreadsAt_STACK = nullptr;

@@ -14,6 +14,7 @@ extern "C"
             static void CLIB_WriteEnableForThreadsAt_STACK__App_FUNCT_write_Start(unsigned char* bytes);
         private:
             static bool CLIB_WriteEnableForThreadsAt_STACK__stat_APP_FUNCT_Calc_IsAllINSTANTIATED();
+            static void CLIB_WriteEnableForThreadsAt_STACK__stat_App_FUNCT_set_FLAG_isCurrentThreadRELEASED(bool bytes);
             static void CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_boot1_DEFINE_Framework();
             static void CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_boot3_INITIALISE_Framework();
             static class WriteEnableForThreadsAt_STACK__Framework* CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework();

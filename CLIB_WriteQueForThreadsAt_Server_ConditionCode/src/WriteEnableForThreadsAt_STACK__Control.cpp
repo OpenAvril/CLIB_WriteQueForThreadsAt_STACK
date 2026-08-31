@@ -7,17 +7,15 @@
 #include <iostream>
 #include <iterator>
 #include <list>
-    bool* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_ONE;
-    bool* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_REMAINING;
-    bool* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_ONE;
-    bool* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_REMAINING;
+    bool* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isCurrentThreadRELEASED;
     std::array<std::array<bool, 2>, 3>* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_CONST_WriteEnableForThreadsAt_STACK__Control__2bitFLAG_STATE;
     std::list<uint32_t>* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_LIST_Of_WriteEnableForThreadsAt_STACK__Control__WriteACTIVE_Count_For_ThreadId;
     std::list<uint32_t>* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_LIST_Of_WriteEnableForThreadsAt_STACK__Control__WriteIDLE_Count_For_ThreadId;
     std::list<uint32_t>* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_LIST_Of_WriteEnableForThreadsAt_STACK__Control__WriteWAIT_Count_For_ThreadId;
+    uint8_t* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index;
     std::list<uint8_t>* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_QUE_Of_WriteEnableForThreadsAt_STACK__Control__ThreadID_To_WRITE;
-    uint8_t* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index;
-    uint8_t* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index;
+    uint8_t* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index;
+    bool* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::_stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite;
 // public.
     CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::WriteEnableForThreadsAt_STACK__Control()
     {
@@ -25,36 +23,22 @@
     }
     CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::~WriteEnableForThreadsAt_STACK__Control()
         {
-            delete _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_ONE;
-            delete _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_REMAINING;
-            delete _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_ONE;
-            delete _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_REMAINING;
+            delete _stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite;
             delete _stat_REG_CONST_WriteEnableForThreadsAt_STACK__Control__2bitFLAG_STATE;
             delete _stat_REG_LIST_Of_WriteEnableForThreadsAt_STACK__Control__WriteACTIVE_Count_For_ThreadId;
             delete _stat_REG_LIST_Of_WriteEnableForThreadsAt_STACK__Control__WriteIDLE_Count_For_ThreadId;
             delete _stat_REG_LIST_Of_WriteEnableForThreadsAt_STACK__Control__WriteWAIT_Count_For_ThreadId;
+            delete _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index;
             delete _stat_REG_QUE_Of_WriteEnableForThreadsAt_STACK__Control__ThreadID_To_WRITE;
-            delete _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index;
-            delete _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index;
+            delete _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index;
         }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__dynamicIn(WriteEnableForThreadsAt_STACK__Framework* obj, uint8_t coreId) {
-        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index(false);
-        if (obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index() == coreId) {
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__dynamicStagger(WriteEnableForThreadsAt_STACK__Framework* obj, uint8_t coreId) {
+        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED(false);
+        if (*obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index() == coreId) {
 
         }
         else {
-            while (!obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING()) {
-
-            }
-        }
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__dynamicOut(WriteEnableForThreadsAt_STACK__Framework* obj, uint8_t coreId) {
-        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index(false);
-        if (obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index() == coreId) {
-
-        }
-        else {
-            while (!obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING()) {
+            while (!obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED()) {
 
             }
         }
@@ -128,6 +112,31 @@
             }
         }
     }
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__writeEnable_Request(WriteEnableForThreadsAt_STACK__Framework* obj, uint8_t coreId) {
+        while (obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite() == true)
+        {
+
+            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__dynamicStagger(obj, coreId);
+            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite(false);
+        }
+        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite(true);
+        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED(true);
+        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index(obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_Item_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index());
+        if (obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_Item_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index() == coreId)
+        {
+            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_Item_On_list_Of_WriteEnableForThreadsAt_STACK__Control__2ibt_FLAG_WriteState(coreId, obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()->dyn_REG_get_ptr_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WAIT());
+        }
+        else
+        {
+            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index(obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_Item_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index() + 1);
+            if (obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_Item_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index() == obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()->dyn_REG_get_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads())
+            {
+                dyn_REG_set_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index(0);
+            }
+            obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite(false);
+            dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__writeEnable_Request(obj, coreId);
+        }
+    }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__writeQue_Update(WriteEnableForThreadsAt_STACK__Framework* obj) {
         for (uint8_t concurrenctThreadID = 0; concurrenctThreadID < obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()->dyn_REG_get_WriteEnableForThreadsAt_STACK__number_Of_Implemented_Threads(); concurrenctThreadID++)
         {
@@ -153,67 +162,45 @@
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Control(WriteEnableForThreadsAt_STACK__Framework* obj) {
         std::cout << "entered REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Control()" << std::endl;
-        stat_REG_boot1_DEFINE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE();
-        stat_REG_boot1_DEFINE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING();
-        stat_REG_boot1_DEFINE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE();
-        stat_REG_boot1_DEFINE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING();
-        stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index();
-        stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index();
+        stat_REG_boot1_DEFINE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite();
         stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState();
         stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__WriteACTIVE_Count_For_ThreadId();
         stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__WriteIDLE_Count_For_ThreadId();
         stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__WriteWAIT_Count_For_ThreadId();
+        stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index();
         stat_REG_boot1_DEFINE_ptr_QUE_Of_WriteEnableForThreadsAt_STACK__Control__ThreadID_To_WRITE();
+        stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index();
         std::cout << "exiting REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Control()" << std::endl;
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Control(WriteEnableForThreadsAt_STACK__Framework* obj) {
         std::cout << "entered REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Control()" << std::endl;
-        stat_REG_boot2_SUBSTANTIATE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE();
-        stat_REG_boot2_SUBSTANTIATE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING();
-        stat_REG_boot2_SUBSTANTIATE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE();
-        stat_REG_boot2_SUBSTANTIATE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING();
-        stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index();
-        stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index();
+        stat_REG_boot2_SUBSTANTIATE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite();
         stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState();
         stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__WriteACTIVE_Count_For_ThreadId(obj);
         stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__WriteIDLE_Count_For_ThreadId(obj);
         stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__WriteWAIT_Count_For_ThreadId(obj);
+        stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index();
         stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__ptr_QUE_Of_ThreadID_To_WRITE();
+        stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index();
         std::cout << "exiting REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Control()" << std::endl;
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Control(WriteEnableForThreadsAt_STACK__Framework* obj) {
         std::cout << "entered REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Control()" << std::endl;
-        stat_REG_boot3_INITIALISE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE();
-        stat_REG_boot3_INITIALISE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING();
-        stat_REG_boot3_INITIALISE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE();
-        stat_REG_boot3_INITIALISE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING();
-        stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index();
-        stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index();
+        stat_REG_boot3_INITIALISE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite();
         stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState();
         stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__WriteACTIVE_Count_For_ThreadId();
         stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__WriteIDLE_Count_For_ThreadId();
         stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__WriteWAIT_Count_For_ThreadIdd();
+        stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index();
         stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__ptr_QUE_Of_ThreadID_To_WRITE();
+        stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index();
         std::cout << "exiting REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Control()" << std::endl;
     }
-
-    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE() {
-        return stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE();
+    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED() {
+        return stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED();
     }
-    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING() {
-        return stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING();
-    }
-    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE() {
-        return stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE();
-    }
-    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING() {
-        return stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING();
-    }
-    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index() {
-        return stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index();
-    }
-    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index() {
-        return stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index();
+    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite() {
+            return *stat_REG_get_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite();
     }
     std::array<bool, 2> CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__list_Of_2ibt_FLAG_WriteState(uint8_t concurrentThreadID) {
         auto temp = stat_REG_get_ptr_Array_Of_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState()->begin();
@@ -235,23 +222,23 @@
         std::advance(temp, concurrentThreadID);
         return *temp;
     }
+    uint8_t CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_Item_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index() {
+        return *stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index();
+    }
     uint8_t CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_Item_On_QUE_WriteEnableForThreadsAt_STACK__Control__List_Of_ThreadToWrite(uint8_t slotID) {
         auto temp = stat_REG_get_ptr_QUE_WriteEnableForThreadsAt_STACK__Control__List_Of_ThreadToWrite()->begin();
         std::advance(temp, slotID);
         return *temp;
     }
-
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE(bool FLAGState) {
-        stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE(FLAGState);
+    uint8_t CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_get_Item_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index() {
+        return *stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index();
     }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING(bool FLAGState) {
-        stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING(FLAGState);
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED(bool FLAGState) {
+        stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED(FLAGState);
     }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE(bool FLAGState) {
-        stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE(FLAGState);
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING(bool FLAGState) {
-        stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING(FLAGState);
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite(bool newBoolValue)
+    {
+        stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite(newBoolValue);
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_Item_On_list_Of_WriteEnableForThreadsAt_STACK__Control__2ibt_FLAG_WriteState(uint8_t concurrentThreadID, std::array<bool, 2> new2bitState) {
         stat_REG_set_Item_On_Of_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState(concurrentThreadID, new2bitState);
@@ -265,27 +252,19 @@
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_Item_On_list_Of_WriteEnableForThreadsAt_STACK__Control__WriteWait_Count_For_ThreadId(uint8_t concurrentThreadID, uint32_t newCount){
         stat_REG_set_Item_On_list_Of_WriteEnableForThreadsAt_STACK__Control__WriteWait_Count_For_ThreadId(concurrentThreadID, newCount);
     }
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index(uint8_t newID){
+        stat_REG_set_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index(newID);
+    }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_Item_On_QUE_WriteEnableForThreadsAt_STACK__Control__List_Of_ThreadToWrite(uint8_t slotID, uint8_t newID){
         stat_REG_set_Item_On_QUE_WriteEnableForThreadsAt_STACK__Control__List_Of_ThreadToWrite(slotID, newID);
     }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index(uint8_t newValue) {
-        stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index(newValue);
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index(uint8_t newValue) {
-       stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index(newValue);
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::dyn_REG_set_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index(uint8_t newID){
+        stat_REG_set_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index(newID);
     }
 // private.
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot1_DEFINE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE() {
-        _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_ONE = nullptr;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot1_DEFINE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING() {
-        _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_REMAINING = nullptr;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot1_DEFINE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE() {
-        _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_ONE = nullptr;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot1_DEFINE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING() {
-        _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_REMAINING = nullptr;
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot1_DEFINE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite()
+    {
+        _stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite = nullptr;
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState()
     {
@@ -303,31 +282,22 @@
     {
         _stat_REG_LIST_Of_WriteEnableForThreadsAt_STACK__Control__WriteWAIT_Count_For_ThreadId = nullptr;
     }
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index()
+    {
+        _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index = nullptr;
+    }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot1_DEFINE_ptr_QUE_Of_WriteEnableForThreadsAt_STACK__Control__ThreadID_To_WRITE()
     {
         _stat_REG_QUE_Of_WriteEnableForThreadsAt_STACK__Control__ThreadID_To_WRITE = nullptr;
     }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index() {
-        _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index = nullptr;
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index()
+    {
+        _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index = nullptr;
     }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index() {
-        _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index = nullptr;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot2_SUBSTANTIATE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE() {
-        _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_ONE = new bool();
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_ONE = true;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot2_SUBSTANTIATE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING() {
-        _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_REMAINING = new bool();
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_REMAINING = true;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot2_SUBSTANTIATE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE() {
-        _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_ONE = new bool();
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_ONE = true;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot2_SUBSTANTIATE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING() {
-        _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_REMAINING = new bool();
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_REMAINING = true;
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot2_SUBSTANTIATE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite()
+    {
+        _stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite = new bool();
+        *_stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite = true;
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState()
     {
@@ -377,31 +347,26 @@
             *temp = uint32_t(UINT32_MAX);
         }
     }
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index()
+    {
+        _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index = new uint8_t();
+        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index = static_cast<uint8_t>(UINT8_MAX);
+    }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__ptr_QUE_Of_ThreadID_To_WRITE()
     {
         _stat_REG_QUE_Of_WriteEnableForThreadsAt_STACK__Control__ThreadID_To_WRITE = new std::list<uint8_t>();
         while (stat_REG_get_ptr_QUE_WriteEnableForThreadsAt_STACK__Control__List_Of_ThreadToWrite() == nullptr) {}
         *_stat_REG_QUE_Of_WriteEnableForThreadsAt_STACK__Control__ThreadID_To_WRITE = { static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX) , static_cast<uint8_t>(UINT8_MAX) };
     }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index() {
-        _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index = new uint8_t();
-        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index = UINT8_MAX;
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index()
+    {
+        _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index = new uint8_t();
+        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index = static_cast<uint8_t>(UINT8_MAX);
     }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index() {
-        _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index = new uint8_t();
-        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index = UINT8_MAX;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot3_INITIALISE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE() {
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_ONE = false;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot3_INITIALISE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING() {
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_REMAINING = false;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot3_INITIALISE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE() {
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_ONE = false;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot3_INITIALISE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING() {
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_REMAINING = false;
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot3_INITIALISE_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite()
+    {
+        _stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite = new bool();
+        *_stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite = false;
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState()
     {
@@ -423,27 +388,24 @@
     {
         *_stat_REG_LIST_Of_WriteEnableForThreadsAt_STACK__Control__WriteWAIT_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
     }
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index()
+    {
+        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index = static_cast<uint8_t>(1);
+    }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__ptr_QUE_Of_ThreadID_To_WRITE()
     {
         *_stat_REG_QUE_Of_WriteEnableForThreadsAt_STACK__Control__ThreadID_To_WRITE = { static_cast<uint8_t>(0), static_cast<uint8_t>(1), static_cast<uint8_t>(2), static_cast<uint8_t>(3) };
     }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index() {
-        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index = 0;
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index()
+    {
+        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index = static_cast<uint8_t>(0);
     }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index() {
-        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index = 0;
+    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED() {
+        return _stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isCurrentThreadRELEASED;
     }
-    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE() {
-        return _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_ONE;
-    }
-    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING() {
-        return _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_REMAINING;
-    }
-    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE() {
-        return _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_ONE;
-    }
-    bool CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING() {
-        return _stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_REMAINING;
+    bool* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite()
+    {
+        return _stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite;
     }
     std::array<std::array<bool, 2>, 3>* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_ptr_Array_Of_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState()
     {
@@ -460,27 +422,25 @@
     {
         return _stat_REG_LIST_Of_WriteEnableForThreadsAt_STACK__Control__WriteWAIT_Count_For_ThreadId;
     }
+    uint8_t* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index()
+    {
+        return _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index;
+    }
     std::list<uint8_t>* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_ptr_QUE_WriteEnableForThreadsAt_STACK__Control__List_Of_ThreadToWrite()
     {
         return _stat_REG_QUE_Of_WriteEnableForThreadsAt_STACK__Control__ThreadID_To_WRITE;
     }
-    uint8_t* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index() {
-        return _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index;
+    uint8_t* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index()
+    {
+        return _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index;
     }
-    uint8_t* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index() {
-        return _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index;
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isCurrentThreadRELEASED(bool newFlag) {
+        *_stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isCurrentThreadRELEASED = newFlag;
     }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_ONE(bool newFLAG) {
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_ONE = newFLAG;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteStartThreadRELASE_REMAINING(bool newFLAG) {
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteStartThreadRELASE_REMAINING = newFLAG;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_ONE(bool newFLAG) {
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_ONE = newFLAG;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__isWriteEndThreadRELASE_REMAINING(bool newFLAG) {
-        *_stat_REG_FLAG_WriteEnableForThreadsAt_STACK__FLAG_Control__isWriteEndThreadRELASE_REMAINING = newFLAG;
+
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite(bool newFLAG)
+    {
+        *_stat_REG_ptr_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite = newFLAG;
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_Item_On_Of_WriteEnableForThreadsAt_STACK__Control__3STATE_FLAG_WriteState(uint8_t concurrentThreadID, std::array<bool, 2> new2bitState)
     {
@@ -506,17 +466,17 @@
         std::advance(temp, concurrentThreadID);
         *temp = newCount;
     }
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index(uint8_t newValue)
+    {
+        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index = newValue;
+    }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_Item_On_QUE_WriteEnableForThreadsAt_STACK__Control__List_Of_ThreadToWrite(uint8_t slotID, uint8_t concurrentThreadID)
     {
         auto temp = stat_REG_get_ptr_QUE_WriteEnableForThreadsAt_STACK__Control__List_Of_ThreadToWrite()->begin();
         std::advance(temp, slotID);
         *temp = concurrentThreadID;
     }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index(uint8_t newValue)
+    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_set_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index(uint8_t newValue)
     {
-        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteStartThreadId_Index = newValue;
-    }
-    void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control::stat_REG_get_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index(uint8_t newValue)
-    {
-        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_WriteEndThreadId_Index = newValue;
+        *_stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index = newValue;
     }
