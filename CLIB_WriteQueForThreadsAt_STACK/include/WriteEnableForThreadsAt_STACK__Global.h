@@ -1,18 +1,16 @@
-#ifndef CLIB_WriteEnableForThreadsAt_STACK_WriteEnableForThreadsAt_STACK__Global_H
-#define CLIB_WriteEnableForThreadsAt_STACK_WriteEnableForThreadsAt_STACK__Global_H
+#ifndef CLIB_WRITEENABLEFORTHREADSAT_STACK_WRITEENABLEFORTHREADSAT_STACK__FRAMEWORK__GLOBAL_H
+#define CLIB_WRITEENABLEFORTHREADSAT_STACK_WRITEENABLEFORTHREADSAT_STACK__FRAMEWORK__GLOBAL_H
 #include <array>
 #include <cstdint>
-namespace CLIBWriteQueAtSTACK
-{
-    class WriteEnableForThreadsAt_STACK__Global
-    {
+namespace CLIBWriteQueAtSTACK {
+    class WriteEnableForThreadsAt_STACK__Global {
     public:
         WriteEnableForThreadsAt_STACK__Global();
         ~WriteEnableForThreadsAt_STACK__Global();
+        void dyn_REG_boot0_DECLARE_WriteEnableForThreadsAt_STACK__Global();
         void dyn_REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global();
         void dyn_REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Global();
         void dyn_REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Global();
-        void dyn_boot4_PGM_INSTANTIATION_WriteEnableForThreadsAt_STACK__Global();
         std::array<bool,2> dyn_REG_get_ptr_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE();
         std::array<bool,2> dyn_REG_get_ptr_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WAIT();
         std::array<bool,2> dyn_REG_get_ptr_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_WRITE();

@@ -5,7 +5,7 @@
 #include <cstdint>
 #include <iostream>
 #include <ostream>
-    CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App::_stat_CLASS_ptr_WriteEnableForThreadsAt_STACK__App__Control = NULL;
+    CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App::_stat_CLASS_ptr_WriteEnableForThreadsAt_STACK__App__Control;
     CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App::WriteEnableForThreadsAt_STACK__App()
     {
         CLASS_boot0_DECLARE_WriteEnableForThreadsAt_STACK__App();
@@ -64,7 +64,7 @@
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App::dyn_APP_FUNCT_write_End(WriteEnableForThreadsAt_STACK__Framework* obj, uint8_t coreId)
     {
-        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_Item_On_list_Of_WriteEnableForThreadsAt_STACK__Control__2ibt_flag_WriteState(coreId, obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()->dyn_REG_get_ptr_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE());
+        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_Item_On_list_Of_WriteEnableForThreadsAt_STACK__Control__2ibt_FLAG_WriteState(coreId, obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()->dyn_REG_get_ptr_CONST_WriteEnableForThreadsAt_STACK__2bitFLAG_IDLE());
         obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index(obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_Item_On_WriteEnableForThreadsAt_STACK__Control__list_Of_WriteActive_Count_For_ThreadId(coreId) + 1);
         if (obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_get_Item_WriteEnableForThreadsAt_STACK__Control__new_writeCycle_Try_ThreadId_Index() == 3)
         {
@@ -72,7 +72,7 @@
         }
         obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__writeQue_Update(obj);
         obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_APP_FUNCT_WriteEnableForThreadsAt_STACK__Control__writeEnable_SortQue(obj);
-        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_flag_WriteEnableForThreadsAt_STACK__Control__praisingWrite(false);
+        obj->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_set_FLAG_WriteEnableForThreadsAt_STACK__Control__praisingWrite(false);
     }
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App::dyn_APP_FUNCT_write_Start(WriteEnableForThreadsAt_STACK__Framework* obj, uint8_t coreId)
     {
@@ -88,13 +88,13 @@
 
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App::stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_STACK__App__Control()
     {
-        _stat_CLASS_ptr_WriteEnableForThreadsAt_STACK__App__Control = NULL;
+        _stat_CLASS_ptr_WriteEnableForThreadsAt_STACK__App__Control = nullptr;
     }
 
     void CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App::stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__App__Control()
     {
         _stat_CLASS_ptr_WriteEnableForThreadsAt_STACK__App__Control = new class CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control();
-        while (stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control() == NULL) {}
+        while (stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control() == nullptr) {}
     }
     CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__Control* CLIBWriteQueAtSTACK::WriteEnableForThreadsAt_STACK__App::stat_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()
     {

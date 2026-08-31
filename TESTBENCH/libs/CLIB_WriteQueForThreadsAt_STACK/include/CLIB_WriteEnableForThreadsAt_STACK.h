@@ -3,10 +3,8 @@
 #include "../include/WriteEnableForThreadsAt_STACK__Framework.h"
 extern "C"
 {
-    namespace CLIBWriteQueAtSTACK
-    {
-        class CLIB_WriteEnableForThreadsAt_STACK
-        {
+    namespace CLIBWriteQueAtSTACK {
+        class CLIB_WriteEnableForThreadsAt_STACK {
         public:
 
             static void* CLIB_WriteEnableForThreadsAt_STACK__App_FUNCT_generate_Program();

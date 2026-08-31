@@ -48,7 +48,7 @@ namespace CLIBWriteQueAtSTACK
         static std::list<uint8_t>* _stat_REG_QUE_Of_WriteEnableForThreadsAt_STACK__Control__ThreadID_To_WRITE;
         static uint8_t* _stat_REG_ptr_WriteEnableForThreadsAt_STACK__Control__writeCycle_Try_ThreadId_Index;
         static bool* _stat_REG_ptr_flag_WriteEnableForThreadsAt_STACK__Control__praisingWrite;
-        static void stat_App_FUNCT_set_flag_isCurrentThreadRELEASED(bool flagState);
+        static void stat_REG_set_flag_WriteEnableForThreadsAt_STACK__flag_Control__isCurrentThreadRELEASED(bool flagState);
         static void stat_REG_boot1_DEFINE_ptr_flag_WriteEnableForThreadsAt_STACK__Control__praisingWrite();
         static void stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__3STATE_flag_WriteState();
         static void stat_REG_boot1_DEFINE_ptr_WriteEnableForThreadsAt_STACK__Control__WriteACTIVE_Count_For_ThreadId();
