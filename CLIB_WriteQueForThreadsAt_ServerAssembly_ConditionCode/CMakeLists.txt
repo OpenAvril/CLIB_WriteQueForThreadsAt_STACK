@@ -1,15 +1,15 @@
 cmake_minimum_required(VERSION 4.2.3)
-project(CLIB_WriteQueForThreadsAt_STACK VERSION 1.0 LANGUAGES CXX)
+project(CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_library(CLIB_WriteQueForThreadsAt_STACK STATIC
-        src/CLIB_WriteEnableForThreadsAt_STACK.cpp
-        src/WriteEnableForThreadsAt_STACK__Framework.cpp
-        src/WriteEnableForThreadsAt_STACK__Global.cpp
-        src/WriteEnableForThreadsAt_STACK__App.cpp
-        src/WriteEnableForThreadsAt_STACK__Control.cpp
+add_library(CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode STATIC
+        src/CLIB_WriteEnableForThreadsAt_ServerAssembly_ConditionCode.cpp
+        src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Framework.cpp
+        src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Global.cpp
+        src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__App.cpp
+        src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Control.cpp
 )
 
 target_include_directories(${PROJECT_NAME}

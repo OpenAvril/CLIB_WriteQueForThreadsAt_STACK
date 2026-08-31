@@ -1,0 +1,63 @@
+#include "WriteEnableForThreadsAt_Server_IO__Framework.h"
+CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__App* CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::_stat_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__Framework__App;
+	CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Global* CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::_stat_CLASS_ptr_WriteEnableForThreadsAt_Server_IO__Framework__Global;
+// public.
+	CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::WriteEnableForThreadsAt_Server_IO__Framework() {
+
+	}
+	CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::~WriteEnableForThreadsAt_Server_IO__Framework() {
+		delete _stat_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__Framework__App;
+		delete _stat_CLASS_ptr_WriteEnableForThreadsAt_Server_IO__Framework__Global;
+	}
+	void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::dyn_CLASS_create_Architecture() {
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_Server_IO__Framework();
+		stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_Server_IO__Framework();
+	}
+	void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::dyn_CLASS_create_CLIB_OpenEpiCentre_Global_and_Settings()
+	{
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_Server_IO__Global();
+		stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_Server_IO__Global();
+	}
+	CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__App* CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::dyn_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__App() {
+		return stat_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__App();
+	}
+	CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Global* CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::dyn_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__Global() {
+		return stat_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__Global();
+	}
+	void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_Server_IO__Framework() {
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_Server_IO__App();
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_Server_IO__Global();
+	}
+	void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_Server_IO__Framework() {
+		stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_Server_IO__App();
+	}
+	void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_Server_IO__Global() {
+		pr_stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_Server_IO__Global();
+	}
+// private.
+	void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_Server_IO__App()
+	{
+		_stat_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__Framework__App = nullptr;
+	}
+	void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_Server_IO__Global()
+	{
+		_stat_CLASS_ptr_WriteEnableForThreadsAt_Server_IO__Framework__Global = nullptr;
+	}
+	void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_Server_IO__App()
+	{
+		_stat_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__Framework__App = new class CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__App();
+		while (stat_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__App() == nullptr) {}
+	}
+	void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::pr_stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_Server_IO__Global()
+	{
+		_stat_CLASS_ptr_WriteEnableForThreadsAt_Server_IO__Framework__Global = new class CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Global();
+		while (stat_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__Global() == nullptr) {}
+	}
+	CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__App* CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::stat_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__App()
+	{
+		return _stat_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__Framework__App;
+	}
+	CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Global* CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Framework::stat_CLASS_get_ptr_WriteEnableForThreadsAt_Server_IO__Global()
+		{
+			return _stat_CLASS_ptr_WriteEnableForThreadsAt_Server_IO__Framework__Global;
+		}
