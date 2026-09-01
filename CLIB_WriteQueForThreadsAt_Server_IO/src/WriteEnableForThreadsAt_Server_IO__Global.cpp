@@ -203,7 +203,7 @@ void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Global::stat_RE
 }
 void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Global::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_Server_IO__number_Of_Implemented_Threads()
 {
-    *_stat_REG_ptr_WriteEnableForThreadsAt_Server_IO__number_Of_Implemented_Threads = static_cast<uint8_t>(4);
+    *_stat_REG_ptr_WriteEnableForThreadsAt_Server_IO__number_Of_Implemented_Threads = static_cast<uint8_t>(6);
 }
 std::array<bool,2>* CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Global::stat_REG_get_ptr_CONST_WriteEnableForThreadsAt_Server_IO__2bitFLAG_IDLE()
 {

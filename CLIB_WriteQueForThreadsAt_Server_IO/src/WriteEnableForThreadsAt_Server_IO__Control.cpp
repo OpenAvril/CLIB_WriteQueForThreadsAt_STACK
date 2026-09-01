@@ -381,7 +381,7 @@
     {
         _stat_REG_QUE_Of_WriteEnableForThreadsAt_Server_IO__Control__ThreadID_To_WRITE = new std::list<uint8_t>();
         while (stat_REG_get_ptr_QUE_WriteEnableForThreadsAt_Server_IO__Control__List_Of_ThreadToWrite() == nullptr) {}
-        *_stat_REG_QUE_Of_WriteEnableForThreadsAt_Server_IO__Control__ThreadID_To_WRITE = { static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX) , static_cast<uint8_t>(UINT8_MAX) };
+        *_stat_REG_QUE_Of_WriteEnableForThreadsAt_Server_IO__Control__ThreadID_To_WRITE = { static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX) , static_cast<uint8_t>(UINT8_MAX), static_cast<uint8_t>(UINT8_MAX) , static_cast<uint8_t>(UINT8_MAX)  };
     }
     void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Control::stat_REG_boot2_SUBSTANTIATE_ptr_WriteEnableForThreadsAt_Server_IO__Control__writeCycle_Try_WriteStartThreadId_Index() {
         _stat_REG_ptr_WriteEnableForThreadsAt_Server_IO__Control__writeCycle_Try_WriteStartThreadId_Index = new uint8_t();
@@ -413,19 +413,19 @@
     }
     void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_Server_IO__Control__WriteACTIVE_Count_For_ThreadId()
     {
-        *_stat_REG_LIST_Of_WriteEnableForThreadsAt_Server_IO__Control__WriteACTIVE_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
+        *_stat_REG_LIST_Of_WriteEnableForThreadsAt_Server_IO__Control__WriteACTIVE_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
     }
     void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_Server_IO__Control__WriteIDLE_Count_For_ThreadId()
     {
-        *_stat_REG_LIST_Of_WriteEnableForThreadsAt_Server_IO__Control__WriteIDLE_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
+        *_stat_REG_LIST_Of_WriteEnableForThreadsAt_Server_IO__Control__WriteIDLE_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
     }
     void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_Server_IO__Control__WriteWAIT_Count_For_ThreadIdd()
     {
-        *_stat_REG_LIST_Of_WriteEnableForThreadsAt_Server_IO__Control__WriteWAIT_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
+        *_stat_REG_LIST_Of_WriteEnableForThreadsAt_Server_IO__Control__WriteWAIT_Count_For_ThreadId = { static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0), static_cast<uint32_t>(0) };
     }
     void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_Server_IO__Control__ptr_QUE_Of_ThreadID_To_WRITE()
     {
-        *_stat_REG_QUE_Of_WriteEnableForThreadsAt_Server_IO__Control__ThreadID_To_WRITE = { static_cast<uint8_t>(0), static_cast<uint8_t>(1), static_cast<uint8_t>(2), static_cast<uint8_t>(3) };
+        *_stat_REG_QUE_Of_WriteEnableForThreadsAt_Server_IO__Control__ThreadID_To_WRITE = { static_cast<uint8_t>(0), static_cast<uint8_t>(1), static_cast<uint8_t>(2), static_cast<uint8_t>(3), static_cast<uint8_t>(4), static_cast<uint8_t>(5) };
     }
     void CLIBWriteQueAtServer_IO::WriteEnableForThreadsAt_Server_IO__Control::stat_REG_boot3_INITIALISE_ptr_WriteEnableForThreadsAt_Server_IO__Control__writeCycle_Try_WriteStartThreadId_Index() {
         *_stat_REG_ptr_WriteEnableForThreadsAt_Server_IO__Control__writeCycle_Try_WriteStartThreadId_Index = 0;
