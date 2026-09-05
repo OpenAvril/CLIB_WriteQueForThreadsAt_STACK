@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/brenton-james/CLionProjects/CLIB_WriteQue/build/cmake_install.cmake",
+		"/home/brenton-james/CLionProjects/CLIB_WriteQue/build/CLIB_WriteQueForThreadsAt_STACK/cmake_install.cmake",
+		"/home/brenton-james/CLionProjects/CLIB_WriteQue/build/TESTBENCH/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

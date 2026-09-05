@@ -9,8 +9,8 @@ namespace CLIBWriteQueAtSTACK
     public:
         WriteEnableForThreadsAt_STACK__Framework();
         virtual ~WriteEnableForThreadsAt_STACK__Framework();
-        void dyn_CLASS_create_Architecture();
-        void dyn_CLASS_create_CLIB_OpenEpiCentre_Global_and_Settings();
+        void dyn_CLASS_create_WriteEnableForThreadsAt_STACK__Architecture();
+        void dyn_CLASS_create_WriteEnableForThreadsAt_STACK__Global_and_Settings();
         WriteEnableForThreadsAt_STACK__App* dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App();
         WriteEnableForThreadsAt_STACK__Global* dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global();
         void dyn_REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Framework(WriteEnableForThreadsAt_STACK__Framework* obj);

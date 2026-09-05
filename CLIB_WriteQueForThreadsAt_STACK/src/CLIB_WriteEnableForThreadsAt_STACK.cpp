@@ -16,7 +16,7 @@
 		std::cout << "started Architecture Framework CLASS - DECLARE DEFINE INITIALISE." << std::endl;
 
 		std::cout << "started CLIB_OpenEpiCentre_Global Meta-Data and Settings." << std::endl;
-		CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_create_CLIB_OpenEpiCentre_Global_and_Settings();
+		CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_create_WriteEnableForThreadsAt_STACK__Global_and_Settings();
 		CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()->dyn_REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global();
 		CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()->dyn_REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Global();
 		CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__Global()->dyn_REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Global();
@@ -26,7 +26,7 @@
 		std::cout << "done Independent STRUCT(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE." << std::endl;
 
 		std::cout << "started Architecture Application CLASS(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE." << std::endl;
-		CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_create_Architecture();
+		CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_create_WriteEnableForThreadsAt_STACK__Architecture();
 		std::cout << "started Registers - DEFINE" << std::endl;
 		CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_STACK__App__Control()->dyn_REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Control(CLIB_WriteEnableForThreadsAt_STACK__stat_CLASS_get_ptr_Framework());
 		std::cout << "done Registers - DEFINE." << std::endl;

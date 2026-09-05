@@ -1,0 +1,8 @@
+/home/brenton-james/CLionProjects/CLIB_WriteQue/build/CMakeFiles/edit_cache.dir
+/home/brenton-james/CLionProjects/CLIB_WriteQue/build/CMakeFiles/rebuild_cache.dir
+/home/brenton-james/CLionProjects/CLIB_WriteQue/build/CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir
+/home/brenton-james/CLionProjects/CLIB_WriteQue/build/CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/edit_cache.dir
+/home/brenton-james/CLionProjects/CLIB_WriteQue/build/CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/rebuild_cache.dir
+/home/brenton-james/CLionProjects/CLIB_WriteQue/build/TESTBENCH/CMakeFiles/TESTBENCH.dir
+/home/brenton-james/CLionProjects/CLIB_WriteQue/build/TESTBENCH/CMakeFiles/edit_cache.dir
+/home/brenton-james/CLionProjects/CLIB_WriteQue/build/TESTBENCH/CMakeFiles/rebuild_cache.dir

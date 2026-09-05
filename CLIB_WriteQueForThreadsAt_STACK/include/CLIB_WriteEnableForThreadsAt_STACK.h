@@ -1,12 +1,10 @@
 #ifndef CLIB_WRITEENABLEFORTHREADSAT_STACK_H
 #define CLIB_WRITEENABLEFORTHREADSAT_STACK_H
 #include "../include/WriteEnableForThreadsAt_STACK__Framework.h"
-extern "C"
-{
+extern "C" {
     namespace CLIBWriteQueAtSTACK {
         class CLIB_WriteEnableForThreadsAt_STACK {
         public:
-
             static void* CLIB_WriteEnableForThreadsAt_STACK__App_FUNCT_generate_Program();
             static unsigned char* CLIB_WriteEnableForThreadsAt_STACK__App_FUNCT_get_FLAG_isPGM_INSTANTIATED();
             static void CLIB_WriteEnableForThreadsAt_STACK__App_FUNCT_terminate_Program();

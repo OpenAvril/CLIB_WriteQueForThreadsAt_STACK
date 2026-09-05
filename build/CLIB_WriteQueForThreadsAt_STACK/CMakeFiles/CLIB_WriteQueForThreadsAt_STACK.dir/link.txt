@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCLIB_WriteQueForThreadsAt_STACK.a CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Framework.cpp.o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Global.cpp.o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__App.cpp.o CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Control.cpp.o
+/usr/bin/ranlib libCLIB_WriteQueForThreadsAt_STACK.a

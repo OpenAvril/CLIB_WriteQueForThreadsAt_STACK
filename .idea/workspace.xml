@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="CLIB_WriteQueForThreads" targetName="CLIB_WriteQueForThreadsAt_STACK" />
+      <config projectName="CLIB_WriteQueForThreads" targetName="TESTBENCH" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3ca3b10-9919-4480-a17e-0f0b53865e90" name="Changes" comment="DEVELOPMENT_2026_09_01_1103, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;*** phase: testing. ***&#10;&#10;&lt;&lt;&lt; CONSOLE OUT &lt;&lt;&lt;&#10;cmake -B build&#10;-- The CXX compiler identification is GNU 15.2.0&#10;-- Detecting CXX compiler ABI info&#10;-- Detecting CXX compiler ABI info - done&#10;-- Check for working CXX compiler: /usr/bin/c++ - skipped&#10;-- Detecting CXX compile features&#10;-- Detecting CXX compile features - done&#10;-- Configuring done (0.6s)&#10;-- Generating done (0.1s)&#10;-- Build files have been written to: &#10;&#10;cmake --build build&#10;[  2%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o&#10;[  4%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Framework.cpp.o&#10;[  6%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Global.cpp.o&#10;[  9%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__App.cpp.o&#10;[ 11%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Control.cpp.o&#10;[ 13%] Linking CXX static library libCLIB_WriteQueForThreadsAt_STACK.a&#10;[ 13%] Built target CLIB_WriteQueForThreadsAt_STACK&#10;[ 15%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/CLIB_WriteEnableForThreadsAt_Server_ConditionCode.cpp.o&#10;[ 18%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode_Framework.cpp.o&#10;[ 20%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__Global.cpp.o&#10;[ 22%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__App.cpp.o&#10;[ 25%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__Control.cpp.o&#10;[ 27%] Linking CXX static library libCLIB_WriteQueForThreadsAt_Server_ConditionCode.a&#10;[ 27%] Built target CLIB_WriteQueForThreadsAt_Server_ConditionCode&#10;[ 29%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/CLIB_WriteEnableForThreadsAt_Server_IO.cpp.o&#10;[ 31%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Framework.cpp.o&#10;[ 34%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Global.cpp.o&#10;[ 36%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__App.cpp.o&#10;[ 38%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Control.cpp.o&#10;[ 40%] Linking CXX static library libCLIB_WriteQueForThreadsAt_Server_IO.a&#10;[ 40%] Built target CLIB_WriteQueForThreadsAt_Server_IO&#10;[ 43%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/CLIB_WriteEnableForThreadsAt_ServerAssembly_ConditionCode.cpp.o&#10;[ 45%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Framework.cpp.o&#10;[ 47%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Global.cpp.o&#10;[ 50%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__App.cpp.o&#10;[ 52%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Control.cpp.o&#10;[ 54%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.a&#10;[ 54%] Built target CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode&#10;[ 56%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/CLIB_WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode.cpp.o&#10;[ 59%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Framework.cpp.o&#10;[ 61%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Global.cpp.o&#10;[ 63%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__App.cpp.o&#10;[ 65%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Control.cpp.o&#10;[ 68%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.a&#10;[ 68%] Built target CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode&#10;[ 70%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/CLIB_WriteEnableForThreadsAt_ServerInputReceive.cpp.o&#10;[ 72%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Framework.cpp.o&#10;[ 75%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Global.cpp.o&#10;[ 77%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__App.cpp.o&#10;[ 79%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Control.cpp.o&#10;[ 81%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerInputReceive.a&#10;[ 81%] Built target CLIB_WriteQueForThreadsAt_ServerInputReceive&#10;[ 84%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/CLIB_WriteEnableForThreadsAt_ServerOutputSend.cpp.o&#10;[ 86%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Framework.cpp.o&#10;[ 88%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Global.cpp.o&#10;[ 90%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__App.cpp.o&#10;[ 93%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Control.cpp.o&#10;[ 95%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerOutputSend.a&#10;[ 95%] Built target CLIB_WriteQueForThreadsAt_ServerOutputSend&#10;[ 97%] Building CXX object TESTBENCH/CMakeFiles/TESTBENCH.dir/main.cpp.o&#10;[100%] Linking CXX executable TESTBENCH&#10;[100%] Built target TESTBENCH">
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Client_ConditionCode/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Client_InputSamples/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Client_OutputSamples/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/CLIB_WriteEnableForThreadsAt_STACK.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/CLIB_WriteEnableForThreadsAt_STACK.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/WriteEnableForThreadsAt_STACK__Control.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/WriteEnableForThreadsAt_STACK__Control.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/WriteEnableForThreadsAt_STACK__Framework.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/WriteEnableForThreadsAt_STACK__Framework.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Control.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Framework.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Framework.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Global.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Global.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/include/CLIB_WriteEnableForThreadsAt_ServerAssembly_ConditionCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/include/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__App.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/include/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/include/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Framework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/include/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Global.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/src/CLIB_WriteEnableForThreadsAt_ServerAssembly_ConditionCode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__App.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Control.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Framework.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Global.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerInputReceive/include/CLIB_WriteEnableForThreadsAt_ServerInputReceive.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerInputReceive/include/WriteEnableForThreadsAt_ServerInputReceive__App.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerInputReceive/include/WriteEnableForThreadsAt_ServerInputReceive__Control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerInputReceive/include/WriteEnableForThreadsAt_ServerInputReceive__Framework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerInputReceive/include/WriteEnableForThreadsAt_ServerInputReceive__Global.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerInputReceive/src/CLIB_WriteEnableForThreadsAt_ServerInputReceive.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerInputReceive/src/WriteEnableForThreadsAt_ServerInputReceive__App.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerInputReceive/src/WriteEnableForThreadsAt_ServerInputReceive__Control.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerInputReceive/src/WriteEnableForThreadsAt_ServerInputReceive__Framework.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerInputReceive/src/WriteEnableForThreadsAt_ServerInputReceive__Global.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/include/CLIB_WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/include/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__App.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/include/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/include/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Framework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/include/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Global.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/src/CLIB_WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__App.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Control.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Framework.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Global.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerOutputSend/include/CLIB_WriteEnableForThreadsAt_ServerOutputSend.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerOutputSend/include/WriteEnableForThreadsAt_ServerOutputSend__App.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerOutputSend/include/WriteEnableForThreadsAt_ServerOutputSend__Control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerOutputSend/include/WriteEnableForThreadsAt_ServerOutputSend__Framework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerOutputSend/include/WriteEnableForThreadsAt_ServerOutputSend__Global.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerOutputSend/src/CLIB_WriteEnableForThreadsAt_ServerOutputSend.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerOutputSend/src/WriteEnableForThreadsAt_ServerOutputSend__App.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerOutputSend/src/WriteEnableForThreadsAt_ServerOutputSend__Control.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerOutputSend/src/WriteEnableForThreadsAt_ServerOutputSend__Framework.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerOutputSend/src/WriteEnableForThreadsAt_ServerOutputSend__Global.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_ConditionCode/include/CLIB_WriteEnableForThreadsAt_Server_ConditionCode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_ConditionCode/include/WriteEnableForThreadsAt_Server_ConditionCode_Framework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_ConditionCode/include/WriteEnableForThreadsAt_Server_ConditionCode__App.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_ConditionCode/include/WriteEnableForThreadsAt_Server_ConditionCode__Control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_ConditionCode/include/WriteEnableForThreadsAt_Server_ConditionCode__Global.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_ConditionCode/src/CLIB_WriteEnableForThreadsAt_Server_ConditionCode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_ConditionCode/src/WriteEnableForThreadsAt_Server_ConditionCode_Framework.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_ConditionCode/src/WriteEnableForThreadsAt_Server_ConditionCode__App.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_ConditionCode/src/WriteEnableForThreadsAt_Server_ConditionCode__Control.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_ConditionCode/src/WriteEnableForThreadsAt_Server_ConditionCode__Global.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_IO/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_SimulationIO/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_IO/include/CLIB_WriteEnableForThreadsAt_Server_IO.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_IO/include/WriteEnableForThreadsAt_Server_IO__App.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_IO/include/WriteEnableForThreadsAt_Server_IO__Control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_IO/include/WriteEnableForThreadsAt_Server_IO__Framework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_IO/include/WriteEnableForThreadsAt_Server_IO__Global.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_IO/src/CLIB_WriteEnableForThreadsAt_Server_IO.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_IO/src/WriteEnableForThreadsAt_Server_IO__App.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_IO/src/WriteEnableForThreadsAt_Server_IO__Control.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_IO/src/WriteEnableForThreadsAt_Server_IO__Framework.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Server_IO/src/WriteEnableForThreadsAt_Server_IO__Global.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/.idea/TESTBENCH.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/libs/libCLIB_WriteQueForThreadsAt_STACK.a" beforeDir="false" afterPath="$PROJECT_DIR$/TESTBENCH/libs/libCLIB_WriteQueForThreadsAt_STACK.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TESTBENCH/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Implementations_CLIB" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OpenAvril&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OpenAvril/CLIB_WriteQueForThreadsAt_STACK.git&quot;,
+    &quot;accountId&quot;: &quot;011e383a-389a-4b43-8711-8e20c0307fb9&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_SimulationIO/src/WriteEnableForThreadsAt_Server_IO__Control.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_SimulationIO/src/WriteEnableForThreadsAt_Server_IO__Global.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="v1BpRH2X" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="2.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3IcxvtfpwWhbYmz0snEe3PTrDx3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.main.cpp.executor": "Run",
+    "CMake Application.TESTBENCH.executor": "Run",
+    "CidrDebugProfileConversion": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "Implementations__CLIB",
+    "last_opened_file_path": "/home/brenton-james/CLionProjects/CLIB_WriteQue/TESTBENCH/libs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TESTBENCH/libs" />
+      <recent name="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Client_OutputSamples" />
+      <recent name="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Client_InputSamples" />
+      <recent name="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Client_ConditionCode" />
+      <recent name="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.TESTBENCH">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CLIB_WriteQueForThreadsAt_STACK" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLIB_WriteQueForThreads" TARGET_NAME="CLIB_WriteQueForThreadsAt_STACK" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TESTBENCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLIB_WriteQueForThreads" TARGET_NAME="TESTBENCH" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CLIB_WriteQueForThreads" RUN_TARGET_NAME="TESTBENCH">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLIB_WriteQueForThreadsAt_STACK" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="TESTBENCH/main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLIB_WriteQueForThreadsAt_STACK" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="TESTBENCH/main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.main.cpp" />
+      <item itemvalue="CMake Application.CLIB_WriteQueForThreadsAt_STACK" />
+      <item itemvalue="CMake Application.TESTBENCH" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.main.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SelectedDebugProfileService">{
+  &quot;profileIdByStamp&quot;: [
+    {
+      &quot;first&quot;: {
+        &quot;##RUN_CONFIGURATION##&quot;: &quot;CMake Application.TESTBENCH&quot;,
+        &quot;cmake&quot;: &quot;CMakeBuildProfile:Debug&quot;
+      },
+      &quot;second&quot;: &quot;a3c78f29-7d84-4f77-bb13-cf2db45d2c5c&quot;
+    },
+    {
+      &quot;first&quot;: {
+        &quot;##RUN_CONFIGURATION##&quot;: &quot;C/C++ File.main.cpp&quot;
+      },
+      &quot;second&quot;: &quot;a3c78f29-7d84-4f77-bb13-cf2db45d2c5c&quot;
+    }
+  ],
+  &quot;modificationCount&quot;: 6
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3ca3b10-9919-4480-a17e-0f0b53865e90" name="Changes" comment="" />
+      <created>1788077891648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788077891648</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DEVELOPMENT_2026_08_31_1419, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;*** phase: testing. ***&#10;&#10;&lt;&lt;&lt; CONSOLE OUT &lt;&lt;&lt;&#10;cmake -B build&#10;-- The CXX compiler identification is GNU 15.2.0&#10;-- Detecting CXX compiler ABI info&#10;-- Detecting CXX compiler ABI info - done&#10;-- Check for working CXX compiler: /usr/bin/c++ - skipped&#10;-- Detecting CXX compile features&#10;-- Detecting CXX compile features - done&#10;-- Configuring done (0.3s)&#10;-- Generating done (0.0s)&#10;-- Build files have been written to: &#10;&#10;cmake --build build&#10;[ 12%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o&#10;[ 25%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Framework.cpp.o&#10;[ 37%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Global.cpp.o&#10;[ 50%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__App.cpp.o&#10;[ 62%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Control.cpp.o&#10;[ 75%] Linking CXX static library libCLIB_WriteQueForThreadsAt_STACK.a&#10;[ 75%] Built target CLIB_WriteQueForThreadsAt_STACK&#10;[ 87%] Building CXX object TESTBENCH/CMakeFiles/TESTBENCH.dir/main.cpp.o&#10;[100%] Linking CXX executable TESTBENCH&#10;[100%] Built target TESTBENCH" />
+    <MESSAGE value="DEVELOPMENT_2026_08_31_2040, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;*** phase: testing. ***&#10;&#10;&lt;&lt;&lt; CONSOLE OUT &lt;&lt;&lt;&#10;cmake -B build&#10;-- The CXX compiler identification is GNU 15.2.0&#10;-- Detecting CXX compiler ABI info&#10;-- Detecting CXX compiler ABI info - done&#10;-- Check for working CXX compiler: /usr/bin/c++ - skipped&#10;-- Detecting CXX compile features&#10;-- Detecting CXX compile features - done&#10;-- Configuring done (0.4s)&#10;-- Generating done (0.0s)&#10;-- Build files have been written to: &#10;&#10;cmake --build build&#10;[  2%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o&#10;[  5%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Framework.cpp.o&#10;[  7%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Global.cpp.o&#10;[ 10%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__App.cpp.o&#10;[ 13%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Control.cpp.o&#10;[ 15%] Linking CXX static library libCLIB_WriteQueForThreadsAt_STACK.a&#10;[ 15%] Built target CLIB_WriteQueForThreadsAt_STACK&#10;[ 18%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/CLIB_WriteEnableForThreadsAt_Server_ConditionCode.cpp.o&#10;[ 21%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode_Framework.cpp.o&#10;[ 23%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__Global.cpp.o&#10;[ 26%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__App.cpp.o&#10;[ 28%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__Control.cpp.o&#10;[ 31%] Linking CXX static library libCLIB_WriteQueForThreadsAt_Server_ConditionCode.a&#10;[ 31%] Built target CLIB_WriteQueForThreadsAt_Server_ConditionCode&#10;[ 34%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/CLIB_WriteEnableForThreadsAt_ServerInputReceive.cpp.o&#10;[ 36%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Framework.cpp.o&#10;[ 39%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Global.cpp.o&#10;[ 42%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__App.cpp.o&#10;[ 44%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Control.cpp.o&#10;[ 47%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerInputReceive.a&#10;[ 47%] Built target CLIB_WriteQueForThreadsAt_ServerInputReceive&#10;[ 50%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/CLIB_WriteEnableForThreadsAt_ServerOutputSend.cpp.o&#10;[ 52%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Framework.cpp.o&#10;[ 55%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Global.cpp.o&#10;[ 57%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__App.cpp.o&#10;[ 60%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Control.cpp.o&#10;[ 63%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerOutputSend.a&#10;[ 63%] Built target CLIB_WriteQueForThreadsAt_ServerOutputSend&#10;[ 65%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/CLIB_WriteEnableForThreadsAt_ServerAssembly_ConditionCode.cpp.o&#10;[ 68%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Framework.cpp.o&#10;[ 71%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Global.cpp.o&#10;[ 73%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__App.cpp.o&#10;[ 76%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Control.cpp.o&#10;[ 78%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.a&#10;[ 78%] Built target CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode&#10;[ 81%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/CLIB_WriteEnableForThreadsAt_Server_IO.cpp.o&#10;[ 84%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Framework.cpp.o&#10;[ 86%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Global.cpp.o&#10;[ 89%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__App.cpp.o&#10;[ 92%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Control.cpp.o&#10;[ 94%] Linking CXX static library libCLIB_WriteQueForThreadsAt_Server_IO.a&#10;[ 94%] Built target CLIB_WriteQueForThreadsAt_Server_IO&#10;[ 97%] Building CXX object TESTBENCH/CMakeFiles/TESTBENCH.dir/main.cpp.o&#10;[100%] Linking CXX executable TESTBENCH&#10;[100%] Built target TESTBENCH" />
+    <MESSAGE value="DEVELOPMENT_2026_09_01_1103, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;*** phase: testing. ***&#10;&#10;&lt;&lt;&lt; CONSOLE OUT &lt;&lt;&lt;&#10;cmake -B build&#10;-- The CXX compiler identification is GNU 15.2.0&#10;-- Detecting CXX compiler ABI info&#10;-- Detecting CXX compiler ABI info - done&#10;-- Check for working CXX compiler: /usr/bin/c++ - skipped&#10;-- Detecting CXX compile features&#10;-- Detecting CXX compile features - done&#10;-- Configuring done (0.6s)&#10;-- Generating done (0.1s)&#10;-- Build files have been written to: &#10;&#10;cmake --build build&#10;[  2%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o&#10;[  4%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Framework.cpp.o&#10;[  6%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Global.cpp.o&#10;[  9%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__App.cpp.o&#10;[ 11%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Control.cpp.o&#10;[ 13%] Linking CXX static library libCLIB_WriteQueForThreadsAt_STACK.a&#10;[ 13%] Built target CLIB_WriteQueForThreadsAt_STACK&#10;[ 15%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/CLIB_WriteEnableForThreadsAt_Server_ConditionCode.cpp.o&#10;[ 18%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode_Framework.cpp.o&#10;[ 20%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__Global.cpp.o&#10;[ 22%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__App.cpp.o&#10;[ 25%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__Control.cpp.o&#10;[ 27%] Linking CXX static library libCLIB_WriteQueForThreadsAt_Server_ConditionCode.a&#10;[ 27%] Built target CLIB_WriteQueForThreadsAt_Server_ConditionCode&#10;[ 29%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/CLIB_WriteEnableForThreadsAt_Server_IO.cpp.o&#10;[ 31%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Framework.cpp.o&#10;[ 34%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Global.cpp.o&#10;[ 36%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__App.cpp.o&#10;[ 38%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Control.cpp.o&#10;[ 40%] Linking CXX static library libCLIB_WriteQueForThreadsAt_Server_IO.a&#10;[ 40%] Built target CLIB_WriteQueForThreadsAt_Server_IO&#10;[ 43%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/CLIB_WriteEnableForThreadsAt_ServerAssembly_ConditionCode.cpp.o&#10;[ 45%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Framework.cpp.o&#10;[ 47%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Global.cpp.o&#10;[ 50%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__App.cpp.o&#10;[ 52%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Control.cpp.o&#10;[ 54%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.a&#10;[ 54%] Built target CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode&#10;[ 56%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/CLIB_WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode.cpp.o&#10;[ 59%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Framework.cpp.o&#10;[ 61%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Global.cpp.o&#10;[ 63%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__App.cpp.o&#10;[ 65%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Control.cpp.o&#10;[ 68%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.a&#10;[ 68%] Built target CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode&#10;[ 70%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/CLIB_WriteEnableForThreadsAt_ServerInputReceive.cpp.o&#10;[ 72%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Framework.cpp.o&#10;[ 75%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Global.cpp.o&#10;[ 77%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__App.cpp.o&#10;[ 79%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Control.cpp.o&#10;[ 81%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerInputReceive.a&#10;[ 81%] Built target CLIB_WriteQueForThreadsAt_ServerInputReceive&#10;[ 84%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/CLIB_WriteEnableForThreadsAt_ServerOutputSend.cpp.o&#10;[ 86%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Framework.cpp.o&#10;[ 88%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Global.cpp.o&#10;[ 90%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__App.cpp.o&#10;[ 93%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Control.cpp.o&#10;[ 95%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerOutputSend.a&#10;[ 95%] Built target CLIB_WriteQueForThreadsAt_ServerOutputSend&#10;[ 97%] Building CXX object TESTBENCH/CMakeFiles/TESTBENCH.dir/main.cpp.o&#10;[100%] Linking CXX executable TESTBENCH&#10;[100%] Built target TESTBENCH" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEVELOPMENT_2026_09_01_1103, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;*** phase: testing. ***&#10;&#10;&lt;&lt;&lt; CONSOLE OUT &lt;&lt;&lt;&#10;cmake -B build&#10;-- The CXX compiler identification is GNU 15.2.0&#10;-- Detecting CXX compiler ABI info&#10;-- Detecting CXX compiler ABI info - done&#10;-- Check for working CXX compiler: /usr/bin/c++ - skipped&#10;-- Detecting CXX compile features&#10;-- Detecting CXX compile features - done&#10;-- Configuring done (0.6s)&#10;-- Generating done (0.1s)&#10;-- Build files have been written to: &#10;&#10;cmake --build build&#10;[  2%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o&#10;[  4%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Framework.cpp.o&#10;[  6%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Global.cpp.o&#10;[  9%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__App.cpp.o&#10;[ 11%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Control.cpp.o&#10;[ 13%] Linking CXX static library libCLIB_WriteQueForThreadsAt_STACK.a&#10;[ 13%] Built target CLIB_WriteQueForThreadsAt_STACK&#10;[ 15%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/CLIB_WriteEnableForThreadsAt_Server_ConditionCode.cpp.o&#10;[ 18%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode_Framework.cpp.o&#10;[ 20%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__Global.cpp.o&#10;[ 22%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__App.cpp.o&#10;[ 25%] Building CXX object CLIB_WriteQueForThreadsAt_Server_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_ConditionCode.dir/src/WriteEnableForThreadsAt_Server_ConditionCode__Control.cpp.o&#10;[ 27%] Linking CXX static library libCLIB_WriteQueForThreadsAt_Server_ConditionCode.a&#10;[ 27%] Built target CLIB_WriteQueForThreadsAt_Server_ConditionCode&#10;[ 29%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/CLIB_WriteEnableForThreadsAt_Server_IO.cpp.o&#10;[ 31%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Framework.cpp.o&#10;[ 34%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Global.cpp.o&#10;[ 36%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__App.cpp.o&#10;[ 38%] Building CXX object CLIB_WriteQueForThreadsAt_Server_IO/CMakeFiles/CLIB_WriteQueForThreadsAt_Server_IO.dir/src/WriteEnableForThreadsAt_Server_IO__Control.cpp.o&#10;[ 40%] Linking CXX static library libCLIB_WriteQueForThreadsAt_Server_IO.a&#10;[ 40%] Built target CLIB_WriteQueForThreadsAt_Server_IO&#10;[ 43%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/CLIB_WriteEnableForThreadsAt_ServerAssembly_ConditionCode.cpp.o&#10;[ 45%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Framework.cpp.o&#10;[ 47%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Global.cpp.o&#10;[ 50%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__App.cpp.o&#10;[ 52%] Building CXX object CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerAssembly_ConditionCode__Control.cpp.o&#10;[ 54%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode.a&#10;[ 54%] Built target CLIB_WriteQueForThreadsAt_ServerAssembly_ConditionCode&#10;[ 56%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/CLIB_WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode.cpp.o&#10;[ 59%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Framework.cpp.o&#10;[ 61%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Global.cpp.o&#10;[ 63%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__App.cpp.o&#10;[ 65%] Building CXX object CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.dir/src/WriteEnableForThreadsAt_ServerLaunchQue_ConditionCode__Control.cpp.o&#10;[ 68%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode.a&#10;[ 68%] Built target CLIB_WriteQueForThreadsAt_ServerLaunchQue_ConditionCode&#10;[ 70%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/CLIB_WriteEnableForThreadsAt_ServerInputReceive.cpp.o&#10;[ 72%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Framework.cpp.o&#10;[ 75%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Global.cpp.o&#10;[ 77%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__App.cpp.o&#10;[ 79%] Building CXX object CLIB_WriteQueForThreadsAt_ServerInputReceive/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerInputReceive.dir/src/WriteEnableForThreadsAt_ServerInputReceive__Control.cpp.o&#10;[ 81%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerInputReceive.a&#10;[ 81%] Built target CLIB_WriteQueForThreadsAt_ServerInputReceive&#10;[ 84%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/CLIB_WriteEnableForThreadsAt_ServerOutputSend.cpp.o&#10;[ 86%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Framework.cpp.o&#10;[ 88%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Global.cpp.o&#10;[ 90%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__App.cpp.o&#10;[ 93%] Building CXX object CLIB_WriteQueForThreadsAt_ServerOutputSend/CMakeFiles/CLIB_WriteQueForThreadsAt_ServerOutputSend.dir/src/WriteEnableForThreadsAt_ServerOutputSend__Control.cpp.o&#10;[ 95%] Linking CXX static library libCLIB_WriteQueForThreadsAt_ServerOutputSend.a&#10;[ 95%] Built target CLIB_WriteQueForThreadsAt_ServerOutputSend&#10;[ 97%] Building CXX object TESTBENCH/CMakeFiles/TESTBENCH.dir/main.cpp.o&#10;[100%] Linking CXX executable TESTBENCH&#10;[100%] Built target TESTBENCH" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/WriteEnableForThreadsAt_STACK__Framework.h</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp</url>
+          <line>142</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp</url>
+          <line>103</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Framework.cpp</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Control.cpp</url>
+          <line>43</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Control.cpp</url>
+          <line>493</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Control.cpp</url>
+          <line>397</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
