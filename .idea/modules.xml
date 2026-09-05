@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CLIB_WriteQueForThreads.iml" filepath="$PROJECT_DIR$/.idea/CLIB_WriteQueForThreads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CLIB_WriteQueForThreadsAt_STACK.iml" filepath="$PROJECT_DIR$/.idea/CLIB_WriteQueForThreadsAt_STACK.iml" />
     </modules>
   </component>
 </project>
