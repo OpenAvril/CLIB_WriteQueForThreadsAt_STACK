@@ -33,12 +33,27 @@ JetBrains remembers your selected plugings, do initial set of...
 ---
 ## Building - Compiler Terminal Commands.
 Open individual each project in its own window and...
+
+*** Load Root CMake Project ***
+
 ````
 cmake -B build
 ````
 ````
 cmake --build build
 ````
+*** manual copy build library file to libs folder in TESTBENCH ***
+
+*** Reload Root CMake Project ***
+
+````
+cmake -B build
+````
+````
+cmake --build build
+````
+
+*** run TESTBENCH ***
 
 ---
 ## Implementation.
