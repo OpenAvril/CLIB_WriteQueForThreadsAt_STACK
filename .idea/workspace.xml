@@ -20,7 +20,7 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="CLIB_WriteQue" targetName="TESTBENCH" />
-      <config projectName="CLIB_WriteQue" targetName="CLIB_WriteQueForThreadsAt_STACK" />
+      <config projectName="CLIB_WriteQue" targetName="CLIB_WriteQueForThreadsAt_DataStack" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -30,12 +30,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3ca3b10-9919-4480-a17e-0f0b53865e90" name="Changes" comment="DEVELOPMENT_2026_09_05_1529, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;*** phase: testing. ***&#10; - PASS: library generates.&#10; - FAIL: library does not exit wrapper IO member function 'CLIB_WriteEnableForThreadsAt_STACK__App_FUNCT_write_Start()'&#10;&#10;&lt;&lt;&lt; CONSOLE OUT &lt;&lt;&lt;&#10;cmake -B build&#10;-- The CXX compiler identification is GNU 15.2.0&#10;-- Detecting CXX compiler ABI info&#10;-- Detecting CXX compiler ABI info - done&#10;-- Check for working CXX compiler: /usr/bin/c++ - skipped&#10;-- Detecting CXX compile features&#10;-- Detecting CXX compile features - done&#10;-- Configuring done (0.4s)&#10;-- Generating done (0.0s)&#10;-- Build files have been written to: &#10;&#10;cmake --build build&#10;[ 12%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/CLIB_WriteEnableForThreadsAt_STACK.cpp.o&#10;[ 25%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Framework.cpp.o&#10;[ 37%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Global.cpp.o&#10;[ 50%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__App.cpp.o&#10;[ 62%] Building CXX object CLIB_WriteQueForThreadsAt_STACK/CMakeFiles/CLIB_WriteQueForThreadsAt_STACK.dir/src/WriteEnableForThreadsAt_STACK__Control.cpp.o&#10;[ 75%] Linking CXX static library libCLIB_WriteQueForThreadsAt_STACK.a&#10;[ 75%] Built target CLIB_WriteQueForThreadsAt_STACK&#10;[ 87%] Building CXX object TESTBENCH/CMakeFiles/TESTBENCH.dir/main.cpp.o&#10;[100%] Linking CXX executable TESTBENCH&#10;[100%] Built target TESTBENCH&#10;&lt;&lt;&lt; TERMINAL END.&#10;&#10;&lt;&lt;&lt; CONSOLE OUT &lt;&lt;&lt;&#10;SIMULATION Start.&#10;entered app_FUNCT_generate_Program().&#10;started Architecture Framework CLASS - DECLARE DEFINE INITIALISE.&#10;started Architecture Framework CLASS - DECLARE DEFINE INITIALISE.&#10;started CLIB_OpenEpiCentre_Global Meta-Data and Settings.&#10;entered dyn_REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global().&#10;exiting dyn_REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Global().&#10;entered dyn_REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Global().&#10;exiting dyn_REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Global().&#10;entered dyn_REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Global()&#10;exiting dyn_REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Global()&#10;done CLIB_OpenEpiCentre_Global Meta-Data and Settings.&#10;started Independent STRUCT(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE.&#10;done Independent STRUCT(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE.&#10;started Architecture Application CLASS(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE.&#10;entered CLASS_boot0_DECLARE_WriteEnableForThreadsAt_STACK()&#10;exiting CLASS_boot0_DECLARE_WriteEnableForThreadsAt_STACK()&#10;entered CLASS_boot1_DEFINE_WriteEnableForThreadsAt_STACK&#10;exiting CLASS_boot1_DEFINE_WriteEnableForThreadsAt_STACK&#10;entered CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_STACK()&#10;exiting CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_STACK()&#10;started Registers - DEFINE&#10;entered REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Control()&#10;exiting REG_boot1_DEFINE_WriteEnableForThreadsAt_STACK__Control()&#10;done Registers - DEFINE.&#10;started Registers - SUBSTANTIATE.&#10;entered REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Control()&#10;exiting REG_boot2_SUBSTANTIATE_WriteEnableForThreadsAt_STACK__Control()&#10;done Registers - SUBSTANTIATE.&#10;started Registers - INITIALISE.&#10;entered REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Control()&#10;exiting REG_boot3_INITIALISE_WriteEnableForThreadsAt_STACK__Control()&#10;done Registers - INITIALISE.&#10;done Architecture Application CLASS(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE.&#10;started Program - INSTANTIATION.&#10;done Program - INSTANTIATION.&#10;&#10;        ,     \      /      ,&#10;        ,     \      /      ,&#10;       / \    )\ __ /(     / \ &#10;      /   \   (_\  /_)    /   \ &#10;____ / ____\__ \@  @/ ___/_____\_____&#10;|              |\../|               |&#10;|               \VV/                |&#10;|        MIT Write Que .dll         |&#10;|___________________________________|&#10;|    / \ /        \\        \ /\    |&#10;|  /    V          ))        V   \  |&#10;|/                //               \| &#10;`                 V                 '&#10;exiting app_FUNCT_generate_Program().&#10;SIMULATION TestPoint: alpha.&#10;&lt;&lt;&lt; CONSOLE END.">
-      <change afterPath="$PROJECT_DIR$/.idea/CLIB_WriteQueForThreadsAt_STACK.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_DataStack/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_DataStack/include/CLIB_WriteEnableForThreadsAt_DataStack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_DataStack/include/WriteEnableForThreadsAt_DataStack__App.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_DataStack/include/WriteEnableForThreadsAt_DataStack__Control.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_DataStack/include/WriteEnableForThreadsAt_DataStack__Framework.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_DataStack/include/WriteEnableForThreadsAt_DataStack__Global.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_DataStack/src/CLIB_WriteEnableForThreadsAt_DataStack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_DataStack/src/WriteEnableForThreadsAt_DataStack__App.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_DataStack/src/WriteEnableForThreadsAt_DataStack__Control.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_DataStack/src/WriteEnableForThreadsAt_DataStack__Framework.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_DataStack/src/WriteEnableForThreadsAt_DataStack__Global.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TESTBENCH/libs/libCLIB_WriteQueForThreadsAt_DataStack.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/CLIB_WriteEnableForThreadsAt_STACK.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/WriteEnableForThreadsAt_STACK__App.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/WriteEnableForThreadsAt_STACK__Control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/WriteEnableForThreadsAt_STACK__Framework.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/include/WriteEnableForThreadsAt_STACK__Global.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/CLIB_WriteEnableForThreadsAt_STACK.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__App.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Control.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Framework.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK/src/WriteEnableForThreadsAt_STACK__Global.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TESTBENCH/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/libs/libCLIB_WriteQueForThreadsAt_STACK.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TESTBENCH/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +127,7 @@
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "CLIB__WriteQueForThreadsAt__Stack",
-    "last_opened_file_path": "/home/brenton-james/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/CLIB_WriteQueForThreadsAt_STACK",
+    "last_opened_file_path": "/home/brenton-james/CLionProjects/CLIB_WriteQueForThreadsAt_STACK/TESTBENCH/libs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -118,15 +140,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK" />
       <recent name="$PROJECT_DIR$/TESTBENCH/libs" />
+      <recent name="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_STACK" />
       <recent name="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Client_OutputSamples" />
       <recent name="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Client_InputSamples" />
       <recent name="$PROJECT_DIR$/CLIB_WriteQueForThreadsAt_Client_ConditionCode" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.TESTBENCH">
-    <configuration name="CLIB_WriteQueForThreadsAt_STACK" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLIB_WriteQue" TARGET_NAME="CLIB_WriteQueForThreadsAt_STACK" CONFIG_NAME="Debug">
+    <configuration name="CLIB_WriteQueForThreadsAt_DataStack" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLIB_WriteQue" TARGET_NAME="CLIB_WriteQueForThreadsAt_DataStack" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -155,7 +177,7 @@
     </configuration>
     <list>
       <item itemvalue="C/C++ File.main.cpp" />
-      <item itemvalue="CMake Application.CLIB_WriteQueForThreadsAt_STACK" />
+      <item itemvalue="CMake Application.CLIB_WriteQueForThreadsAt_DataStack" />
       <item itemvalue="CMake Application.TESTBENCH" />
     </list>
     <recent_temporary>
@@ -164,24 +186,24 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SelectedDebugProfileService"><![CDATA[{
-  "profileIdByStamp": [
+  <component name="SelectedDebugProfileService">{
+  &quot;profileIdByStamp&quot;: [
     {
-      "first": {
-        "##RUN_CONFIGURATION##": "CMake Application.TESTBENCH",
-        "cmake": "CMakeBuildProfile:Debug"
+      &quot;first&quot;: {
+        &quot;##RUN_CONFIGURATION##&quot;: &quot;CMake Application.TESTBENCH&quot;,
+        &quot;cmake&quot;: &quot;CMakeBuildProfile:Debug&quot;
       },
-      "second": "a3c78f29-7d84-4f77-bb13-cf2db45d2c5c"
+      &quot;second&quot;: &quot;a3c78f29-7d84-4f77-bb13-cf2db45d2c5c&quot;
     },
     {
-      "first": {
-        "##RUN_CONFIGURATION##": "C/C++ File.main.cpp"
+      &quot;first&quot;: {
+        &quot;##RUN_CONFIGURATION##&quot;: &quot;C/C++ File.main.cpp&quot;
       },
-      "second": "a3c78f29-7d84-4f77-bb13-cf2db45d2c5c"
+      &quot;second&quot;: &quot;a3c78f29-7d84-4f77-bb13-cf2db45d2c5c&quot;
     }
   ],
-  "modificationCount": 12
-}]]></component>
+  &quot;modificationCount&quot;: 12
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a3ca3b10-9919-4480-a17e-0f0b53865e90" name="Changes" comment="" />

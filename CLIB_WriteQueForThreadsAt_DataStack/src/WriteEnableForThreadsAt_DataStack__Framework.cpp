@@ -1,0 +1,63 @@
+#include "../include/WriteEnableForThreadsAt_DataStack__Framework.h"
+CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__App* CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::_stat_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__Framework__App;
+	CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Global* CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::_stat_CLASS_ptr_WriteEnableForThreadsAt_DataStack__Framework__Global;
+// public.
+	CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::WriteEnableForThreadsAt_DataStack__Framework() {
+
+	}
+	CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::~WriteEnableForThreadsAt_DataStack__Framework() {
+		delete _stat_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__Framework__App;
+		delete _stat_CLASS_ptr_WriteEnableForThreadsAt_DataStack__Framework__Global;
+	}
+	void CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::dyn_CLASS_create_WriteEnableForThreadsAt_DataStack__Architecture() {
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_DataStack__Framework();
+		stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_DataStack__Framework();
+	}
+	void CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::dyn_CLASS_create_WriteEnableForThreadsAt_DataStack__Global_and_Settings()
+	{
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_DataStack__Global();
+		stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_DataStack__Global();
+	}
+	CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__App* CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__App() {
+		return stat_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__App();
+	}
+	CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Global* CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__Global() {
+		return stat_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__Global();
+	}
+	void CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_DataStack__Framework() {
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_DataStack__App();
+		stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_DataStack__Global();
+	}
+	void CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_DataStack__Framework() {
+		stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_DataStack__App();
+	}
+	void CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_DataStack__Global() {
+		pr_stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_DataStack__Global();
+	}
+// private.
+	void CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_DataStack__App()
+	{
+		_stat_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__Framework__App = nullptr;
+	}
+	void CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::stat_CLASS_boot1_DEFINE_WriteEnableForThreadsAt_DataStack__Global()
+	{
+		_stat_CLASS_ptr_WriteEnableForThreadsAt_DataStack__Framework__Global = nullptr;
+	}
+	void CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_DataStack__App()
+	{
+		_stat_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__Framework__App = new class CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__App();
+		while (stat_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__App() == nullptr) {}
+	}
+	void CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::pr_stat_CLASS_boot3_INITIALISE_WriteEnableForThreadsAt_DataStack__Global()
+	{
+		_stat_CLASS_ptr_WriteEnableForThreadsAt_DataStack__Framework__Global = new class CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Global();
+		while (stat_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__Global() == nullptr) {}
+	}
+	CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__App* CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::stat_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__App()
+	{
+		return _stat_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__Framework__App;
+	}
+	CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Global* CLIBWriteQueAtDataStack::WriteEnableForThreadsAt_DataStack__Framework::stat_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack__Global()
+	{
+		return _stat_CLASS_ptr_WriteEnableForThreadsAt_DataStack__Framework__Global;
+	}
