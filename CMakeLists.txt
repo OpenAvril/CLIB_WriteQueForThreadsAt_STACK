@@ -4,6 +4,7 @@ project(CLIB_WriteQue VERSION 1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+add_subdirectory(CLIB_ThreadLogs)
 #add_subdirectory(CLIB_WriteQueForThreadsAt_Client_ConditionCode)
 #add_subdirectory(CLIB_WriteQueForThreadsAt_Client_InputSamples)
 #add_subdirectory(CLIB_WriteQueForThreadsAt_Client_OutputSamples)

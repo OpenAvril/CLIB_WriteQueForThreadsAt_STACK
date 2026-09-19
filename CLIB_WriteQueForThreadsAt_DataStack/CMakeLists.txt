@@ -6,10 +6,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(CLIB_WriteQueForThreadsAt_DataStack STATIC
         src/CLIB_WriteEnableForThreadsAt_DataStack.cpp
-        src/WriteEnableForThreadsAt_DataStack__Framework.cpp
-        src/WriteEnableForThreadsAt_DataStack__Global.cpp
-        src/WriteEnableForThreadsAt_DataStack__App.cpp
-        src/WriteEnableForThreadsAt_DataStack__Control.cpp
+        src/WriteEnableForThreadsAt_DataStack_Framework.cpp
+        src/WriteEnableForThreadsAt_DataStack_Framework_Global.cpp
+        src/WriteEnableForThreadsAt_DataStack_Framework_App.cpp
+        src/WriteEnableForThreadsAt_DataStack_Framework_App_Control.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
