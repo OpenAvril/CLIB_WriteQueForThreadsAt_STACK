@@ -19,13 +19,13 @@ int main() {
     unsigned char* byteDEFAULT = nullptr;
     byteDEFAULT = new uint8_t(0);
     unsigned char* tempA = CLIBWriteQueAtDataCluster::CLIB_WriteEnableForThreadsAt_DataCluster::CLIB_WriteEnableForThreadsAt_DataCluster_App_FUNCT_get_FLAG_isPGM_INSTANTIATED(*threadId, *dataClusterId);
-    //CLIBWriteQueAtDataCluster::CLIB_WriteEnableForThreadsAt_DataCluster::CLIB_WriteEnableForThreadsAt_DataCluster_App_FUNCT_terminate_Program(*threadId, *dataClusterId);
-    //CLIBWriteQueAtDataCluster::CLIB_WriteEnableForThreadsAt_DataCluster::CLIB_WriteEnableForThreadsAt_App_FUNCT_write_Start_DataClusterId_ThreadId(*threadId, *dataClusterId, byteDEFAULT);
-    //CLIBWriteQueAtDataCluster::CLIB_WriteEnableForThreadsAt_DataCluster::CLIB_WriteEnableForThreadsAt_App_FUNCT_write_End_DataClusterId_ThreadId(*threadId, *dataClusterId, byteDEFAULT);
+    CLIBWriteQueAtDataCluster::CLIB_WriteEnableForThreadsAt_DataCluster::CLIB_WriteEnableForThreadsAt_DataCluster_App_FUNCT_terminate_Program(*threadId, *dataClusterId);
+    CLIBWriteQueAtDataCluster::CLIB_WriteEnableForThreadsAt_DataCluster::CLIB_WriteEnableForThreadsAt_App_FUNCT_write_Start_DataClusterId_ThreadId(*threadId, *dataClusterId, byteDEFAULT);
+    CLIBWriteQueAtDataCluster::CLIB_WriteEnableForThreadsAt_DataCluster::CLIB_WriteEnableForThreadsAt_App_FUNCT_write_End_DataClusterId_ThreadId(*threadId, *dataClusterId, byteDEFAULT);
     std::cout << "SIMULATION end instantiation." << std::endl;
 
     std::cout << "SIMULATION Start." << std::endl;
-    //doTaskForThread(*threadId, *dataClusterId);
+    doTaskForThread(*threadId, *dataClusterId);
     std::cout << "SIMULATION End." << std::endl;
     return 0;
 }
