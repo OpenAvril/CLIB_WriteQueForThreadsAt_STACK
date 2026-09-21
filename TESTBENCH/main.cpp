@@ -41,5 +41,5 @@ int main() {
     doTaskForThread(*threadId, *dataClusterId);
     std::cout << "SIMULATION End." << std::endl;
     return 0;
-}
+}//
 

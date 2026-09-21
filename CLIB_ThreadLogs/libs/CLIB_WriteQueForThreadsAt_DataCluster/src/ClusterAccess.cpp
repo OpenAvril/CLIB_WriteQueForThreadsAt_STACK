@@ -14,6 +14,7 @@
 
 	 	std::cout << "thread " << std::to_string(threadId) << " :: started Architecture array_of_ptr_DataCluster_Framework CLASS - DECLARE DEFINE INITIALISE." << std::endl;
 	 	CLIB_ClusterAccess_stat_PGM_boot1_DEFINE_array_of_ptr_DataCluster_Framework(threadId);
+	 	CLIB_ClusterAccess_stat_PGM_boot2_SUBSTANTIATE_array_of_ptr_DataCluster_Framework(threadId);
 		CLIB_ClusterAccess_stat_PGM_boot3_INITIALISE_array_of_ptr_DataCluster_Framework(threadId, MAX_NUMBER_OF_DATA_CLUSTERS);
 		std::cout << "thread " << std::to_string(threadId) << " :: done Architecture array_of_ptr_DataCluster_Framework CLASS - DECLARE DEFINE INITIALISE." << std::endl;
 
@@ -148,7 +149,7 @@
 		stat_REG_ptr_ClusterAccess_array_of_ptr_DataCluster = nullptr;
 	 	std::cout << "thread " << std::to_string(threadId) << " :: exiting LIB :: wq : ClusterAccess : CLIB_ClusterAccess_stat_PGM_boot1_DEFINE_array_of_ptr_DataCluster_Framework(threadId)." << std::endl;
 	}
-	void wq::ClusterAccess::CLIB_ClusterAccess_stat_PGM_boot2_SUBSTANTIATE_array_of_ptr_DataCluster_Framework(uint8_t threadId, std::byte MAX_NUMBER_OF_DATA_CLUSTERS) {
+	void wq::ClusterAccess::CLIB_ClusterAccess_stat_PGM_boot2_SUBSTANTIATE_array_of_ptr_DataCluster_Framework(uint8_t threadId) {
 	 	std::cout << "thread " << std::to_string(threadId) << " :: entered LIB :: wq : ClusterAccess : CLIB_ClusterAccess_stat_PGM_boot2_SUBSTANTIATE_array_of_ptr_DataCluster_Framework(threadId)." << std::endl;
 	 	stat_REG_ptr_ClusterAccess_array_of_ptr_DataCluster = new std::list<void*>();
 	 	CLIB_ClusterAccess_stat_PGM_get_array_of_ptr_DataCluster(threadId)->resize(1);
@@ -161,12 +162,9 @@
 	 }
 	void wq::ClusterAccess::CLIB_ClusterAccess_stat_PGM_boot3_INITIALISE_array_of_ptr_DataCluster_Framework(uint8_t threadId, std::byte MAX_NUMBER_OF_DATA_CLUSTERS) {
 	 	std::cout << "thread " << std::to_string(threadId) << " :: entered LIB :: wq : ClusterAccess : CLIB_ClusterAccess_stat_PGM_boot3_INITIALISE_array_of_ptr_DataCluster_Framework(threadId)." << std::endl;
-	 	CLIB_ClusterAccess_stat_PGM_get_array_of_ptr_DataCluster(threadId)->resize(static_cast<uint8_t>(MAX_NUMBER_OF_DATA_CLUSTERS)+1);
-		auto DEFAULT = CLIB_ClusterAccess_stat_PGM_get_array_of_ptr_DataCluster(threadId)->begin();
-	 	for (uint8_t dataClusterId = 0; dataClusterId < static_cast<uint8_t>(stat_REG_ptr_ClusterAccess_array_of_ptr_DataCluster->size()); dataClusterId++) {
-			auto temp = CLIB_ClusterAccess_stat_PGM_get_array_of_ptr_DataCluster(threadId)->begin();
-			std::advance(temp, dataClusterId);
-	 		*temp = *DEFAULT;
+	 	auto DEFAULT = CLIB_ClusterAccess_stat_PGM_get_array_of_ptr_DataCluster(threadId)->begin();
+	 	for (uint8_t dataClusterId = 0; dataClusterId < static_cast<uint8_t>(MAX_NUMBER_OF_DATA_CLUSTERS); dataClusterId++) {
+	 		CLIB_ClusterAccess_stat_PGM_get_array_of_ptr_DataCluster(threadId)->push_back(*DEFAULT);
 		}
 	 	std::cout << "thread " << std::to_string(threadId) << " :: exiting LIB :: wq : ClusterAccess : CLIB_ClusterAccess_stat_PGM_boot3_INITIALISE_array_of_ptr_DataCluster_Framework(threadId)." << std::endl;
 	}
@@ -186,7 +184,6 @@
 	 	std::cout << "thread " << std::to_string(threadId) << " :: exiting LIB :: wq : ClusterAccess : CLIB_ClusterAccess_stat_REG_boot3_INITIALISE_array_of_isMemberFunctionINSTANTIATED(threadId)." << std::endl;
 	}
 	std::array<bool, 5>* wq::ClusterAccess::CLIB_ClusterAccess_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(uint8_t threadId) {
-	 	std::cout << "thread " << std::to_string(threadId) << " :: <= std::array<bool, 5>* : CLIB_ClusterAccess_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(threadId)." << std::endl;
 		return stat_REG_ptr_ClusterAccess_array_of_DataCluster_array_of_isMemberFunctionINSTANTIATED;
 	}
 	std::list<void*>* wq::ClusterAccess::CLIB_ClusterAccess_stat_PGM_get_array_of_ptr_DataCluster(uint8_t threadId) {

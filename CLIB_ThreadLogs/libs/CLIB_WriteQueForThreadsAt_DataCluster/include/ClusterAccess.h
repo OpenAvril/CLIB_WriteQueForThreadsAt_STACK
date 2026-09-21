@@ -18,7 +18,7 @@ extern "C" {
             static void* CLIB_ClusterAccess_App_FUNCT_generate_Program(uint8_t threadId, uint8_t dataClusterId);
             static bool CLIB_ClusterAccess_stat_APP_FUNCT_Calc_IsAllINSTANTIATED(uint8_t threadId);
             static void CLIB_ClusterAccess_stat_PGM_boot1_DEFINE_array_of_ptr_DataCluster_Framework(uint8_t threadId);
-            static void CLIB_ClusterAccess_stat_PGM_boot2_SUBSTANTIATE_array_of_ptr_DataCluster_Framework(uint8_t threadId, std::byte MAX_NUMBER_OF_DATA_CLUSTERS);
+            static void CLIB_ClusterAccess_stat_PGM_boot2_SUBSTANTIATE_array_of_ptr_DataCluster_Framework(uint8_t threadId);
             static void CLIB_ClusterAccess_stat_PGM_boot3_INITIALISE_array_of_ptr_DataCluster_Framework(uint8_t threadId, std::byte MAX_NUMBER_OF_DATA_CLUSTERS);
             static void CLIB_ClusterAccess_stat_REG_boot2_SUBSTANTIATE_array_of_isMemberFunctionINSTANTIATED(uint8_t threadId);
             static void CLIB_ClusterAccess_stat_REG_boot3_INITIALISE_array_of_isMemberFunctionINSTANTIATED(uint8_t threadId);
