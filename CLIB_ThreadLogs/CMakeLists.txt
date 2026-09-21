@@ -11,11 +11,11 @@ add_library(CLIB_ThreadLogs STATIC
         src/CLIB_ThreadLogs_Framework_App.cpp
         src/CLIB_ThreadLogs_Framework_App_Algorithms.cpp
         src/CLIB_ThreadLogs_Framework_App_Execute.cpp
-        libs/CLIB_WriteQueForThreadsAt_DataCluster/src/CLIB_WriteEnableForThreadsAt_DataCluster.cpp
-        libs/CLIB_WriteQueForThreadsAt_DataCluster/src/WriteEnableForThreadsAt_DataCluster_Framework.cpp
-        libs/CLIB_WriteQueForThreadsAt_DataCluster/src/WriteEnableForThreadsAt_DataCluster_Framework_Global.cpp
-        libs/CLIB_WriteQueForThreadsAt_DataCluster/src/WriteEnableForThreadsAt_DataCluster_Framework_App.cpp
-        libs/CLIB_WriteQueForThreadsAt_DataCluster/src/WriteEnableForThreadsAt_DataCluster_Framework_App_Control.cpp
+        libs/CLIB_WriteQueForThreadsAt_DataCluster/src/ClusterAccess.cpp
+        libs/CLIB_WriteQueForThreadsAt_DataCluster/src/ClusterAccess_Framework.cpp
+        libs/CLIB_WriteQueForThreadsAt_DataCluster/src/ClusterAccess_Framework_Global.cpp
+        libs/CLIB_WriteQueForThreadsAt_DataCluster/src/ClusterAccess_Framework_App.cpp
+        libs/CLIB_WriteQueForThreadsAt_DataCluster/src/ClusterAccess_Framework_App_Control.cpp
 )
 
 target_include_directories(CLIB_ThreadLogs PUBLIC

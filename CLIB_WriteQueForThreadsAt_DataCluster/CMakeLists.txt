@@ -5,11 +5,11 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(CLIB_WriteQueForThreadsAt_DataCluster STATIC
-        src/CLIB_WriteEnableForThreadsAt_DataCluster.cpp
-        src/WriteEnableForThreadsAt_DataCluster_Framework.cpp
-        src/WriteEnableForThreadsAt_DataCluster_Framework_Global.cpp
-        src/WriteEnableForThreadsAt_DataCluster_Framework_App.cpp
-        src/WriteEnableForThreadsAt_DataCluster_Framework_App_Control.cpp
+        src/ClusterAccess.cpp
+        src/ClusterAccess_Framework.cpp
+        src/ClusterAccess_Framework_Global.cpp
+        src/ClusterAccess_Framework_App.cpp
+        src/ClusterAccess_Framework_App_Control.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
