@@ -163,7 +163,7 @@
 	void wq::ClusterAccess::CLIB_ClusterAccess_stat_PGM_boot3_INITIALISE_array_of_ptr_DataCluster_Framework(uint8_t threadId, std::byte MAX_NUMBER_OF_DATA_CLUSTERS) {
 	 	std::cout << "thread " << std::to_string(threadId) << " :: entered LIB :: wq : ClusterAccess : CLIB_ClusterAccess_stat_PGM_boot3_INITIALISE_array_of_ptr_DataCluster_Framework(threadId)." << std::endl;
 	 	auto DEFAULT = CLIB_ClusterAccess_stat_PGM_get_array_of_ptr_DataCluster(threadId)->begin();
-	 	for (uint8_t dataClusterId = 1; dataClusterId < static_cast<uint8_t>(MAX_NUMBER_OF_DATA_CLUSTERS); dataClusterId++) {
+	 	for (uint8_t dataClusterId = 0; dataClusterId < static_cast<uint8_t>(MAX_NUMBER_OF_DATA_CLUSTERS); dataClusterId++) {
 	 		CLIB_ClusterAccess_stat_PGM_get_array_of_ptr_DataCluster(threadId)->push_back(*DEFAULT);
 		}
 	 	std::cout << "thread " << std::to_string(threadId) << " :: exiting LIB :: wq : ClusterAccess : CLIB_ClusterAccess_stat_PGM_boot3_INITIALISE_array_of_ptr_DataCluster_Framework(threadId)." << std::endl;
