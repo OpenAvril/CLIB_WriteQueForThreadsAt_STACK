@@ -1,5 +1,5 @@
 # OpenAvrilCLIB: 
-## Request, Wait, Write for Threads at STACK.
+## Mutex-Barrier with Request, Wait, Write for Thread with 'ThreadId'.
 
 ---
 ## Branches.
