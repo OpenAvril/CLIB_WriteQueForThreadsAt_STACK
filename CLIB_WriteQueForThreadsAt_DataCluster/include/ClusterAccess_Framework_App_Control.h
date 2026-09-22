@@ -4,7 +4,7 @@
 #include <array>
 #include <cstdint>
 #include <list>
-namespace wq {
+namespace CLIB_WriteQueForThreadsAt_DataCluster {
     class ClusterAccess_Framework_App_Control {
     public:
         ClusterAccess_Framework_App_Control(uint8_t threadId);

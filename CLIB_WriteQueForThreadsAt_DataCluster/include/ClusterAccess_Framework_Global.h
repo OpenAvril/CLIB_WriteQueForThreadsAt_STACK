@@ -2,7 +2,7 @@
 #define CLIB_ClusterAccess_FRAMEWORK_GLOBAL_H
 #include <array>
 #include <cstdint>
-namespace wq {
+namespace CLIB_WriteQueForThreadsAt_DataCluster {
     class ClusterAccess_Framework_Global {
     public:
         ClusterAccess_Framework_Global(uint8_t threadId);

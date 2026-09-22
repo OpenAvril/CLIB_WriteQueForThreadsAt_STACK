@@ -3,9 +3,9 @@
 #include <iostream>
 #include <thread>
 static void doTaskForThread(uint8_t threadId, uint8_t dataClusterId) {
-    wq::ClusterAccess::CLIB_WriteEnableForThreadsAt_App_FUNCT_write_Start_DataClusterId_ThreadId(threadId, dataClusterId,wq::ClusterAccess_Framework_Global::stat_APP_CONVERT_ClusterAccess_Msb_uint8_t_to_MsbByteArray(threadId, threadId));
+    slif::Mutex::lock(threadId, dataClusterId,CLIB_WriteQueForThreadsAt_DataCluster::ClusterAccess_Framework_Global::stat_APP_CONVERT_ClusterAccess_Msb_uint8_t_to_MsbByteArray(threadId, threadId));
     std::cout << "thread " << std::to_string(threadId) << " :: SIMULATION : Doing Task." << std::endl;
-    wq::ClusterAccess::CLIB_WriteEnableForThreadsAt_App_FUNCT_write_End_DataClusterId_ThreadId(threadId, dataClusterId, wq::ClusterAccess_Framework_Global::stat_APP_CONVERT_ClusterAccess_Msb_uint8_t_to_MsbByteArray(threadId, threadId));
+    slif::Mutex::unlock(threadId, dataClusterId, CLIB_WriteQueForThreadsAt_DataCluster::ClusterAccess_Framework_Global::stat_APP_CONVERT_ClusterAccess_Msb_uint8_t_to_MsbByteArray(threadId, threadId));
 }
 
 int main() {
@@ -20,13 +20,13 @@ int main() {
     auto* threadId = new uint8_t(0);
     unsigned char* byteDEFAULT = ClusterAccess_Framework_Global::stat_APP_CONVERT_ClusterAccess_Msb_uint8_t_to_MsbByteArray(0,static_cast<uint8_t>(0));
     std::cout << "SIMULATION Start." << std::endl;
-    wq::ClusterAccess::generateHandles(*threadId, *MAX_NUMBER_OF_DATA_CLUSTERS, *MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY);
+    slif::Mutex::generateHandlesMutex(*threadId, *MAX_NUMBER_OF_DATA_CLUSTERS, *MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY);
 
     std::cout << "SIMULATION start instantiation." << std::endl;
-    unsigned char* tempA = wq::ClusterAccess::CLIB_ClusterAccess_App_FUNCT_get_FLAG_isPGM_INSTANTIATED(*threadId, *dataClusterId);
-    wq::ClusterAccess::CLIB_ClusterAccess_App_FUNCT_terminate_Program(*threadId, *dataClusterId);
-    wq::ClusterAccess::CLIB_WriteEnableForThreadsAt_App_FUNCT_write_Start_DataClusterId_ThreadId(*threadId, *dataClusterId, byteDEFAULT);
-    wq::ClusterAccess::CLIB_WriteEnableForThreadsAt_App_FUNCT_write_End_DataClusterId_ThreadId(*threadId, *dataClusterId, byteDEFAULT);
+    unsigned char* tempA = slif::Mutex::CLIB_ClusterAccess_App_FUNCT_get_FLAG_isPGM_INSTANTIATED(*threadId, *dataClusterId);
+    slif::Mutex::CLIB_ClusterAccess_App_FUNCT_terminate_Program(*threadId, *dataClusterId);
+    slif::Mutex::lock(*threadId, *dataClusterId, byteDEFAULT);
+    slif::Mutex::unlock(*threadId, *dataClusterId, byteDEFAULT);
     std::cout << "SIMULATION end instantiation." << std::endl;
 
     std::cout << "SIMULATION Start." << std::endl;

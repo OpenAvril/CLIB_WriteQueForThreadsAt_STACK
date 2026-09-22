@@ -2,7 +2,7 @@
 #define CLIB_ClusterAccess_FRAMEWORK_H
 #include "../include/ClusterAccess_Framework_App.h"
 #include "../include/ClusterAccess_Framework_Global.h"
-namespace wq {
+namespace CLIB_WriteQueForThreadsAt_DataCluster {
     class ClusterAccess_Framework {
     public:
         ClusterAccess_Framework(uint8_t threadId);
